@@ -1,0 +1,2660 @@
+Rent,Area,Bed,Bath,Crime_Rate,Car_Commute_Percentage,Elemenatary_School,Middle_School,High_School,Total_School,Restaurant,Grocery,Nightlife
+2200,"East Boston, Boston, MA",3.0,1.0,3,41,6,3,3,12,182,39,40
+2300,"East Boston, Boston, MA",3.0,1.0,2,41,8,4,0,12,285,38,99
+1800,"East Boston, Boston, MA",2.0,1.0,4,41,5,2,0,7,439,61,181
+2695,"East Boston, Boston, MA",4.0,1.0,1,41,4,3,3,10,345,46,140
+1800,"East Boston, Boston, MA",2.0,1.0,2,41,6,3,3,12,198,34,56
+3000,"East Boston, Boston, MA",4.0,1.0,1,41,5,3,3,11,284,36,104
+2150,"East Boston, Boston, MA",3.0,1.0,2,41,6,3,3,12,182,39,40
+1850,"East Boston, Boston, MA",2.0,1.0,1,41,3,2,2,7,282,40,110
+1900,"East Boston, Boston, MA",2.0,1.0,4,41,6,3,3,12,258,43,73
+1950,"East Boston, Boston, MA",2.0,1.0,1,41,2,2,2,6,124,22,22
+1995,"East Boston, Boston, MA",3.0,1.0,2,41,7,4,0,11,274,38,92
+1950,"East Boston, East Boston, MA",2.0,1.0,1,41,5,3,3,11,256,36,85
+2500,"East Boston, Boston, MA",3.0,1.0,3,41,6,3,3,12,205,34,59
+2400,"East Boston, Boston, MA",3.0,1.0,2,41,4,3,3,10,446,62,179
+3000,"East Boston, Boston, MA",4.0,1.0,1,41,7,4,4,15,226,35,61
+2500,"East Boston, Boston, MA",3.0,1.0,2,41,6,3,3,12,199,31,56
+2500,"East Boston, Boston, MA",3.0,1.0,2,41,2,0,2,4,214,38,57
+2450,"East Boston, Boston, MA",3.0,1.0,2,41,4,2,2,8,210,36,56
+2500,"East Boston, Boston, MA",3.0,1.0,3,41,6,3,3,12,198,34,56
+2400,"East Boston, Boston, MA",3.0,1.0,2,41,4,3,3,10,446,62,179
+2400,"East Boston, Boston, MA",3.0,1.0,2,41,4,2,2,8,164,45,32
+2995,"East Boston, Boston, MA",4.0,1.0,1,41,4,2,2,8,65,7,11
+2995,"East Boston, Boston, MA",4.0,1.0,1,41,2,2,2,6,145,24,27
+2700,"East Boston, Boston, MA",4.0,1.0,2,41,4,3,3,10,467,62,189
+2400,"East Boston, Boston, MA",3.0,1.0,1,41,5,3,3,11,284,38,105
+2400,"East Boston, Boston, MA",3.0,1.0,1,41,5,3,3,11,284,36,104
+3600,"East Boston, Boston, MA",5.0,1.0,2,41,6,3,3,12,205,39,56
+2000,"East Boston, Boston, MA",2.0,1.0,2,41,6,3,3,12,201,34,57
+2800,"East Boston, Boston, MA",4.0,1.0,1,41,2,2,2,6,121,20,24
+2450,"East Boston, East Boston, MA",3.0,1.0,1,41,4,3,3,10,345,46,140
+2600,"East Boston, Boston, MA",3.0,1.0,2,41,4,3,3,10,551,67,215
+2525,"East Boston, Boston, MA",3.0,1.0,1,41,4,3,3,10,306,39,119
+2575,"East Boston, Boston, MA",3.0,1.0,1,41,4,3,3,10,421,62,164
+2600,"East Boston, Boston, MA",3.0,1.0,1,41,5,3,3,11,284,36,104
+2600,"East Boston, Boston, MA",3.0,1.0,1,41,5,3,3,11,284,36,104
+1475,"East Boston, Boston, MA",1.0,1.0,3,41,7,4,0,11,254,38,78
+2800,"East Boston, Boston, MA",4.0,1.0,1,41,2,2,2,6,93,14,17
+2750,"East Boston, Boston, MA",4.0,1.0,1,41,4,3,3,10,421,62,164
+2800,"East Boston, Boston, MA",4.0,1.0,2,41,4,2,2,8,164,45,32
+2200,"East Boston, Boston, MA",2.0,1.0,1,41,3,2,2,7,225,33,77
+3200,"East Boston, Boston, MA",4.0,1.0,1,41,4,2,2,8,65,7,11
+3200,"East Boston, Boston, MA",4.0,1.0,1,41,2,0,2,4,167,38,34
+3200,"East Boston, Boston, MA",4.0,1.0,1,41,5,2,2,9,163,38,32
+3200,"East Boston, Boston, MA",4.0,1.0,1,41,4,2,2,8,63,8,11
+3200,"East Boston, Boston, MA",4.0,1.0,2,41,4,2,2,8,164,45,32
+3100,"East Boston, Boston, MA",4.0,1.0,1,41,4,2,2,8,65,7,11
+3075,"East Boston, Boston, MA",4.0,1.0,1,41,2,0,0,2,48,8,10
+2500,"East Boston, East Boston, MA",3.0,1.0,2,41,6,3,3,12,198,34,56
+3000,"East Boston, Boston, MA",4.0,1.0,1,41,5,3,3,11,284,36,104
+2200,"East Boston, Boston, MA",2.0,1.0,2,41,4,3,3,10,551,67,215
+2200,"East Boston, Boston, MA",2.0,1.0,2,41,4,1,1,6,196,32,55
+2100,"East Boston, Boston, MA",2.0,1.0,1,41,3,2,2,7,342,43,142
+2200,"East Boston, Boston, MA",2.0,1.0,4,41,6,3,3,12,258,43,73
+3200,"East Boston, Boston, MA",4.0,1.0,2,41,6,3,3,12,200,35,53
+3200,"East Boston, Boston, MA",4.0,1.0,1,41,5,3,3,11,284,36,104
+3000,"East Boston, Boston, MA",4.0,2.0,2,41,6,3,3,12,203,33,57
+3650,"East Boston, Boston, MA",5.0,1.5,1,41,2,2,2,6,89,14,17
+3200,"East Boston, Boston, MA",4.0,1.0,1,41,2,2,2,6,93,15,16
+2195,"East Boston, Boston, MA",2.0,1.0,1,41,5,3,3,11,422,59,169
+3000,"East Boston, Boston, MA",4.0,2.5,1,41,3,2,2,7,289,42,111
+3000,"East Boston, Boston, MA",4.0,2.5,1,41,3,2,2,7,289,42,111
+2300,"East Boston, Boston, MA",2.0,1.0,1,41,5,3,3,11,422,59,169
+2600,"East Boston, Boston, MA",3.0,1.0,1,41,3,0,2,5,198,33,54
+2200,"East Boston, East Boston, MA",2.0,1.0,1,41,4,3,3,10,361,49,148
+1650,"East Boston, Boston, MA",1.0,1.0,3,41,6,3,3,12,205,34,59
+2627,"East Boston, East Boston, MA",3.0,1.0,1,41,3,2,2,7,88,14,15
+2800,"East Boston, Boston, MA",2.0,1.0,4,41,4,2,0,6,511,66,210
+2300,"East Boston, Boston, MA",2.0,1.0,1,41,2,2,2,6,150,28,30
+2150,"East Boston, Boston, MA",2.0,1.0,1,41,4,2,2,8,210,36,56
+2200,"East Boston, Boston, MA",2.0,1.0,2,41,3,0,2,5,203,36,53
+2625,"East Boston, Boston, MA",3.0,2.0,1,41,4,2,2,8,162,38,32
+2400,"East Boston, Boston, MA",2.0,1.0,1,41,5,3,3,11,422,59,169
+2350,"East Boston, Boston, MA",2.0,1.0,1,41,4,2,2,8,65,7,11
+2400,"East Boston, Boston, MA",2.0,1.0,1,41,3,2,2,7,498,72,194
+2400,"East Boston, Boston, MA",2.0,1.0,1,41,5,3,3,11,261,35,88
+4100,"East Boston, Boston, MA",5.0,2.0,2,41,3,0,2,5,204,35,55
+2850,"East Boston, Boston, MA",3.0,1.0,1,41,2,2,2,6,117,20,21
+870,"East Boston, Boston, MA",1.0,1.0,4,41,5,3,3,11,283,47,88
+1800,"East Boston, Boston, MA",1.0,1.0,4,41,5,2,0,7,331,56,124
+1750,"East Boston, Boston, MA",1.0,1.0,2,41,4,2,2,8,210,36,56
+1775,"East Boston, Boston, MA",1.0,1.0,1,41,2,0,0,2,55,8,10
+1750,"East Boston, Boston, MA",1.0,1.0,1,41,5,3,3,11,422,59,169
+3400,"East Boston, Boston, MA",4.0,1.0,4,41,7,4,0,11,302,44,97
+3400,"East Boston, Boston, MA",4.0,1.0,1,41,4,3,3,10,313,43,121
+2300,"East Boston, Boston, MA",2.0,1.0,4,41,6,3,3,12,238,35,67
+2895,"East Boston, Boston, MA",3.0,1.0,2,41,6,3,3,12,223,36,61
+2200,"East Boston, Boston, MA",2.0,2.0,1,41,5,3,3,11,261,35,88
+3000,"East Boston, Boston, MA",3.0,1.0,1,41,5,3,3,11,284,36,104
+1850,"East Boston, Boston, MA",1.0,1.0,1,41,3,2,2,7,70,10,15
+1900,"East Boston, Boston, MA",1.0,1.0,2,41,5,3,3,11,444,59,179
+2800,"East Boston, Boston, MA",3.0,1.0,1,41,4,3,3,10,361,49,148
+2800,"East Boston, Boston, MA",3.0,1.0,4,41,7,4,0,11,331,64,110
+2675,"East Boston, Boston, MA",3.0,1.0,1,41,5,3,3,11,422,59,169
+2685,"East Boston, Boston, MA",3.0,1.0,3,41,6,3,3,12,215,41,56
+2800,"East Boston, Boston, MA",3.0,1.0,2,41,6,3,3,12,200,35,53
+3350,"East Boston, Boston, MA",4.0,1.0,1,41,5,3,3,11,313,43,121
+3300,"East Boston, Boston, MA",4.0,2.0,1,41,4,2,2,8,63,8,11
+3400,"East Boston, Boston, MA",4.0,1.0,2,41,6,3,3,12,204,32,59
+3500,"East Boston, Boston, MA",4.0,1.0,1,41,6,3,3,12,204,32,59
+2700,"East Boston, Boston, MA",3.0,1.0,2,41,6,3,3,12,200,35,53
+2700,"East Boston, Boston, MA",3.0,1.0,4,41,4,2,0,6,465,63,193
+2995,"East Boston, Boston, MA",3.0,1.0,2,41,4,1,1,6,199,31,56
+2350,"East Boston, Boston, MA",2.0,1.0,1,41,5,3,3,11,422,59,169
+3150,"East Boston, Boston, MA",3.0,1.0,2,41,7,4,0,11,285,38,99
+3150,"East Boston, Boston, MA",3.0,1.0,2,41,7,4,0,11,285,38,99
+3100,"East Boston, Boston, MA",3.0,1.0,2,41,5,2,2,9,167,43,32
+2850,"East Boston, East Boston, MA",3.0,1.0,1,41,3,0,1,4,199,31,53
+2200,"East Boston, East Boston, MA",2.0,1.5,1,41,5,3,3,11,284,38,105
+2700,"East Boston, Boston, MA",3.0,1.0,1,41,6,3,3,12,204,32,59
+2900,"East Boston, Boston, MA",3.0,1.0,1,41,2,2,2,6,141,24,26
+3700,"East Boston, East Boston, MA",6.0,2.5,1,41,3,2,2,7,289,42,111
+5000,"East Boston, Boston, MA",5.0,2.0,2,41,4,3,3,10,501,64,203
+3595,"East Boston, Boston, MA",4.0,1.5,3,41,5,2,2,9,164,37,36
+2600,"East Boston, Boston, MA",2.0,1.0,4,41,4,2,0,6,439,59,178
+4500,"East Boston, Boston, MA",5.0,3.0,1,41,4,1,1,6,54,9,9
+3200,"East Boston, Boston, MA",3.0,1.0,2,41,4,1,1,6,199,31,56
+3650,"East Boston, Boston, MA",4.0,2.0,2,41,7,4,0,11,225,32,69
+2500,"East Boston, Boston, MA",2.0,1.0,4,41,4,2,0,6,439,59,178
+2675,"East Boston, Boston, MA",2.0,1.0,4,41,6,3,3,12,248,42,70
+2600,"East Boston, Boston, MA",2.0,1.0,2,41,7,4,0,11,225,32,69
+2600,"East Boston, Boston, MA",2.0,1.0,3,41,6,4,0,10,406,64,163
+2600,"East Boston, Boston, MA",2.0,1.0,2,41,6,3,3,12,205,39,56
+2750,"East Boston, Boston, MA",3.0,1.0,2,41,6,3,3,12,215,33,59
+2500,"East Boston, Boston, MA",2.0,1.0,3,41,6,4,0,10,406,64,163
+2500,"East Boston, Boston, MA",2.0,1.0,2,41,5,3,3,11,444,59,179
+2500,"East Boston, Boston, MA",2.0,1.0,4,41,4,2,0,6,465,63,193
+2700,"East Boston, Boston, MA",3.0,1.0,4,41,5,2,0,7,409,58,166
+2700,"East Boston, Boston, MA",2.0,1.0,4,41,6,3,3,12,248,42,70
+5000,"East Boston, Boston, MA",5.0,3.0,4,41,7,4,4,15,303,46,94
+3300,"East Boston, Boston, MA",3.0,2.0,2,41,5,2,2,9,167,43,32
+3350,"East Boston, Boston, MA",3.0,2.0,4,41,4,2,0,6,383,58,153
+3500,"East Boston, Boston, MA",3.0,2.0,2,41,5,2,0,7,472,62,194
+3695,"East Boston, Boston, MA",3.0,2.0,4,41,6,3,3,12,248,42,70
+3675,"East Boston, Boston, MA",3.0,2.0,4,41,6,3,3,12,248,42,70
+2400,"East Boston, Boston, MA",2.0,1.0,4,41,4,2,0,6,409,58,166
+2000,"East Boston, Boston, MA",1.0,1.0,3,41,5,2,2,9,199,37,53
+3800,"East Boston, Boston, MA",3.0,2.0,2,41,4,3,3,10,501,64,203
+2000,"East Boston, Boston, MA",1.0,1.0,2,41,6,3,3,12,201,34,57
+3499,"East Boston, Boston, MA",2.0,1.0,1,41,3,2,0,5,587,71,233
+3550,"East Boston, Boston, MA",2.0,2.0,1,41,2,2,2,6,535,73,216
+3595,"East Boston, Boston, MA",3.0,2.0,4,41,6,3,3,12,248,42,70
+3600,"East Boston, Boston, MA",3.0,2.0,2,41,4,3,3,10,501,64,203
+2200,"East Boston, Boston, MA",1.0,1.0,2,41,3,0,2,5,213,38,57
+4050,"East Boston, Boston, MA",6.0,2.0,4,41,6,3,3,12,258,43,73
+2775,"East Boston, Boston, MA",2.0,1.0,4,41,6,3,3,12,248,42,70
+2800,"East Boston, Boston, MA",2.0,1.0,4,41,6,3,3,12,248,42,70
+3200,"East Boston, Boston, MA",3.0,2.0,3,41,6,3,3,12,248,42,70
+2400,"East Boston, Boston, MA",2.0,2.0,2,41,8,4,0,12,285,38,99
+4500,"East Boston, Boston, MA",5.0,3.0,2,41,6,3,3,12,201,34,54
+2295,"East Boston, Boston, MA",1.0,1.0,2,41,6,3,3,12,223,36,61
+3795,"East Boston, Boston, MA",3.0,2.0,4,41,6,3,3,12,248,42,70
+3875,"East Boston, Boston, MA",3.0,2.0,4,41,6,3,3,12,248,42,70
+3100,"East Boston, Boston, MA",3.0,2.0,3,41,5,2,2,9,167,43,32
+1500,"Charlestown, Boston, MA",1.0,1.0,1,56,1,2,2,5,297,44,99
+2200,"Charlestown, Boston, MA",2.0,1.0,1,56,1,2,2,5,270,43,91
+3000,"Charlestown, Boston, MA",3.0,1.0,3,56,2,3,3,8,426,64,146
+2100,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,361,64,123
+4246,"Charlestown, Charlestown, MA",3.0,2.0,1,56,2,2,2,6,225,46,68
+3500,"Charlestown, Boston, MA",3.0,2.0,1,56,2,2,2,6,281,37,97
+4200,"Charlestown, Charlestown, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+2500,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,281,37,97
+4600,"Charlestown, Boston, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+3142,"Charlestown, Boston, MA",2.0,2.0,1,56,1,2,2,5,270,38,99
+2600,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,543,76,190
+3350,"Charlestown, Boston, MA",1.0,1.0,1,56,1,1,1,3,408,67,148
+2225,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,416,67,148
+3662,"Charlestown, Charlestown, MA",3.0,2.0,1,56,1,2,2,5,220,41,66
+1500,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,2,2,5,297,44,99
+1950,"Charlestown, Boston, MA",2.0,1.0,3,56,2,2,2,6,307,67,108
+2200,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,427,68,150
+2150,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,233,34,83
+2650,"Charlestown, Boston, MA",3.0,1.0,1,56,2,2,2,6,245,38,82
+2295,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,281,37,97
+2800,"Charlestown, Charlestown, MA",3.0,1.0,2,56,2,2,2,6,459,69,161
+3150,"Charlestown, Charlestown, MA",3.0,1.0,1,56,2,2,2,6,409,62,135
+1750,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,3,3,8,511,74,181
+2750,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,276,43,94
+2500,"Charlestown, Boston, MA",2.0,1.0,1,56,1,2,2,5,258,38,93
+2750,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,276,43,94
+2600,"Charlestown, Boston, MA",2.0,1.0,1,56,2,2,2,6,376,64,125
+2750,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,369,65,123
+2750,"Charlestown, Boston, MA",2.0,1.0,1,56,2,2,2,6,369,65,123
+3000,"Charlestown, Charlestown, MA",3.0,2.0,1,56,1,2,2,5,237,37,82
+3300,"Charlestown, Charlestown, MA",3.0,2.0,1,56,2,2,2,6,358,66,123
+4200,"Charlestown, Boston, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+3400,"Charlestown, Charlestown, MA",3.0,2.0,1,56,2,2,2,6,323,54,105
+2250,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,205,30,74
+2800,"Charlestown, Charlestown, MA",2.0,2.0,1,56,2,2,2,6,348,64,112
+2800,"Charlestown, Charlestown, MA",2.0,1.5,1,56,1,2,2,5,258,38,93
+4200,"Charlestown, Boston, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+2500,"Charlestown, Boston, MA",2.0,1.0,1,56,2,2,2,6,336,62,113
+4200,"Charlestown, Charlestown, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+3000,"Charlestown, Boston, MA",2.0,1.0,2,56,1,2,2,5,258,38,93
+2900,"Charlestown, Boston, MA",3.0,2.0,1,56,2,2,2,6,294,38,99
+2900,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,502,75,181
+2650,"Charlestown, Boston, MA",2.0,1.0,3,56,2,2,2,6,459,69,161
+2650,"Charlestown, Boston, MA",2.0,1.0,1,56,1,2,2,5,192,32,50
+2700,"Charlestown, Boston, MA",2.0,1.0,1,56,2,2,2,6,323,54,105
+2900,"Charlestown, Charlestown, MA",2.0,1.0,1,56,1,1,1,3,342,68,119
+2300,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,458,71,168
+2500,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,2,2,5,238,39,82
+2550,"Charlestown, Charlestown, MA",1.0,1.5,1,56,2,2,2,6,376,64,125
+3000,"Charlestown, Boston, MA",2.0,1.0,1,56,2,2,2,6,309,44,106
+2800,"Charlestown, Boston, MA",2.0,1.0,1,56,1,2,2,5,237,37,82
+2950,"Charlestown, Boston, MA",2.0,1.0,1,56,2,2,2,6,502,75,181
+2600,"Charlestown, Boston, MA",2.0,1.5,1,56,2,2,2,6,534,78,191
+4600,"Charlestown, Charlestown, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+2100,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,281,37,97
+3350,"Charlestown, Boston, MA",3.0,2.0,2,56,2,2,2,6,333,58,110
+4600,"Charlestown, Boston, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+2450,"Charlestown, Boston, MA",1.0,1.0,2,56,2,2,2,6,262,37,87
+3565,"Charlestown, Charlestown, MA",2.0,1.0,2,56,1,1,1,3,494,69,177
+2150,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,0,4,614,80,212
+2500,"Charlestown, Charlestown, MA",3.0,2.5,1,56,2,2,2,6,418,68,148
+2300,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,309,44,106
+2400,"Charlestown, Boston, MA",1.0,1.0,1,56,1,2,2,5,235,36,79
+2450,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,0,4,614,80,212
+2500,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,498,70,177
+2550,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,218,31,75
+3450,"Charlestown, Boston, MA",2.0,2.0,1,20,2,3,3,8,511,74,181
+2850,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,3,3,8,595,77,207
+3600,"Charlestown, Charlestown, MA",2.0,1.5,1,56,3,3,0,6,612,78,213
+4000,"Charlestown, Charlestown, MA",2.0,1.5,1,56,2,2,2,6,534,78,191
+4500,"Charlestown, Boston, MA",4.0,2.5,2,56,2,2,2,6,332,59,105
+4200,"Charlestown, Boston, MA",2.0,2.0,1,56,1,2,2,5,210,35,61
+4500,"Charlestown, Boston, MA",3.0,2.5,1,56,2,2,2,6,215,33,76
+3300,"Charlestown, Charlestown, MA",1.0,1.0,2,56,1,1,1,3,494,69,177
+3995,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,383,67,141
+5540,"Charlestown, Charlestown, MA",2.0,2.0,2,56,1,1,1,3,494,69,177
+5975,"Charlestown, Boston, MA",2.0,2.0,1,56,1,1,1,3,383,67,141
+4380,"Charlestown, Boston, MA",2.0,2.0,1,56,1,1,1,3,383,67,141
+4025,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,383,67,141
+5125,"Charlestown, Charlestown, MA",2.0,2.0,2,56,1,1,1,3,494,69,177
+2650,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,408,67,148
+4100,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,383,67,141
+3750,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,383,67,141
+3955,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,383,67,141
+4950,"Charlestown, Charlestown, MA",2.0,2.0,1,56,1,1,1,3,383,67,141
+3750,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,383,67,141
+5096,"Charlestown, Charlestown, MA",2.0,2.0,1,56,1,1,1,3,530,74,203
+3775,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,383,67,141
+2500,"Charlestown, Boston, MA",1.0,1.0,1,56,2,3,3,8,462,68,166
+2550,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,408,67,148
+4600,"Charlestown, Boston, MA",3.0,2.0,1,56,2,2,2,6,504,74,177
+4500,"Charlestown, Boston, MA",3.0,2.0,1,56,2,3,3,8,462,68,166
+7500,"Charlestown, Boston, MA",3.0,3.0,1,56,1,2,2,5,210,35,61
+3500,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,1,1,3,515,72,204
+5800,"Charlestown, Boston, MA",3.0,2.5,1,56,1,2,2,5,194,31,50
+2800,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,400,65,135
+2700,"Charlestown, Boston, MA",1.0,1.0,1,56,1,1,1,3,408,67,148
+2800,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,511,75,182
+3600,"Charlestown, Boston, MA",2.0,2.0,1,56,2,2,2,6,336,62,113
+2750,"Charlestown, Boston, MA",1.0,1.0,1,56,1,1,1,3,408,67,148
+4000,"Charlestown, Boston, MA",2.0,2.0,1,56,2,2,2,6,556,77,196
+4000,"Charlestown, Boston, MA",2.0,2.0,1,56,2,1,0,3,621,81,218
+6500,"Charlestown, Boston, MA",3.0,2.5,1,56,3,4,4,11,602,77,210
+2900,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,479,71,175
+3000,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,400,65,135
+4200,"Charlestown, Boston, MA",2.0,1.5,1,56,2,2,2,6,358,66,123
+4200,"Charlestown, Boston, MA",2.0,1.5,1,56,2,2,2,6,534,78,191
+3700,"Charlestown, Boston, MA",2.0,2.0,1,56,1,1,1,3,408,67,148
+3750,"Charlestown, Boston, MA",2.0,2.0,1,56,2,2,2,6,323,54,105
+4600,"Charlestown, Boston, MA",2.0,2.0,1,56,2,2,2,6,511,75,182
+1050,"Charlestown, Charlestown, MA",1.0,1.5,1,56,1,2,2,5,261,40,91
+2700,"Charlestown, Charlestown, MA",1.0,2.0,1,56,4,3,3,10,270,43,91
+1800,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,238,49,73
+2150,"Charlestown, Charlestown, MA",2.0,1.0,1,56,1,2,2,5,210,35,61
+2700,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,329,53,107
+2700,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,329,53,107
+3150,"Charlestown, Charlestown, MA",3.0,1.0,3,56,2,3,3,8,426,64,146
+2850,"Charlestown, Charlestown, MA",3.0,1.0,1,56,2,2,2,6,345,59,113
+2400,"Charlestown, Charlestown, MA",2.0,1.0,2,56,2,2,2,6,333,58,110
+3300,"Charlestown, Charlestown, MA",3.0,1.0,3,56,2,3,3,8,426,64,146
+2900,"Charlestown, Boston, MA",3.0,1.0,1,56,2,2,2,6,329,53,107
+2300,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,324,53,103
+2250,"Charlestown, Boston, MA",2.0,1.0,2,56,2,2,2,6,302,39,100
+1800,"Charlestown, Boston, MA",1.0,1.0,1,56,2,3,3,8,261,52,80
+2600,"Charlestown, Boston, MA",2.0,1.0,1,56,1,2,2,5,258,41,86
+2350,"Charlestown, Boston, MA",2.0,1.0,2,56,2,2,2,6,302,39,100
+2750,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,361,64,123
+2500,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,3,3,8,462,65,164
+2700,"Charlestown, Charlestown, MA",2.0,1.0,1,56,1,2,2,5,207,34,56
+3600,"Charlestown, Charlestown, MA",3.0,1.0,1,56,2,2,2,6,564,78,200
+2800,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,427,68,150
+2750,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,361,64,123
+2750,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,361,64,123
+1800,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,418,68,148
+1900,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,361,64,123
+2450,"Charlestown, Boston, MA",2.0,1.0,2,56,2,2,2,6,302,39,100
+2575,"Charlestown, Boston, MA",2.0,1.0,1,56,2,2,2,6,376,64,125
+3000,"Charlestown, Charlestown, MA",2.0,1.0,1,56,1,2,2,5,207,34,56
+3000,"Charlestown, Charlestown, MA",2.0,1.0,1,56,1,2,2,5,194,31,50
+2800,"Charlestown, Charlestown, MA",2.0,1.0,1,56,1,2,2,5,237,37,82
+1800,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,348,64,112
+3300,"Charlestown, Charlestown, MA",3.0,2.0,1,56,2,2,2,6,231,32,81
+3100,"Charlestown, Charlestown, MA",2.0,1.0,1,56,1,2,2,5,237,37,82
+2100,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,361,64,123
+2100,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,361,64,123
+2900,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,336,62,113
+3000,"Charlestown, Charlestown, MA",3.0,2.0,1,56,1,2,2,5,237,37,82
+3000,"Charlestown, Charlestown, MA",3.0,2.0,1,56,1,2,2,5,237,37,82
+2850,"Charlestown, Charlestown, MA",2.0,2.0,1,56,2,2,2,6,245,38,82
+3100,"Charlestown, Charlestown, MA",2.0,1.0,1,56,1,2,2,5,199,31,54
+3200,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,0,4,589,79,206
+4200,"Charlestown, Charlestown, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+2750,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,361,64,123
+850,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,255,50,80
+1950,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,262,41,87
+2200,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,309,44,106
+4200,"Charlestown, Boston, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+3000,"Charlestown, Charlestown, MA",3.0,2.0,1,56,1,2,2,5,237,37,82
+2250,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,323,54,105
+2200,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,2,2,5,270,43,91
+3200,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,543,76,190
+2250,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,326,56,105
+2000,"Charlestown, Boston, MA",1.0,1.0,1,56,1,2,2,5,214,37,70
+3700,"Charlestown, Boston, MA",3.0,2.0,1,41,2,2,2,6,350,61,118
+2300,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,262,37,87
+5950,"Charlestown, Charlestown, MA",7.0,2.5,1,56,2,2,2,6,506,76,183
+2100,"Charlestown, Charlestown, MA",1.0,1.0,1,56,1,2,2,5,258,41,86
+3000,"Charlestown, Charlestown, MA",2.0,2.0,1,56,2,2,2,6,333,58,110
+1200,"Charlestown, Charlestown, MA",5.0,2.0,1,56,2,2,2,6,451,70,162
+900,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,255,50,80
+2500,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,1,0,3,621,81,218
+2200,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,272,39,91
+2995,"Charlestown, Boston, MA",2.0,1.0,1,56,1,1,1,3,342,68,119
+3700,"Charlestown, Boston, MA",3.0,2.0,1,56,1,2,2,5,207,34,56
+4600,"Charlestown, Charlestown, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+2950,"Charlestown, Boston, MA",2.0,1.0,1,56,2,2,2,6,215,33,76
+4600,"Charlestown, Charlestown, MA",4.0,2.0,1,56,2,2,2,6,225,46,68
+2275,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,323,54,105
+2100,"Charlestown, Boston, MA",1.0,1.0,1,56,1,2,2,5,237,37,82
+2400,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,0,4,589,79,206
+2400,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,479,71,175
+5400,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,2,2,6,418,68,148
+2200,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,427,68,150
+2200,"Charlestown, Boston, MA",1.0,1.0,1,56,1,2,2,5,270,43,91
+2400,"Charlestown, Boston, MA",1.0,1.0,1,56,2,2,2,6,497,77,177
+3400,"Charlestown, Boston, MA",2.0,1.0,1,56,1,2,2,5,239,37,82
+2550,"Charlestown, Charlestown, MA",1.0,1.0,1,56,2,2,2,6,262,37,87
+4750,"Charlestown, Charlestown, MA",3.0,2.0,1,56,2,2,2,6,459,69,161
+3900,"Charlestown, Boston, MA",3.0,2.0,1,56,2,2,2,6,451,70,162
+3900,"Charlestown, Charlestown, MA",3.0,2.0,1,56,2,2,2,6,451,70,162
+3900,"Charlestown, Charlestown, MA",3.0,2.0,1,56,2,2,2,6,451,70,162
+3150,"Charlestown, Boston, MA",2.0,2.0,1,56,2,2,2,6,245,38,82
+4100,"Charlestown, Charlestown, MA",2.0,1.0,1,56,2,3,3,8,541,75,195
+2900,"Allston, Boston, MA",4.0,1.0,1,31,4,4,4,12,324,33,83
+3000,"Allston, Boston, MA",4.0,1.0,3,31,6,7,7,20,303,39,65
+2250,"Allston, Boston, MA",3.0,1.0,1,31,7,7,7,21,330,46,70
+2200,"Allston, Boston, MA",3.0,1.0,1,31,5,6,6,17,318,41,67
+2600,"Allston, Boston, MA",4.0,1.0,2,31,8,9,9,26,309,41,65
+2500,"Allston, Boston, MA",3.0,1.0,3,31,5,6,6,17,306,40,64
+2500,"Allston, Boston, MA",3.0,1.0,2,31,5,6,6,17,309,42,66
+2300,"Allston, Boston, MA",3.0,1.0,2,31,6,7,7,20,330,37,67
+2375,"Allston, Boston, MA",3.0,1.0,1,31,5,6,6,17,318,41,67
+2350,"Allston, Boston, MA",3.0,1.0,1,31,4,4,4,12,368,40,88
+2399,"Allston, Boston, MA",3.0,1.0,3,31,7,8,8,23,313,34,71
+2400,"Allston, Boston, MA",3.0,1.0,1,31,7,9,9,25,306,39,64
+2499,"Allston, Boston, MA",3.0,1.0,3,53,7,8,8,23,313,34,71
+2450,"Allston, Boston, MA",3.0,1.0,1,31,4,5,5,14,314,37,65
+3000,"Allston, Allston, MA",4.0,1.0,1,31,4,5,5,14,326,41,68
+3100,"Allston, Boston, MA",4.0,1.0,2,31,6,7,7,20,323,40,68
+3050,"Allston, Boston, MA",4.0,1.0,1,31,8,8,8,24,352,41,81
+3200,"Allston, Boston, MA",4.0,1.0,2,31,5,6,6,17,309,42,66
+3200,"Allston, Boston, MA",4.0,1.0,1,31,8,9,9,26,309,41,64
+1900,"Allston, Boston, MA",2.0,1.0,1,31,7,7,7,21,291,37,67
+1900,"Allston, Boston, MA",2.0,1.0,1,56,8,9,9,26,313,41,64
+1900,"Allston, Boston, MA",2.0,1.0,1,31,6,7,7,20,297,38,64
+1900,"Allston, Boston, MA",2.0,1.0,1,31,6,7,7,20,300,38,63
+1900,"Allston, Boston, MA",2.0,1.0,1,31,9,11,11,31,287,34,60
+1900,"Allston, Allston, MA",2.0,1.0,1,31,4,5,5,14,326,41,68
+2600,"Allston, Boston, MA",3.0,1.0,3,31,5,6,6,17,302,39,66
+2600,"Allston, Boston, MA",3.0,1.0,1,31,6,7,7,20,311,42,65
+2600,"Allston, Boston, MA",3.0,1.0,2,31,5,5,5,15,299,38,63
+2600,"Allston, Boston, MA",3.0,1.0,1,31,7,7,7,21,330,46,70
+2600,"Allston, Boston, MA",3.0,1.0,2,31,7,9,9,25,314,41,67
+3600,"Allston, Boston, MA",4.0,1.0,2,31,5,6,6,17,309,42,66
+3500,"Allston, Boston, MA",4.0,1.0,1,31,3,4,4,11,311,39,66
+3200,"Allston, Boston, MA",4.0,1.0,1,31,9,11,11,31,291,37,61
+2550,"Allston, Allston, MA",3.0,1.0,1,31,4,4,4,12,276,34,61
+1950,"Allston, Boston, MA",2.0,1.0,1,31,4,4,4,12,267,31,57
+2000,"Allston, Boston, MA",2.0,1.0,1,31,7,7,7,21,352,41,81
+3600,"Allston, Boston, MA",4.0,1.0,2,31,7,7,7,21,311,41,67
+2800,"Allston, Boston, MA",3.0,1.0,1,31,4,4,4,12,322,37,80
+2800,"Allston, Boston, MA",3.0,1.0,1,31,4,4,4,12,316,34,79
+2800,"Allston, Boston, MA",3.0,1.0,2,31,7,9,9,25,314,41,67
+2750,"Allston, Boston, MA",3.0,1.0,1,31,4,4,4,12,322,37,80
+3600,"Allston, Boston, MA",5.0,1.0,1,31,6,7,7,20,323,42,68
+3400,"Allston, Boston, MA",5.0,1.0,1,31,6,7,7,20,323,42,68
+3400,"Allston, Boston, MA",5.0,1.0,1,31,6,7,7,20,323,42,68
+1995,"Allston, Boston, MA",2.0,1.0,2,31,6,7,7,20,301,38,66
+3375,"Allston, Boston, MA",4.0,1.0,3,31,5,6,6,17,303,39,65
+3300,"Allston, Brighton, MA",4.0,1.0,1,56,8,9,9,26,309,41,64
+3375,"Allston, Boston, MA",4.0,1.0,2,31,5,6,6,17,309,42,66
+3400,"Allston, Boston, MA",4.0,1.0,1,31,5,6,6,17,329,43,70
+3275,"Allston, Boston, MA",4.0,1.0,2,31,7,7,7,21,311,41,67
+3400,"Allston, Boston, MA",4.0,1.0,1,31,6,7,7,20,323,42,68
+3100,"Allston, Allston, MA",4.0,1.0,3,31,6,7,7,20,303,39,65
+2499,"Allston, Allston, MA",3.0,1.0,2,31,7,8,8,23,313,34,71
+3300,"Allston, Boston, MA",4.0,1.0,2,31,6,7,7,20,320,38,67
+3400,"Allston, Allston, MA",4.0,1.0,1,31,4,4,4,12,310,36,72
+2750,"Allston, Boston, MA",3.0,1.0,1,31,6,8,8,22,296,36,62
+2800,"Allston, Boston, MA",3.0,1.0,3,31,5,6,6,17,306,40,64
+2800,"Allston, Boston, MA",3.0,1.0,2,31,6,7,7,20,327,40,70
+2750,"Allston, Boston, MA",3.0,1.0,1,31,5,6,6,17,318,41,67
+2700,"Allston, Boston, MA",3.0,1.0,1,31,6,8,8,22,300,36,62
+2700,"Allston, Boston, MA",3.0,1.0,3,31,5,6,6,17,306,40,64
+2700,"Allston, Boston, MA",3.0,1.0,1,31,6,7,7,20,311,42,65
+2750,"Allston, Boston, MA",3.0,1.0,1,31,7,6,6,19,309,40,66
+2800,"Allston, Boston, MA",3.0,1.0,3,31,4,5,5,14,302,39,66
+2715,"Allston, Boston, MA",3.0,1.0,1,31,5,6,6,17,309,39,65
+2800,"Allston, Boston, MA",3.0,1.0,2,31,8,9,9,26,314,41,67
+2700,"Allston, Boston, MA",3.0,1.0,1,31,4,4,4,12,316,34,79
+2600,"Allston, Brighton, MA",3.0,1.0,2,56,7,9,9,25,308,40,64
+2000,"Allston, Boston, MA",2.0,1.0,2,31,6,7,7,20,311,41,66
+2650,"Allston, Allston, MA",3.0,1.0,1,31,7,9,9,25,300,36,62
+2100,"Allston, Boston, MA",2.0,1.0,1,31,5,5,5,15,342,38,84
+3000,"Allston, Boston, MA",4.0,2.0,2,31,8,9,9,26,308,37,68
+3000,"Allston, Boston, MA",4.0,2.0,3,31,6,7,7,20,311,37,65
+2995,"Allston, Boston, MA",4.0,2.0,4,31,6,7,7,20,303,38,66
+3200,"Allston, Allston, MA",4.0,1.0,1,31,9,11,11,31,291,37,61
+3200,"Allston, Boston, MA",4.0,2.0,1,31,8,10,10,28,292,36,61
+2100,"Allston, Boston, MA",2.0,1.0,1,56,8,9,9,26,313,41,64
+2100,"Allston, Boston, MA",2.0,1.0,1,31,3,4,4,11,311,39,66
+2095,"Allston, Boston, MA",2.0,1.0,2,31,8,9,9,26,314,41,67
+2150,"Allston, Boston, MA",2.0,1.0,1,31,7,9,9,25,306,39,64
+2100,"Allston, Boston, MA",2.0,1.0,1,31,7,9,9,25,306,39,64
+2100,"Allston, Boston, MA",2.0,1.0,3,31,6,7,7,20,295,39,64
+2100,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,327,40,70
+2400,"Allston, Boston, MA",3.0,2.0,2,31,5,6,6,17,315,39,68
+3200,"Allston, Allston, MA",4.0,2.0,1,31,3,3,3,9,287,32,74
+3100,"Allston, Allston, MA",4.0,2.0,1,31,6,6,6,18,306,41,64
+3500,"Allston, Boston, MA",4.0,1.5,1,31,4,4,4,12,337,38,82
+3825,"Allston, Boston, MA",5.0,2.0,3,53,7,8,8,23,313,34,71
+3000,"Allston, Allston, MA",4.0,2.0,1,31,3,3,3,9,288,32,75
+1500,"Allston, Boston, MA",1.0,1.0,2,31,6,7,7,20,311,41,66
+2200,"Allston, Boston, MA",2.0,1.0,1,31,9,11,11,31,287,34,60
+3600,"Allston, Boston, MA",4.0,2.0,2,31,5,5,5,15,299,38,63
+3600,"Allston, Boston, MA",4.0,2.0,2,31,8,9,9,26,309,41,65
+3600,"Allston, Boston, MA",4.0,2.0,2,31,8,9,9,26,309,41,65
+3600,"Allston, Boston, MA",4.0,2.0,3,31,5,6,6,17,303,39,65
+3600,"Allston, Boston, MA",4.0,2.0,2,31,8,9,9,26,309,41,65
+3600,"Allston, Boston, MA",4.0,2.0,2,31,4,5,5,14,319,41,68
+3500,"Allston, Boston, MA",4.0,2.0,1,31,6,7,7,20,339,42,73
+3500,"Allston, Boston, MA",4.0,2.0,1,31,6,7,7,20,312,41,65
+3500,"Allston, Boston, MA",4.0,2.0,1,31,6,7,7,20,312,41,65
+3500,"Allston, Boston, MA",4.0,2.0,1,31,6,7,7,20,312,41,65
+3500,"Allston, Boston, MA",4.0,2.0,1,31,6,7,7,20,312,41,65
+3500,"Allston, Boston, MA",4.0,2.0,1,31,5,6,6,17,317,42,65
+3600,"Allston, Boston, MA",4.0,2.0,1,31,7,7,7,21,330,46,70
+3600,"Allston, Boston, MA",4.0,2.0,1,31,4,5,5,14,338,39,72
+2150,"Allston, Allston, MA",2.0,1.0,1,31,3,3,3,9,296,32,76
+2000,"Allston, Boston, MA",2.0,1.0,1,56,8,9,9,26,313,41,64
+2000,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,304,39,66
+3300,"Allston, Boston, MA",4.0,1.0,1,31,8,9,9,26,309,41,64
+4600,"Allston, Boston, MA",4.0,2.0,2,31,6,7,7,20,330,37,67
+4650,"Allston, Boston, MA",4.0,2.0,2,31,8,9,9,26,309,41,65
+2200,"Allston, Boston, MA",2.0,1.0,1,31,5,6,6,17,317,42,65
+2200,"Allston, Boston, MA",2.0,1.0,1,31,7,9,9,25,303,38,60
+2195,"Allston, Boston, MA",2.0,1.0,1,31,7,7,7,21,316,41,68
+2200,"Allston, Boston, MA",2.0,1.0,1,56,8,9,9,26,309,41,64
+2275,"Allston, Boston, MA",2.0,1.0,2,31,7,9,9,25,314,41,67
+2200,"Allston, Boston, MA",2.0,1.0,1,31,5,6,6,17,318,41,67
+2200,"Allston, Boston, MA",2.0,1.0,1,31,8,9,9,26,292,37,63
+2200,"Allston, Boston, MA",2.0,1.0,1,31,6,7,7,20,312,41,65
+2250,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,327,40,70
+2200,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,327,40,70
+2250,"Allston, Boston, MA",2.0,1.0,2,31,7,9,9,25,314,41,67
+2195,"Allston, Boston, MA",2.0,1.0,1,31,7,6,6,19,309,40,66
+2225,"Allston, Boston, MA",2.0,1.0,2,31,6,7,7,20,311,41,66
+2270,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,327,40,70
+2260,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,327,40,70
+3600,"Allston, Allston, MA",4.0,2.0,1,31,7,7,7,21,330,46,70
+2250,"Allston, Boston, MA",2.0,1.0,1,31,6,7,7,20,312,41,65
+1950,"Allston, Boston, MA",1.0,1.0,1,31,4,5,5,14,313,38,64
+1600,"Allston, Boston, MA",1.0,1.0,2,31,7,9,9,25,301,38,63
+2250,"Allston, Boston, MA",2.0,1.0,3,31,5,6,6,17,303,39,65
+3200,"Allston, Allston, MA",4.0,1.5,1,31,6,7,7,20,312,41,65
+3300,"Allston, Boston, MA",4.0,2.0,2,31,6,7,7,20,301,38,66
+3400,"Allston, Boston, MA",4.0,2.0,1,31,6,8,8,22,303,38,60
+3400,"Allston, Allston, MA",4.0,2.0,3,31,6,7,7,20,295,39,64
+2600,"Allston, Allston, MA",4.0,1.0,2,31,6,7,7,20,301,38,66
+4500,"Allston, Boston, MA",5.0,2.0,1,31,3,3,3,9,302,33,79
+4500,"Allston, Boston, MA",5.0,2.0,1,31,7,7,7,21,334,41,81
+3250,"Allston, Boston, MA",4.0,2.0,1,31,7,8,8,23,307,35,69
+2100,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,327,40,70
+2395,"Allston, Boston, MA",2.0,1.0,1,31,8,7,7,22,312,40,65
+2375,"Allston, Boston, MA",2.0,1.0,1,31,3,3,3,9,278,32,75
+2700,"Allston, Boston, MA",3.0,2.0,3,31,7,8,8,23,304,38,66
+2750,"Allston, Boston, MA",3.0,2.0,1,31,7,9,9,25,305,39,64
+2725,"Allston, Boston, MA",3.0,2.0,1,31,5,6,6,17,318,41,67
+4200,"Allston, Boston, MA",5.0,2.0,1,31,4,4,4,12,299,34,73
+4500,"Allston, Boston, MA",5.0,2.0,2,31,7,8,8,23,307,35,69
+4500,"Allston, Boston, MA",5.0,2.0,1,31,6,7,7,20,308,41,64
+4500,"Allston, Boston, MA",5.0,2.0,1,31,6,7,7,20,308,41,64
+4500,"Allston, Boston, MA",5.0,2.0,1,31,5,6,6,17,359,41,77
+4300,"Allston, Boston, MA",5.0,2.0,1,31,4,5,5,14,338,39,72
+3299,"Allston, Boston, MA",5.0,2.0,3,31,7,8,8,23,313,34,71
+2400,"Allston, Boston, MA",2.0,1.0,1,31,6,7,7,20,339,42,73
+2375,"Allston, Boston, MA",2.0,1.0,1,31,7,9,9,25,306,39,64
+2300,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,314,41,67
+2400,"Allston, Boston, MA",2.0,1.0,1,31,6,7,7,20,339,42,73
+2375,"Allston, Boston, MA",2.0,1.0,1,31,8,9,9,26,307,40,64
+2400,"Allston, Boston, MA",2.0,1.0,1,31,4,5,5,14,318,41,68
+2400,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,314,41,67
+2395,"Allston, Boston, MA",2.0,1.0,1,31,8,7,7,22,312,40,65
+2400,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,314,41,67
+2300,"Allston, Boston, MA",2.0,1.0,1,31,8,9,9,26,307,40,64
+2400,"Allston, Boston, MA",2.0,1.0,1,31,6,7,7,20,312,41,65
+2300,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,327,40,70
+2295,"Allston, Boston, MA",2.0,1.0,1,31,8,7,7,22,312,40,65
+2395,"Allston, Boston, MA",2.0,1.0,1,31,9,8,8,25,312,40,65
+2400,"Allston, Boston, MA",2.0,1.0,2,31,7,7,7,21,311,41,67
+2400,"Allston, Boston, MA",2.0,1.0,2,31,7,9,9,25,301,38,63
+2350,"Allston, Boston, MA",2.0,1.0,1,31,9,11,11,31,289,36,61
+3000,"Allston, Boston, MA",3.0,1.0,1,31,4,4,4,12,322,37,80
+2250,"Allston, Allston, MA",2.0,1.0,2,31,8,9,9,26,304,39,66
+1700,"Allston, Boston, MA",1.0,1.0,2,31,6,7,7,20,311,41,66
+1700,"Allston, Boston, MA",1.0,1.0,2,31,4,5,5,14,319,41,68
+1650,"Allston, Boston, MA",1.0,1.0,1,56,8,9,9,26,313,41,64
+1700,"Allston, Boston, MA",1.0,1.0,2,31,6,7,7,20,311,41,66
+1700,"Allston, Boston, MA",1.0,1.0,2,31,4,5,5,14,319,41,68
+1700,"Allston, Boston, MA",1.0,1.0,1,31,7,9,9,25,308,40,66
+4200,"Allston, Allston, MA",5.0,2.0,3,31,5,6,6,17,317,39,68
+4500,"Allston, Boston, MA",5.0,2.0,3,31,7,8,8,23,302,35,68
+3900,"Allston, Boston, MA",5.0,2.0,1,31,7,9,9,25,308,40,66
+3500,"Allston, Boston, MA",5.0,1.5,1,31,7,7,7,21,320,36,73
+2250,"Allston, Boston, MA",2.0,1.0,2,31,7,8,8,23,327,40,70
+2200,"Allston, Boston, MA",2.0,1.0,1,31,8,9,9,26,292,37,63
+2900,"Allston, Boston, MA",3.0,1.0,3,31,5,6,6,17,306,40,64
+3100,"Allston, Boston, MA",3.0,1.0,2,31,7,9,9,25,314,41,67
+2995,"Allston, Boston, MA",3.0,1.0,1,31,8,9,9,26,307,40,64
+3000,"Allston, Boston, MA",3.0,1.0,1,31,8,9,9,26,313,41,64
+3100,"Allston, Allston, MA",3.0,1.0,1,31,4,5,5,14,326,41,68
+2200,"Allston, Allston, MA",2.0,1.0,3,31,5,6,6,17,303,39,65
+2200,"Allston, Boston, MA",2.0,1.0,2,31,8,9,9,26,304,39,66
+2400,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,851,107,299
+2850,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,863,101,308
+2500,"North End, Boston, MA",2.0,1.0,1,25,2,2,0,4,840,103,288
+3000,"North End, Boston, MA",3.0,1.0,1,20,3,2,0,5,883,105,320
+2100,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,851,107,299
+2600,"North End, Boston, MA",2.0,1.0,1,25,2,2,0,4,840,103,288
+2700,"North End, Boston, MA",2.0,1.0,1,25,2,2,0,4,851,107,299
+2750,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,863,101,308
+2130,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,863,101,308
+2100,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,851,107,299
+2200,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,885,106,315
+2200,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,885,106,315
+2890,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,863,101,308
+2900,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,851,107,299
+2900,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,851,107,299
+3400,"North End, Boston, MA",3.0,1.0,1,20,3,2,0,5,883,105,320
+3300,"North End, Boston, MA",3.0,1.0,1,20,2,2,0,4,834,103,280
+3395,"North End, Boston, MA",3.0,1.0,1,25,2,2,0,4,841,100,292
+3200,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,851,107,299
+2840,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,863,101,308
+3600,"North End, Boston, MA",3.0,1.0,2,20,2,2,0,4,868,100,312
+2200,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,851,107,299
+2200,"North End, Boston, MA",1.0,1.0,1,25,2,2,0,4,851,107,299
+5500,"North End, Boston, MA",4.0,1.0,2,25,3,2,0,5,873,108,313
+3600,"North End, Boston, MA",3.0,1.0,2,20,2,2,0,4,868,100,312
+2400,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,885,106,315
+2500,"North End, Boston, MA",2.0,1.0,2,20,3,2,0,5,885,105,318
+2400,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,874,101,313
+2350,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,874,101,313
+2300,"North End, Boston, MA",1.0,1.0,1,25,2,2,0,4,851,107,299
+1700,"North End, Boston, MA",1.0,1.0,2,20,2,2,0,4,874,108,314
+2300,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,863,101,308
+2600,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,842,100,290
+2600,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,841,100,292
+2600,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,841,100,292
+1800,"North End, Boston, MA",1.0,1.0,1,20,4,2,0,6,883,105,320
+1800,"North End, Boston, MA",1.0,1.0,2,20,3,2,0,5,885,105,318
+1800,"North End, Boston, MA",1.0,1.0,2,20,3,2,0,5,885,105,318
+2490,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,863,101,308
+5500,"North End, Boston, MA",4.0,1.0,2,25,3,2,0,5,873,108,313
+2770,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,885,106,315
+2750,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,885,106,315
+2780,"North End, Boston, MA",2.0,1.0,2,20,2,2,0,4,883,106,316
+2800,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,885,106,315
+2800,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,868,101,308
+3990,"North End, Boston, MA",3.0,1.0,3,20,4,2,0,6,886,111,320
+1900,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,841,100,292
+1875,"North End, Boston, MA",1.0,1.0,1,20,4,2,0,6,883,105,320
+1875,"North End, Boston, MA",1.0,1.0,1,20,4,2,0,6,883,105,320
+1925,"North End, Boston, MA",1.0,1.0,1,20,4,2,0,6,883,105,320
+3925,"North End, Boston, MA",3.0,1.0,1,20,3,2,0,5,883,105,320
+3900,"North End, Boston, MA",3.0,1.0,1,20,2,2,0,4,863,101,308
+3900,"North End, Boston, MA",3.0,1.0,1,20,2,2,0,4,873,108,313
+2070,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,868,101,308
+2050,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,868,101,308
+2000,"North End, Boston, MA",1.0,1.0,2,20,4,2,0,6,885,105,318
+2675,"North End, Boston, MA",1.0,1.0,2,20,3,2,0,5,889,104,318
+2000,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,868,101,308
+2050,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,868,101,308
+2650,"North End, Boston, MA",1.0,1.0,2,20,3,2,0,5,889,104,318
+2050,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,842,100,290
+3750,"North End, Boston, MA",3.0,1.0,3,20,4,2,0,6,887,108,320
+3700,"North End, Boston, MA",3.0,1.0,1,20,3,2,0,5,868,101,308
+3600,"North End, Boston, MA",3.0,1.0,1,20,2,2,0,4,863,101,308
+5240,"North End, Boston, MA",4.0,2.0,3,20,4,2,0,6,886,111,320
+5200,"North End, Boston, MA",4.0,2.0,1,20,2,2,0,4,839,102,287
+5000,"North End, Boston, MA",4.0,2.0,1,20,3,2,0,5,874,101,313
+2600,"North End, Boston, MA",2.0,2.0,1,20,2,2,0,4,841,100,292
+3350,"North End, Boston, MA",2.0,1.0,2,25,4,3,3,10,856,110,325
+4000,"North End, Boston, MA",3.0,1.0,1,20,2,2,0,4,834,103,280
+2875,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,868,101,308
+2850,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,868,101,308
+2850,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,841,100,292
+2850,"North End, Boston, MA",2.0,1.0,3,20,4,2,0,6,886,111,320
+3700,"North End, Boston, MA",3.0,1.0,1,20,3,2,0,5,868,101,308
+3450,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,866,99,309
+3350,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,866,99,309
+4200,"North End, Boston, MA",3.0,2.0,1,20,3,2,0,5,868,101,308
+4200,"North End, Boston, MA",3.0,2.0,1,20,3,2,0,5,868,101,308
+2100,"North End, Boston, MA",1.0,1.0,2,20,4,2,0,6,885,105,318
+2100,"North End, Boston, MA",1.0,1.0,1,20,4,2,0,6,883,105,320
+2200,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,840,103,288
+2200,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,840,103,288
+2100,"North End, Boston, MA",1.0,1.0,2,20,4,2,0,6,885,105,318
+2100,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,885,106,315
+2200,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,841,100,292
+2150,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,886,111,320
+2200,"North End, Boston, MA",1.0,1.0,1,20,4,2,0,6,883,105,320
+4545,"North End, Boston, MA",3.0,1.5,3,20,4,2,0,6,887,108,320
+4600,"North End, Boston, MA",3.0,1.0,2,20,3,2,0,5,885,106,315
+3450,"North End, Boston, MA",2.0,1.0,1,20,2,2,0,4,834,103,280
+2950,"North End, Boston, MA",2.0,1.0,1,20,3,2,0,5,868,101,308
+3260,"North End, Boston, MA",2.0,1.0,3,20,4,2,0,6,887,108,320
+3600,"North End, Boston, MA",2.0,1.0,3,20,4,2,0,6,887,108,320
+3615,"North End, Boston, MA",2.0,1.0,3,20,4,2,0,6,887,108,320
+2400,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,886,111,320
+2400,"North End, Boston, MA",1.0,1.0,1,20,4,2,0,6,885,105,318
+3050,"North End, Boston, MA",2.0,2.0,1,20,2,2,0,4,840,103,288
+2395,"North End, Boston, MA",1.0,1.0,2,20,3,2,0,5,874,108,314
+2300,"North End, Boston, MA",1.0,1.0,1,20,4,2,0,6,883,105,320
+3350,"North End, Boston, MA",2.0,2.0,3,20,3,2,0,5,886,111,320
+2300,"North End, Boston, MA",1.0,1.0,2,20,4,2,0,6,885,105,318
+2300,"North End, Boston, MA",1.0,1.0,2,20,4,2,0,6,885,105,318
+2300,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,886,111,320
+2300,"North End, Boston, MA",1.0,1.0,1,20,4,2,0,6,883,105,320
+2290,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,868,101,308
+2300,"North End, Boston, MA",1.0,1.0,2,20,4,2,0,6,885,105,318
+3690,"North End, Boston, MA",2.0,1.0,3,20,4,2,0,6,887,108,320
+2450,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,887,108,320
+2500,"North End, Boston, MA",1.0,1.0,2,20,3,2,0,5,883,105,320
+2300,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,868,101,308
+3300,"North End, Boston, MA",2.0,2.0,3,20,3,2,0,5,886,111,320
+3050,"North End, Boston, MA",2.0,2.0,2,20,3,2,0,5,885,105,318
+2450,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,866,99,309
+2500,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,886,111,320
+2450,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,886,111,320
+2480,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,886,111,320
+2450,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,887,108,320
+3400,"North End, Boston, MA",2.0,2.0,3,20,3,2,0,5,886,111,320
+2800,"North End, Boston, MA",1.0,1.0,2,21,4,3,3,10,848,100,304
+3100,"North End, Boston, MA",2.0,2.0,2,20,3,2,0,5,885,105,318
+2750,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,883,105,320
+2750,"North End, Boston, MA",1.0,1.0,2,20,2,2,0,4,868,100,312
+3000,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,868,101,308
+2450,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,886,111,320
+2550,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,866,99,309
+2600,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,840,103,288
+2600,"North End, Boston, MA",1.0,1.0,1,20,3,3,3,9,814,99,273
+2450,"North End, Boston, MA",1.0,1.0,2,20,4,2,0,6,886,111,320
+5000,"North End, Boston, MA",2.0,2.0,2,25,3,2,0,5,886,111,318
+2450,"North End, Boston, MA",1.0,1.0,3,20,4,2,0,6,886,111,320
+3300,"North End, Boston, MA",1.0,1.0,1,20,2,2,0,4,834,103,280
+2400,"North End, Boston, MA",1.0,1.0,2,20,2,2,0,4,868,100,312
+3400,"North End, Boston, MA",2.0,2.0,3,20,3,2,0,5,886,111,320
+2650,"North End, Boston, MA",1.0,1.0,1,20,3,2,0,5,853,101,302
+2700,"West End, Boston, MA",3.0,1.0,2,21,6,0,0,6,1043,124,388
+3775,"West End, Boston, MA",4.0,1.0,2,21,6,0,0,6,1043,124,388
+1900,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,875,106,315
+3750,"West End, Boston, MA",4.0,1.0,2,21,6,0,0,6,1043,124,388
+2990,"West End, Boston, MA",1.0,1.0,5,21,5,1,0,6,877,105,314
+2600,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,864,102,306
+3590,"West End, Boston, MA",1.0,1.0,5,21,5,1,0,6,877,105,314
+3590,"West End, Boston, MA",1.0,1.0,5,21,5,1,0,6,877,105,314
+3590,"West End, Boston, MA",1.0,1.0,5,21,5,1,0,6,877,105,314
+3867,"West End, Boston, MA",3.0,3.0,4,21,7,0,0,7,932,108,338
+4525,"West End, Boston, MA",3.0,2.0,3,21,4,0,0,4,854,100,305
+4000,"West End, Boston, MA",2.0,2.0,5,21,7,2,0,9,898,106,320
+3790,"West End, Boston, MA",1.0,1.0,5,21,5,1,0,6,877,105,314
+3592,"West End, Boston, MA",3.0,2.0,1,21,5,0,0,5,944,114,334
+3967,"West End, Boston, MA",3.0,2.0,5,21,6,2,0,8,890,106,318
+3697,"West End, Boston, MA",3.0,2.0,1,21,5,0,0,5,924,112,327
+13909,"West End, Boston, MA",3.0,2.0,5,21,5,2,0,7,899,105,321
+4760,"West End, Boston, MA",3.0,3.0,3,21,6,2,0,8,853,100,306
+5295,"West End, Boston, MA",2.0,2.0,4,21,6,2,0,8,867,103,311
+1900,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,875,106,315
+1900,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,875,106,315
+1900,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,875,106,315
+2400,"West End, Boston, MA",1.0,1.0,1,21,5,0,0,5,914,109,330
+5800,"West End, Boston, MA",4.0,2.0,2,21,6,0,0,6,1006,122,368
+2600,"West End, Boston, MA",1.0,1.0,1,21,6,0,0,6,914,109,330
+3250,"West End, Boston, MA",2.0,2.0,1,21,4,0,0,4,864,102,306
+3200,"West End, Boston, MA",2.0,2.0,1,21,5,0,0,5,914,109,330
+3300,"West End, Boston, MA",2.0,2.0,1,21,6,0,0,6,914,109,330
+3800,"West End, Boston, MA",2.0,2.0,1,21,4,0,0,4,864,102,306
+4160,"West End, Boston, MA",2.0,2.0,4,21,7,0,0,7,1007,123,370
+3450,"West End, Boston, MA",2.0,2.0,1,21,5,0,0,5,914,109,330
+2600,"West End, Boston, MA",2.0,1.0,1,21,4,0,0,4,886,105,315
+3950,"West End, Boston, MA",4.0,1.0,2,21,6,0,0,6,1043,124,388
+1900,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,875,106,315
+2950,"West End, Boston, MA",2.0,1.0,4,21,7,0,0,7,1039,125,387
+2500,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,886,105,315
+2300,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,886,105,315
+2200,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,886,105,315
+2600,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,886,105,315
+2300,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,886,105,315
+2375,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,886,105,315
+2300,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,886,105,315
+2500,"West End, Boston, MA",1.0,1.0,1,21,5,0,0,5,914,109,330
+2450,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,864,102,306
+2100,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,864,102,306
+2600,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,864,102,306
+3200,"West End, Boston, MA",2.0,2.0,1,21,5,0,0,5,914,109,330
+3200,"West End, Boston, MA",2.0,2.0,1,21,6,0,0,6,914,109,330
+2850,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,864,102,306
+2950,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,864,102,306
+2900,"West End, Boston, MA",1.0,1.0,1,21,6,0,0,6,914,109,330
+3300,"West End, Boston, MA",2.0,2.0,1,21,4,0,0,4,864,102,306
+3750,"West End, Boston, MA",2.0,2.0,5,21,7,2,0,9,898,106,320
+3450,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,864,102,306
+2800,"West End, Boston, MA",1.0,1.0,1,21,4,0,0,4,864,102,306
+7100,"West End, Boston, MA",2.0,2.0,1,21,5,0,0,5,944,114,334
+5400,"West End, Boston, MA",1.0,1.0,1,21,5,0,0,5,944,114,334
+6900,"West End, Boston, MA",2.0,2.0,1,21,5,0,0,5,944,114,334
+3800,"West End, Boston, MA",2.0,2.0,5,21,7,2,0,9,898,106,320
+2990,"Downtown, Boston, MA",1.0,1.0,4,25,2,1,0,3,889,108,348
+3115,"Downtown, Boston, MA",2.0,2.0,4,25,2,1,0,3,889,108,348
+5537,"Downtown, Boston, MA",2.0,2.0,1,42,2,1,1,4,926,108,364
+1200,"Downtown, Boston, MA",1.0,0.0,4,20,2,1,0,3,991,111,382
+1300,"Downtown, Boston, MA",1.0,0.0,4,20,2,1,0,3,991,111,382
+6059,"Downtown, Boston, MA",3.0,3.0,5,25,2,1,0,3,962,107,371
+7840,"Downtown, Boston, MA",3.0,2.0,2,18,1,0,1,2,1068,136,414
+2595,"Downtown, Boston, MA",2.0,1.0,4,20,2,1,0,3,991,111,382
+2595,"Downtown, Boston, MA",2.0,1.0,4,20,2,1,0,3,991,111,382
+3195,"Downtown, Boston, MA",3.0,1.5,4,20,1,0,0,1,995,114,387
+1895,"Downtown, Boston, MA",1.0,1.0,5,20,3,1,0,4,966,107,369
+4200,"Downtown, Boston, MA",2.0,2.5,1,23,2,2,2,6,866,108,330
+2895,"Downtown, Boston, MA",1.0,1.0,2,23,2,1,1,4,897,112,346
+2895,"Downtown, Boston, MA",1.0,1.0,2,23,2,1,1,4,897,112,346
+2550,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,866,108,330
+2800,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,866,108,330
+6094,"Downtown, Boston, MA",3.0,2.0,5,20,3,1,0,4,966,107,369
+3200,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,892,111,347
+1350,"Downtown, Boston, MA",3.0,1.0,2,18,2,0,0,2,977,123,389
+3000,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,892,111,347
+6830,"Downtown, Boston, MA",4.0,3.0,5,20,3,1,0,4,966,107,369
+3000,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,866,108,330
+6000,"Downtown, Boston, MA",2.0,2.0,4,20,3,0,0,3,1005,115,391
+3500,"Downtown, Boston, MA",1.0,1.5,1,23,1,1,1,3,864,109,329
+3700,"Downtown, Boston, MA",1.0,1.0,4,20,3,0,0,3,1005,115,391
+4500,"Downtown, Boston, MA",2.0,2.0,4,20,3,0,0,3,1005,115,391
+5000,"Downtown, Boston, MA",2.0,2.0,4,20,3,0,0,3,1005,115,391
+10000,"Downtown, Boston, MA",2.0,2.5,1,23,2,2,2,6,866,108,330
+3650,"Downtown, Boston, MA",2.0,1.5,1,23,2,2,2,6,862,110,327
+4200,"Downtown, Boston, MA",2.0,2.0,1,23,2,2,2,6,892,111,347
+10000,"Downtown, Boston, MA",1.0,2.5,1,23,2,2,2,6,866,108,330
+14750,"Downtown, Boston, MA",3.0,4.5,1,42,2,1,1,4,908,110,360
+6950,"Downtown, Boston, MA",1.0,2.0,2,23,3,2,2,7,885,109,343
+1900,"Downtown, Boston, MA",2.0,1.0,3,18,2,0,0,2,978,124,388
+2750,"Downtown, Boston, MA",3.0,1.5,4,20,1,0,0,1,995,114,387
+10750,"Downtown, Boston, MA",3.0,2.5,1,23,2,2,2,6,866,108,330
+1990,"Downtown, Boston, MA",1.0,1.0,3,23,2,1,0,3,900,109,350
+3675,"Downtown, Boston, MA",4.0,3.0,4,20,2,1,0,3,995,114,387
+3900,"Downtown, Boston, MA",4.0,1.0,5,20,2,1,0,3,977,107,376
+2700,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,862,110,327
+2500,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,862,110,327
+4000,"Downtown, Boston, MA",2.0,2.0,2,23,2,1,1,4,897,112,346
+2750,"Downtown, Boston, MA",1.0,1.0,3,25,3,2,2,7,900,109,350
+2750,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,866,108,330
+4400,"Downtown, Boston, MA",1.0,1.5,1,42,2,1,1,4,908,110,360
+2800,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,892,111,347
+3200,"Downtown, Boston, MA",1.0,1.0,2,23,3,2,2,7,884,107,348
+3000,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,892,111,347
+2975,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,866,108,330
+3100,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,866,108,330
+3000,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,866,108,330
+4400,"Downtown, Boston, MA",1.0,1.5,4,20,3,0,0,3,1005,115,391
+3200,"Downtown, Boston, MA",1.0,1.0,2,23,3,2,2,7,884,107,348
+3200,"Downtown, Boston, MA",1.0,1.0,1,23,2,2,2,6,866,108,330
+6900,"Downtown, Boston, MA",4.0,3.0,1,23,2,2,2,6,866,108,330
+6500,"Downtown, Boston, MA",2.0,2.0,4,20,3,0,0,3,1005,115,391
+8750,"Downtown, Boston, MA",2.0,2.5,2,23,3,2,2,7,885,109,343
+4300,"Downtown, Boston, MA",2.0,2.0,4,25,3,2,2,7,871,107,341
+4250,"Downtown, Boston, MA",2.0,2.0,4,25,2,1,0,3,900,109,350
+4300,"Downtown, Boston, MA",2.0,2.0,4,25,3,2,2,7,871,107,341
+3700,"Downtown, Boston, MA",1.0,1.0,4,25,2,1,0,3,900,109,350
+9500,"Downtown, Boston, MA",2.0,2.0,2,23,3,2,2,7,884,107,348
+5500,"Downtown, Boston, MA",2.0,2.0,4,20,3,0,0,3,1005,115,391
+6000,"Downtown, Boston, MA",2.0,2.0,4,20,3,0,0,3,1005,115,391
+8500,"Downtown, Boston, MA",2.0,2.0,4,25,3,2,2,7,871,107,341
+8400,"Downtown, Boston, MA",2.0,2.0,1,23,1,1,1,3,864,109,329
+3750,"Downtown, Boston, MA",1.0,1.0,2,23,3,2,2,7,885,109,343
+4600,"Downtown, Boston, MA",2.0,2.0,4,20,3,0,0,3,1005,115,391
+24000,"Downtown, Boston, MA",3.0,3.5,2,23,3,2,2,7,885,109,343
+10000,"Downtown, Boston, MA",1.0,2.0,1,23,2,2,2,6,866,108,330
+10000,"Downtown, Boston, MA",1.0,2.0,1,23,2,2,2,6,866,108,330
+9200,"Downtown, Boston, MA",2.0,2.0,1,42,2,1,1,4,908,110,360
+10000,"Downtown, Boston, MA",1.0,2.0,1,23,2,2,2,6,866,108,330
+8500,"Downtown, Boston, MA",2.0,2.5,1,42,2,1,1,4,908,110,360
+1795,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1075,132,417
+2100,"Chinatown, Boston, MA",1.0,1.0,5,18,4,1,1,6,1090,133,415
+1995,"Chinatown, Boston, MA",1.0,1.0,2,18,1,1,1,3,1088,148,419
+2500,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1096,133,415
+3990,"Chinatown, Boston, MA",2.0,2.0,1,18,1,1,1,3,1090,136,421
+5400,"Chinatown, Boston, MA",2.0,2.0,5,18,4,1,1,6,1093,136,416
+7500,"Chinatown, Boston, MA",2.0,2.5,5,18,6,1,1,8,1090,133,415
+4911,"Chinatown, Boston, MA",3.0,3.0,4,18,2,1,1,4,1061,135,414
+3500,"Chinatown, Boston, MA",1.0,1.0,5,18,4,1,1,6,1093,136,416
+4099,"Chinatown, Boston, MA",2.0,2.0,4,28,3,1,1,5,1095,135,418
+2575,"Chinatown, Boston, MA",1.0,1.0,4,28,4,1,1,6,1110,137,421
+4656,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1075,132,417
+2500,"Chinatown, Boston, MA",2.0,1.0,2,18,1,1,1,3,1087,140,421
+2500,"Chinatown, Boston, MA",2.0,1.0,2,18,1,1,1,3,1087,140,421
+1700,"Chinatown, Boston, MA",1.0,1.0,3,18,1,1,1,3,1049,136,410
+2450,"Chinatown, Boston, MA",2.0,1.0,3,18,2,1,1,4,1078,136,422
+2200,"Chinatown, Boston, MA",2.0,1.0,3,18,1,1,1,3,1060,135,414
+3025,"Chinatown, Boston, MA",2.0,1.0,4,18,2,1,1,4,1049,135,410
+2850,"Chinatown, Boston, MA",2.0,1.0,2,18,1,1,1,3,1087,140,421
+3900,"Chinatown, Boston, MA",3.0,1.5,2,18,1,1,1,3,1087,144,414
+3200,"Chinatown, Boston, MA",2.0,1.0,3,18,2,1,1,4,1078,136,422
+2800,"Chinatown, Boston, MA",2.0,1.0,1,18,1,1,1,3,1097,146,423
+2300,"Chinatown, Boston, MA",1.0,1.0,2,18,1,1,1,3,1087,140,421
+3000,"Chinatown, Boston, MA",2.0,1.0,2,18,1,1,1,3,1092,139,426
+2500,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+2195,"Chinatown, Boston, MA",1.0,1.0,2,18,1,1,1,3,1087,140,421
+2550,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+2700,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+2895,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+4600,"Chinatown, Boston, MA",2.0,2.0,5,18,6,1,1,8,1096,133,415
+3850,"Chinatown, Boston, MA",1.0,2.0,5,18,4,1,1,6,1093,136,416
+4350,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+5000,"Chinatown, Boston, MA",2.0,2.0,5,18,6,1,1,8,1090,133,415
+4800,"Chinatown, Boston, MA",2.0,2.0,5,18,6,1,1,8,1096,133,415
+6200,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+5000,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+6600,"Chinatown, Boston, MA",2.0,2.5,5,18,6,1,1,8,1090,133,415
+4000,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+24000,"Chinatown, Boston, MA",3.0,3.5,4,18,4,1,1,6,1093,136,416
+15000,"Chinatown, Boston, MA",3.0,4.5,5,18,6,1,1,8,1090,133,415
+3300,"Chinatown, Boston, MA",3.0,1.0,3,18,2,1,1,4,1078,136,422
+2400,"Chinatown, Boston, MA",2.0,1.0,4,18,2,1,1,4,1028,133,400
+2200,"Chinatown, Boston, MA",2.0,1.0,1,18,1,1,1,3,1097,146,423
+2400,"Chinatown, Boston, MA",2.0,1.0,3,18,2,1,1,4,1078,136,422
+2500,"Chinatown, Boston, MA",2.0,1.0,4,18,2,1,1,4,1060,135,414
+2000,"Chinatown, Boston, MA",1.0,1.0,1,18,1,1,1,3,1097,146,423
+2000,"Chinatown, Boston, MA",1.0,1.0,1,18,1,1,1,3,1097,146,423
+1900,"Chinatown, Boston, MA",1.0,1.0,2,18,1,1,1,3,1087,140,421
+2900,"Chinatown, Boston, MA",2.0,1.0,4,18,2,1,1,4,1049,135,410
+4500,"Chinatown, Boston, MA",3.0,2.0,1,18,1,1,1,3,1097,146,423
+2000,"Chinatown, Boston, MA",1.0,1.0,1,18,1,1,1,3,1097,146,423
+2995,"Chinatown, Boston, MA",2.0,1.0,2,18,1,1,1,3,1087,140,421
+2100,"Chinatown, Boston, MA",1.0,1.0,5,18,4,1,1,6,1090,133,415
+2900,"Chinatown, Boston, MA",2.0,2.0,4,18,2,1,1,4,1049,135,410
+2400,"Chinatown, Boston, MA",1.0,1.0,4,18,2,1,1,4,1049,135,410
+2250,"Chinatown, Boston, MA",1.0,1.0,4,18,2,1,1,4,1028,133,400
+2900,"Chinatown, Boston, MA",2.0,2.0,4,18,2,1,1,4,1049,135,410
+3100,"Chinatown, Boston, MA",2.0,1.5,4,18,2,1,1,4,1049,135,410
+2500,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+4500,"Chinatown, Boston, MA",4.0,2.0,2,18,1,1,1,3,1093,147,423
+2550,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+2650,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1096,133,415
+4600,"Chinatown, Boston, MA",4.0,2.0,1,18,1,1,1,3,1097,146,423
+2700,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1096,133,415
+2700,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+2900,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+7250,"Chinatown, Boston, MA",3.0,3.0,4,18,4,1,1,6,1079,136,413
+2800,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1096,133,415
+6995,"Chinatown, Boston, MA",3.0,2.0,4,18,4,1,1,6,1079,136,413
+5200,"Chinatown, Boston, MA",2.0,3.0,5,18,4,1,1,6,1093,136,416
+5200,"Chinatown, Boston, MA",2.0,3.0,5,18,4,1,1,6,1093,136,416
+3350,"Chinatown, Boston, MA",1.0,1.0,5,18,4,1,1,6,1093,136,416
+3200,"Chinatown, Boston, MA",1.0,1.0,5,18,6,1,1,8,1090,133,415
+6350,"Chinatown, Boston, MA",3.0,2.0,4,18,4,1,1,6,1079,136,413
+6950,"Chinatown, Boston, MA",3.0,2.0,4,18,4,1,1,6,1079,136,413
+6995,"Chinatown, Boston, MA",3.0,2.0,4,18,4,1,1,6,1079,136,413
+4000,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+3850,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+3900,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+5800,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+4100,"Chinatown, Boston, MA",1.0,1.5,4,18,4,1,1,6,1079,136,413
+7500,"Chinatown, Boston, MA",2.0,2.5,5,18,5,1,1,7,1074,126,407
+8250,"Chinatown, Boston, MA",3.0,3.0,4,18,4,1,1,6,1079,136,413
+4000,"Chinatown, Boston, MA",1.0,1.5,4,18,4,1,1,6,1079,136,413
+5400,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+5400,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+5200,"Chinatown, Boston, MA",2.0,2.0,5,18,6,1,1,8,1090,133,415
+4995,"Chinatown, Boston, MA",2.0,2.0,5,18,6,1,1,8,1090,133,415
+5000,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+5000,"Chinatown, Boston, MA",2.0,2.0,5,18,6,1,1,8,1090,133,415
+5000,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+4000,"Chinatown, Boston, MA",1.0,1.5,5,18,6,1,1,8,1090,133,415
+4000,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+4000,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+3950,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+4000,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+3850,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+5800,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+6500,"Chinatown, Boston, MA",2.0,2.5,5,18,6,1,1,8,1090,133,415
+6450,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+7500,"Chinatown, Boston, MA",2.0,2.0,5,18,6,1,1,8,1096,133,415
+4000,"Chinatown, Boston, MA",1.0,2.0,5,18,4,1,1,6,1093,136,416
+4000,"Chinatown, Boston, MA",1.0,1.0,4,18,4,1,1,6,1079,136,413
+7900,"Chinatown, Boston, MA",2.0,2.5,4,18,4,1,1,6,1093,136,416
+6000,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1079,136,413
+5500,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1093,136,416
+5750,"Chinatown, Boston, MA",2.0,2.0,4,18,4,1,1,6,1093,136,416
+2200,"Chinatown, Boston, MA",1.0,1.0,2,18,1,1,1,3,1087,140,421
+30000,"Chinatown, Boston, MA",3.0,3.5,4,18,4,1,1,6,1093,136,416
+17000,"Chinatown, Boston, MA",3.0,3.5,4,18,4,1,1,6,1079,136,413
+2762,"Chinatown, Boston, MA",2.0,2.0,4,28,4,1,1,6,1110,137,421
+3575,"Chinatown, Boston, MA",3.0,2.0,1,18,1,1,1,3,1090,136,421
+2612,"Chinatown, Boston, MA",2.0,1.0,4,18,2,1,1,4,1028,133,400
+2075,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1058,120,400
+2450,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1044,117,383
+2650,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1013,118,375
+2925,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1044,117,383
+2525,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1027,116,381
+2600,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1049,121,395
+2595,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1043,123,391
+2800,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1013,118,375
+2625,"Beacon Hill, Boston, MA",2.0,1.0,1,21,7,0,0,7,1074,127,410
+2800,"Beacon Hill, Boston, MA",2.0,1.0,3,20,5,0,1,6,1105,126,421
+2750,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1039,125,387
+2695,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1022,121,377
+2100,"Beacon Hill, Boston, MA",1.0,1.0,1,21,8,0,0,8,1061,124,399
+3855,"Beacon Hill, Boston, MA",3.0,1.0,1,21,8,0,0,8,1061,124,399
+2100,"Beacon Hill, Boston, MA",1.0,1.0,2,21,7,0,0,7,1087,126,417
+1900,"Beacon Hill, Boston, MA",1.0,1.0,4,21,7,0,0,7,1044,117,383
+2850,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1039,125,387
+2950,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1039,125,387
+2950,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1039,125,387
+2895,"Beacon Hill, Boston, MA",2.0,1.0,2,21,7,0,0,7,1087,126,417
+2850,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1039,125,387
+2950,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1013,118,375
+2850,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1039,125,387
+2950,"Beacon Hill, Boston, MA",2.0,1.0,2,21,7,0,0,7,1069,126,393
+2095,"Beacon Hill, Boston, MA",1.0,1.0,1,21,8,0,0,8,1061,124,399
+2200,"Beacon Hill, Boston, MA",1.0,1.0,1,21,8,0,0,8,1061,124,399
+3050,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1049,121,395
+3125,"Beacon Hill, Boston, MA",2.0,1.0,1,21,7,0,0,7,1074,127,410
+3075,"Beacon Hill, Boston, MA",2.0,1.0,1,21,7,0,0,7,1074,127,410
+3550,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1044,117,383
+3095,"Beacon Hill, Boston, MA",2.0,1.0,2,21,7,0,0,7,1087,126,417
+3000,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1044,117,383
+2995,"Beacon Hill, Boston, MA",2.0,1.0,2,21,7,0,0,7,1087,126,417
+2250,"Beacon Hill, Boston, MA",1.0,1.0,1,21,8,0,0,8,1074,127,410
+2300,"Beacon Hill, Boston, MA",1.0,1.0,3,21,6,0,0,6,1069,126,395
+2375,"Beacon Hill, Boston, MA",1.0,1.0,3,21,6,0,0,6,1069,126,395
+2790,"Beacon Hill, Boston, MA",1.0,1.0,1,21,7,0,0,7,1067,125,405
+2300,"Beacon Hill, Boston, MA",1.0,1.0,1,21,7,0,0,7,1061,124,399
+2195,"Beacon Hill, Boston, MA",1.0,1.0,1,21,8,0,0,8,1074,127,410
+2300,"Beacon Hill, Boston, MA",1.0,1.0,1,21,6,0,0,6,1058,120,400
+3300,"Beacon Hill, Boston, MA",2.0,1.0,1,21,8,0,0,8,1061,124,399
+2300,"Beacon Hill, Boston, MA",1.0,1.0,1,21,6,0,0,6,1058,120,400
+2500,"Beacon Hill, Boston, MA",2.0,1.0,1,21,7,0,0,7,1074,127,410
+3175,"Beacon Hill, Boston, MA",2.0,1.0,3,21,6,0,0,6,1070,127,404
+3200,"Beacon Hill, Boston, MA",2.0,1.0,3,21,5,0,1,6,1112,129,425
+3150,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1069,126,395
+3200,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1039,125,387
+2400,"Beacon Hill, Boston, MA",1.0,1.0,2,20,3,0,0,3,1025,116,388
+2395,"Beacon Hill, Boston, MA",1.0,1.0,2,21,7,0,0,7,1087,126,417
+2500,"Beacon Hill, Boston, MA",1.0,1.0,1,21,8,0,0,8,1061,124,399
+2500,"Beacon Hill, Boston, MA",1.0,1.0,3,21,6,0,0,6,1069,126,395
+2500,"Beacon Hill, Boston, MA",1.0,1.0,3,21,7,0,0,7,1049,121,395
+3095,"Beacon Hill, Boston, MA",2.0,1.0,2,21,7,0,0,7,1087,126,417
+2295,"Beacon Hill, Boston, MA",1.0,1.0,2,21,7,0,0,7,1087,126,417
+2950,"Beacon Hill, Boston, MA",2.0,2.0,4,21,7,0,0,7,1044,117,383
+4500,"Beacon Hill, Boston, MA",3.0,1.0,1,21,7,0,0,7,1067,125,405
+2575,"Beacon Hill, Boston, MA",1.0,1.0,4,21,7,0,0,7,1044,117,383
+3200,"Beacon Hill, Boston, MA",2.0,1.0,2,21,7,0,0,7,1036,126,388
+2500,"Beacon Hill, Boston, MA",1.0,1.0,2,21,7,0,0,7,1065,128,404
+2900,"Beacon Hill, Boston, MA",2.0,1.0,1,21,7,0,0,7,1049,121,395
+3400,"Beacon Hill, Boston, MA",2.0,1.0,1,21,8,0,0,8,1061,124,399
+3400,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,998,113,368
+3700,"Beacon Hill, Boston, MA",2.0,1.0,1,21,8,0,0,8,1061,124,399
+2700,"Beacon Hill, Boston, MA",1.0,1.0,2,21,5,0,1,6,1091,130,404
+3000,"Beacon Hill, Boston, MA",1.0,1.0,2,21,7,0,0,7,1070,127,404
+3450,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1044,117,383
+3500,"Beacon Hill, Boston, MA",2.0,2.0,2,21,5,0,1,6,1112,129,425
+3600,"Beacon Hill, Boston, MA",2.0,2.5,1,20,5,0,0,5,1081,121,410
+3600,"Beacon Hill, Boston, MA",2.0,2.5,1,20,5,0,0,5,1081,121,410
+3000,"Beacon Hill, Boston, MA",1.0,1.0,1,21,7,0,0,7,1036,126,388
+2975,"Beacon Hill, Boston, MA",1.0,1.0,4,21,7,0,0,7,1044,117,383
+2950,"Beacon Hill, Boston, MA",1.0,1.0,4,21,7,0,0,7,1044,117,383
+2875,"Beacon Hill, Boston, MA",1.0,1.0,3,21,6,0,0,6,1070,127,404
+3800,"Beacon Hill, Boston, MA",2.0,1.0,2,21,7,0,0,7,998,113,368
+3400,"Beacon Hill, Boston, MA",2.0,2.0,1,20,5,0,0,5,1081,121,410
+3200,"Beacon Hill, Boston, MA",1.0,1.0,3,20,5,0,1,6,1105,126,421
+3200,"Beacon Hill, Boston, MA",1.0,1.0,4,21,7,0,0,7,998,113,368
+4000,"Beacon Hill, Boston, MA",2.0,1.5,1,21,7,0,0,7,1036,126,388
+6300,"Beacon Hill, Boston, MA",3.0,3.0,4,20,3,0,0,3,1040,119,392
+2395,"Beacon Hill, Boston, MA",1.0,1.0,1,21,6,0,0,6,1074,127,410
+3300,"Beacon Hill, Boston, MA",3.0,1.0,1,21,7,0,0,7,1043,123,391
+2900,"Beacon Hill, Boston, MA",5.0,1.0,2,21,5,0,1,6,1105,126,421
+1725,"Beacon Hill, Boston, MA",1.0,1.0,4,21,7,0,0,7,1027,116,381
+2550,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1044,117,383
+1900,"Beacon Hill, Boston, MA",1.0,1.0,2,21,7,0,0,7,1085,129,412
+2500,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1022,121,377
+2600,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1039,125,387
+2565,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1022,121,377
+2550,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1022,121,377
+2595,"Beacon Hill, Boston, MA",2.0,1.0,2,21,6,0,0,6,1065,128,404
+2625,"Beacon Hill, Boston, MA",2.0,1.0,3,21,6,0,0,6,1069,126,395
+1875,"Beacon Hill, Boston, MA",1.0,1.0,1,21,7,0,0,7,1067,125,405
+2400,"Beacon Hill, Boston, MA",2.0,1.0,3,21,6,0,0,6,1069,126,395
+2500,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1022,121,377
+2500,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1022,121,377
+2950,"Beacon Hill, Boston, MA",2.0,1.0,1,20,5,0,2,7,1129,126,414
+2725,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1049,121,395
+1950,"Beacon Hill, Boston, MA",1.0,1.0,2,20,3,0,0,3,1025,116,388
+2100,"Beacon Hill, Boston, MA",1.0,1.0,3,21,7,0,0,7,1036,126,388
+2100,"Beacon Hill, Boston, MA",1.0,1.0,3,21,7,0,0,7,1036,126,388
+1795,"Beacon Hill, Boston, MA",1.0,1.0,2,31,3,0,0,3,1025,116,388
+2400,"Beacon Hill, Boston, MA",2.0,1.0,3,21,6,0,0,6,1043,124,388
+2525,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1044,117,383
+2800,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1049,121,395
+2700,"Beacon Hill, Boston, MA",2.0,1.0,3,21,6,0,0,6,1043,123,391
+1900,"Beacon Hill, Boston, MA",1.0,1.0,2,21,5,0,1,6,1105,126,421
+2800,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1039,125,387
+2800,"Beacon Hill, Boston, MA",2.0,1.0,3,20,5,0,1,6,1105,126,421
+2800,"Beacon Hill, Boston, MA",2.0,1.0,3,20,5,0,1,6,1105,126,421
+2800,"Beacon Hill, Boston, MA",2.0,1.0,3,20,5,0,1,6,1105,126,421
+2950,"Beacon Hill, Boston, MA",2.0,1.0,3,21,6,0,0,6,1043,123,391
+2825,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1046,122,390
+2830,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1013,118,375
+2750,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1013,118,375
+2900,"Beacon Hill, Boston, MA",2.0,1.0,1,21,7,0,0,7,1036,126,388
+2850,"Beacon Hill, Boston, MA",2.0,1.0,1,21,7,0,0,7,1061,124,399
+2825,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1046,122,390
+3200,"Beacon Hill, Boston, MA",2.0,1.0,1,20,5,0,2,7,1129,126,414
+2195,"Beacon Hill, Boston, MA",1.0,1.0,4,21,7,0,0,7,1068,122,405
+2895,"Beacon Hill, Boston, MA",2.0,1.0,3,21,7,0,0,7,1046,122,390
+4900,"Beacon Hill, Boston, MA",4.0,2.0,2,20,5,0,0,5,1094,129,419
+2800,"Beacon Hill, Boston, MA",2.0,1.0,3,21,6,0,0,6,1065,128,404
+2075,"Beacon Hill, Boston, MA",1.0,1.0,3,21,7,0,0,7,1039,125,387
+2350,"Beacon Hill, Boston, MA",1.0,1.0,4,21,7,0,0,7,1022,121,377
+3000,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1044,117,383
+2900,"Beacon Hill, Boston, MA",2.0,1.0,4,21,7,0,0,7,1049,121,395
+2100,"Beacon Hill, Boston, MA",1.0,1.0,2,20,3,0,0,3,1025,116,388
+2900,"Beacon Hill, Boston, MA",2.0,1.0,3,21,6,0,0,6,1043,124,388
+2100,"Beacon Hill, Boston, MA",1.0,1.0,3,21,7,0,0,7,1036,126,388
+3125,"Beacon Hill, Boston, MA",2.0,1.0,1,21,7,0,0,7,1074,127,410
+3100,"Beacon Hill, Boston, MA",2.0,1.0,1,21,7,0,0,7,1036,126,388
+2200,"Beacon Hill, Boston, MA",1.0,1.0,3,21,6,0,0,6,1046,125,386
+3000,"Beacon Hill, Boston, MA",2.0,1.0,2,21,7,0,0,7,1085,129,412
+3095,"Beacon Hill, Boston, MA",2.0,1.0,2,21,7,0,0,7,1087,126,417
+2275,"Beacon Hill, Boston, MA",1.0,1.0,3,21,7,0,0,7,1039,125,387
+2300,"Beacon Hill, Boston, MA",1.0,1.0,4,21,7,0,0,7,998,113,368
+2395,"Back Bay, Boston, MA",2.0,1.0,1,28,2,0,3,5,859,88,297
+2795,"Back Bay, Boston, MA",2.0,1.0,3,28,4,1,1,6,926,94,304
+2950,"Back Bay, Boston, MA",2.0,1.0,1,28,4,0,3,7,957,96,323
+1750,"Back Bay, Boston, MA",1.0,1.0,2,28,4,3,3,10,746,99,256
+2900,"Back Bay, Boston, MA",2.0,1.0,2,28,3,2,2,7,792,99,274
+1850,"Back Bay, Boston, MA",0.0,1.0,1,28,6,1,1,8,1099,118,396
+3300,"Back Bay, Boston, MA",2.0,1.0,1,28,6,1,1,8,1134,126,415
+3750,"Back Bay, Boston, MA",3.0,1.0,4,32,2,3,3,8,617,83,229
+3200,"Back Bay, Boston, MA",2.0,1.0,3,28,2,0,3,5,765,81,272
+4400,"Back Bay, Boston, MA",3.0,1.0,2,28,3,2,2,7,792,99,274
+4800,"Back Bay, Boston, MA",3.0,1.5,4,28,4,5,5,14,868,109,288
+2275,"Back Bay, Boston, MA",1.0,1.0,3,21,2,0,3,5,765,81,272
+2950,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,684,70,235
+2800,"Back Bay, Boston, MA",2.0,1.0,1,21,1,0,2,3,658,65,253
+2280,"Back Bay, Boston, MA",1.0,1.0,3,21,2,0,3,5,765,81,272
+2400,"Back Bay, Boston, MA",1.0,1.0,2,28,3,2,2,7,792,99,274
+2400,"Back Bay, Boston, MA",1.0,1.0,1,28,2,0,3,5,858,90,298
+2400,"Back Bay, Boston, MA",1.0,1.0,3,28,3,1,1,5,843,85,300
+2350,"Back Bay, Boston, MA",1.0,1.0,3,21,2,0,3,5,765,81,272
+2300,"Back Bay, Boston, MA",1.0,1.0,4,28,3,1,1,5,1046,120,358
+2400,"Back Bay, Boston, MA",1.0,1.0,1,28,6,1,1,8,1134,126,415
+3000,"Back Bay, Boston, MA",2.0,2.0,1,28,6,1,1,8,1134,126,415
+3100,"Back Bay, Boston, MA",2.0,1.0,1,21,3,3,3,9,693,91,239
+3200,"Back Bay, Boston, MA",2.0,1.0,1,21,2,0,3,5,760,79,278
+3100,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,684,70,235
+3050,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,684,70,235
+2475,"Back Bay, Boston, MA",1.0,1.0,3,28,3,1,1,5,843,85,300
+2425,"Back Bay, Boston, MA",1.0,1.0,2,28,3,1,1,5,899,92,306
+2225,"Back Bay, Boston, MA",1.0,1.0,3,21,2,0,3,5,743,77,267
+2225,"Back Bay, Boston, MA",1.0,1.0,3,21,2,0,3,5,743,77,267
+2500,"Back Bay, Boston, MA",1.0,1.0,2,28,4,3,3,10,746,99,256
+2450,"Back Bay, Boston, MA",1.0,1.0,3,28,3,1,1,5,843,85,300
+2200,"Back Bay, Boston, MA",1.0,1.0,2,21,1,0,3,4,685,68,260
+2500,"Back Bay, Boston, MA",1.0,1.0,2,28,3,2,2,7,792,99,274
+2495,"Back Bay, Boston, MA",1.0,1.0,1,28,4,0,3,7,945,95,314
+2500,"Back Bay, Boston, MA",1.0,1.0,1,28,2,0,3,5,839,86,288
+4600,"Back Bay, Boston, MA",3.0,2.0,3,28,4,1,1,6,927,94,302
+4500,"Back Bay, Boston, MA",3.0,1.0,3,21,1,1,1,3,685,67,235
+4500,"Back Bay, Boston, MA",3.0,1.0,2,21,1,1,1,3,685,67,235
+4000,"Back Bay, Boston, MA",3.0,1.0,2,21,2,2,2,6,684,70,235
+2300,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,658,65,253
+2700,"Back Bay, Boston, MA",1.0,1.0,3,28,3,0,3,6,927,94,302
+2700,"Back Bay, Boston, MA",1.0,1.0,2,28,4,3,3,10,746,99,256
+2320,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,671,66,258
+2700,"Back Bay, Boston, MA",1.0,1.0,2,28,4,3,3,10,746,99,256
+2650,"Back Bay, Boston, MA",1.0,1.0,1,28,2,0,3,5,878,88,303
+2600,"Back Bay, Boston, MA",1.0,1.0,1,28,6,1,1,8,1114,124,403
+4500,"Back Bay, Boston, MA",3.0,1.0,3,21,2,2,2,6,684,70,235
+4050,"Back Bay, Boston, MA",3.0,1.0,2,21,2,2,2,6,684,70,235
+2300,"Back Bay, Boston, MA",1.0,1.0,2,21,2,2,2,6,684,70,235
+3050,"Back Bay, Boston, MA",2.0,1.0,2,21,1,1,1,3,685,67,235
+4400,"Back Bay, Boston, MA",3.0,1.0,2,21,1,1,1,3,685,67,235
+2595,"Back Bay, Boston, MA",1.0,1.0,1,28,2,0,3,5,839,86,288
+3200,"Back Bay, Boston, MA",2.0,1.0,1,21,1,0,2,3,671,66,258
+3950,"Back Bay, Boston, MA",3.0,1.0,2,21,2,2,2,6,684,70,235
+2700,"Back Bay, Boston, MA",1.0,1.0,1,28,4,0,3,7,932,93,312
+2250,"Back Bay, Boston, MA",1.0,1.0,2,21,2,3,3,8,687,93,238
+4800,"Back Bay, Boston, MA",3.0,1.0,1,21,1,0,2,3,668,63,225
+4500,"Back Bay, Boston, MA",3.0,1.0,2,21,2,2,2,6,684,70,235
+3000,"Back Bay, Boston, MA",2.0,1.0,1,21,2,3,3,8,670,90,238
+3400,"Back Bay, Boston, MA",2.0,1.0,1,21,1,0,4,5,685,68,260
+3500,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,684,70,235
+3300,"Back Bay, Boston, MA",2.0,1.0,1,21,1,0,2,3,658,65,253
+3950,"Back Bay, Boston, MA",3.0,1.0,2,21,2,2,2,6,684,70,235
+3200,"Back Bay, Boston, MA",2.0,1.0,1,21,1,0,2,3,673,65,243
+5100,"Back Bay, Boston, MA",3.0,3.0,1,28,6,1,1,8,1134,126,415
+4500,"Back Bay, Boston, MA",3.0,1.0,3,21,2,2,2,6,684,70,235
+3250,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,684,70,235
+3200,"Back Bay, Boston, MA",2.0,1.0,2,21,2,3,3,8,687,93,238
+3150,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,684,70,235
+3150,"Back Bay, Boston, MA",2.0,1.0,2,21,1,1,1,3,685,67,235
+3200,"Back Bay, Boston, MA",2.0,1.0,2,21,1,1,1,3,698,67,239
+3445,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,684,70,235
+2475,"Back Bay, Boston, MA",1.0,1.0,2,21,1,1,1,3,697,70,241
+2450,"Back Bay, Boston, MA",1.0,1.0,2,21,1,1,1,3,698,67,239
+3240,"Back Bay, Boston, MA",2.0,2.0,4,28,4,2,2,8,1115,135,407
+4200,"Back Bay, Boston, MA",2.0,2.0,1,28,6,1,1,8,1077,117,381
+4350,"Back Bay, Boston, MA",3.0,1.0,3,21,2,2,2,6,684,70,235
+4350,"Back Bay, Boston, MA",3.0,1.0,3,21,1,1,1,3,685,67,235
+2325,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,668,66,232
+2500,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,672,67,261
+2800,"Back Bay, Boston, MA",1.0,1.0,2,28,3,2,2,7,792,99,274
+3000,"Back Bay, Boston, MA",1.0,1.0,4,32,2,3,3,8,617,83,229
+2475,"Back Bay, Boston, MA",1.0,1.0,2,21,2,2,2,6,684,70,235
+3690,"Back Bay, Boston, MA",1.0,1.0,4,36,3,1,1,5,813,84,291
+2400,"Back Bay, Boston, MA",1.0,1.0,4,21,1,2,2,5,642,80,232
+2725,"Back Bay, Boston, MA",1.0,1.0,3,28,2,0,3,5,784,81,273
+5600,"Back Bay, Boston, MA",3.0,2.0,1,28,3,2,2,7,820,102,284
+3750,"Back Bay, Boston, MA",2.0,1.0,1,21,2,3,3,8,670,90,238
+3000,"Back Bay, Boston, MA",2.0,1.0,1,21,2,3,3,8,670,90,238
+5850,"Back Bay, Boston, MA",2.0,2.5,2,28,3,2,2,7,792,99,274
+3950,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,684,70,235
+8060,"Back Bay, Boston, MA",3.0,2.0,3,28,3,1,1,5,813,84,291
+2750,"Back Bay, Boston, MA",1.0,1.0,2,21,1,1,1,3,697,70,241
+2800,"Back Bay, Boston, MA",1.0,1.0,2,28,3,1,1,5,843,85,300
+2500,"Back Bay, Boston, MA",1.0,1.0,2,21,1,1,1,3,698,67,239
+3150,"Back Bay, Boston, MA",2.0,1.0,2,21,1,1,1,3,685,67,235
+3200,"Back Bay, Boston, MA",2.0,1.0,2,21,1,1,1,3,685,67,235
+5950,"Back Bay, Boston, MA",3.0,2.0,1,21,1,0,2,3,671,66,258
+4050,"Back Bay, Boston, MA",3.0,1.0,2,21,2,2,2,6,684,70,235
+4400,"Back Bay, Boston, MA",2.0,2.0,2,28,4,3,3,10,746,99,256
+6400,"Back Bay, Boston, MA",3.0,2.5,3,21,2,0,3,5,765,81,272
+3100,"Back Bay, Boston, MA",1.0,1.0,3,28,2,0,3,5,784,81,273
+3000,"Back Bay, Boston, MA",1.0,1.0,3,28,2,0,3,5,784,81,273
+2650,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,668,63,225
+2825,"Back Bay, Boston, MA",1.0,1.0,3,21,2,0,3,5,743,77,267
+2900,"Back Bay, Boston, MA",1.0,1.0,1,28,4,0,3,7,932,93,312
+2600,"Back Bay, Boston, MA",1.0,1.0,1,21,3,3,3,9,693,91,239
+2550,"Back Bay, Boston, MA",1.0,1.0,1,21,3,3,3,9,693,91,239
+2450,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,668,66,232
+2900,"Back Bay, Boston, MA",1.0,1.0,2,28,3,2,2,7,792,99,274
+4050,"Back Bay, Boston, MA",2.0,1.0,2,21,1,1,1,3,685,67,235
+4050,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,684,70,235
+2600,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,4,5,694,68,265
+3550,"Back Bay, Boston, MA",2.0,1.0,3,21,2,2,2,6,684,70,235
+3600,"Back Bay, Boston, MA",2.0,2.0,1,21,1,0,2,3,668,63,225
+2550,"Back Bay, Boston, MA",1.0,1.0,4,21,1,2,2,5,642,80,232
+2900,"Back Bay, Boston, MA",1.0,1.0,2,28,2,0,3,5,839,86,288
+3550,"Back Bay, Boston, MA",2.0,1.5,4,21,1,2,2,5,642,80,232
+3450,"Back Bay, Boston, MA",2.0,2.0,4,21,1,2,2,5,642,80,232
+3500,"Back Bay, Boston, MA",1.0,1.0,1,21,3,3,3,9,693,91,239
+3200,"Back Bay, Boston, MA",1.0,1.0,3,28,5,6,6,17,821,104,283
+2750,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,676,65,240
+3400,"Back Bay, Boston, MA",1.0,1.0,1,28,4,0,3,7,932,93,312
+2925,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,673,65,243
+4490,"Back Bay, Boston, MA",1.0,1.0,1,28,3,2,2,7,1000,127,347
+4290,"Back Bay, Boston, MA",1.0,1.0,1,28,3,2,2,7,1000,127,347
+3450,"Back Bay, Boston, MA",1.0,1.0,1,28,4,0,3,7,932,93,312
+2600,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,672,67,261
+4050,"Back Bay, Boston, MA",2.0,1.0,2,21,2,2,2,6,685,67,235
+3375,"Back Bay, Boston, MA",1.0,1.0,1,21,3,3,3,9,693,91,239
+4200,"Back Bay, Boston, MA",2.0,1.5,3,21,2,0,3,5,765,81,272
+3500,"Back Bay, Boston, MA",1.0,1.0,1,28,2,0,3,5,903,91,314
+3500,"Back Bay, Boston, MA",1.0,1.0,1,28,2,0,3,5,903,91,314
+2900,"Back Bay, Boston, MA",1.0,1.0,1,28,4,0,3,7,932,93,312
+2675,"Back Bay, Boston, MA",1.0,1.0,2,21,1,1,1,3,685,67,235
+2750,"Back Bay, Boston, MA",1.0,1.0,1,21,1,0,2,3,676,65,240
+3200,"Back Bay, Boston, MA",1.0,1.0,3,28,3,0,3,6,927,94,302
+3000,"Back Bay, Boston, MA",3.0,1.0,1,15,1,0,2,3,668,63,225
+2650,"South Boston, South Boston, MA",3.0,1.0,2,53,4,4,0,8,268,56,84
+2650,"South Boston, Boston, MA",3.0,1.0,2,53,4,4,0,8,268,56,84
+1975,"South Boston, Boston, MA",2.0,1.0,1,53,4,4,0,8,266,57,86
+3000,"South Boston, Boston, MA",3.0,1.0,1,53,6,4,4,14,104,18,43
+3000,"South Boston, Boston, MA",3.0,1.0,1,53,4,4,0,8,266,57,86
+3000,"South Boston, Boston, MA",3.0,1.0,1,53,4,4,0,8,266,57,86
+3150,"South Boston, Boston, MA",3.0,1.0,1,53,6,6,6,18,244,53,86
+3500,"South Boston, Boston, MA",4.0,2.0,1,53,7,6,6,19,215,54,74
+2250,"South Boston, Boston, MA",2.0,1.0,1,53,6,6,6,18,224,51,73
+2250,"South Boston, Boston, MA",2.0,1.0,2,53,6,6,6,18,234,53,83
+2350,"South Boston, Boston, MA",2.0,1.0,2,53,4,4,0,8,268,56,84
+2300,"South Boston, Boston, MA",2.0,1.0,3,53,5,4,4,13,242,50,73
+2400,"South Boston, Boston, MA",2.0,1.0,3,53,5,5,5,15,245,50,76
+2400,"South Boston, Boston, MA",2.0,1.0,3,53,5,5,5,15,245,50,76
+2400,"South Boston, Boston, MA",2.0,1.0,1,53,6,6,6,18,224,51,73
+3000,"South Boston, Boston, MA",3.0,1.0,1,53,6,6,6,18,278,56,90
+2400,"South Boston, Boston, MA",2.0,1.0,1,53,6,6,6,18,244,53,86
+2550,"South Boston, Boston, MA",2.0,1.0,3,53,5,5,5,15,245,50,76
+2550,"South Boston, Boston, MA",2.0,1.0,3,53,5,5,5,15,245,50,76
+2500,"South Boston, Boston, MA",2.0,1.0,1,53,5,5,5,15,416,76,141
+2550,"South Boston, Boston, MA",2.0,1.0,3,53,5,5,5,15,245,50,76
+2425,"South Boston, Boston, MA",2.0,1.0,3,53,5,4,4,13,230,48,71
+2550,"South Boston, Boston, MA",2.0,1.0,3,53,5,5,5,15,245,50,76
+2500,"South Boston, Boston, MA",2.0,1.0,3,53,5,5,5,15,245,50,76
+2250,"South Boston, Boston, MA",2.0,1.0,4,53,3,3,0,6,768,105,277
+3200,"South Boston, Boston, MA",4.0,2.0,1,53,7,6,6,19,215,54,74
+3200,"South Boston, Boston, MA",4.0,2.0,1,53,7,6,6,19,215,54,74
+3400,"South Boston, Boston, MA",3.0,1.0,1,53,6,6,6,18,372,75,115
+4500,"South Boston, South Boston, MA",4.0,1.0,1,53,4,4,4,12,409,76,129
+4100,"South Boston, Boston, MA",4.0,2.0,1,53,3,4,0,7,589,86,217
+2700,"South Boston, South Boston, MA",2.0,1.0,3,53,5,4,4,13,242,50,73
+1875,"South Boston, Boston, MA",1.0,1.0,3,53,5,5,5,15,245,50,76
+3500,"South Boston, South Boston, MA",3.0,1.0,1,53,5,3,3,11,99,20,45
+4700,"South Boston, Boston, MA",4.0,2.0,3,53,5,4,4,13,236,48,75
+4700,"South Boston, Boston, MA",4.0,2.0,3,53,5,4,4,13,236,48,75
+2550,"South Boston, Boston, MA",2.0,1.0,3,53,5,4,4,13,230,48,71
+2425,"South Boston, Boston, MA",2.0,1.0,3,53,5,4,4,13,230,48,71
+1925,"South Boston, Boston, MA",1.0,1.0,3,53,5,5,5,15,245,50,76
+1975,"South Boston, Boston, MA",1.0,1.0,3,53,5,5,5,15,245,50,76
+4500,"South Boston, Boston, MA",4.0,2.0,1,53,5,5,5,15,416,76,141
+3550,"South Boston, Boston, MA",4.0,2.0,1,53,4,4,4,12,490,84,175
+1925,"South Boston, Boston, MA",1.0,1.0,1,53,5,3,3,11,172,30,65
+2900,"South Boston, Boston, MA",2.0,1.0,2,53,5,5,5,15,421,80,140
+3000,"South Boston, Boston, MA",2.0,1.0,3,53,7,7,7,21,229,58,83
+2950,"South Boston, Boston, MA",2.0,1.0,2,53,5,5,5,15,421,80,140
+2900,"South Boston, Boston, MA",2.0,1.0,1,53,5,5,5,15,456,81,162
+2095,"South Boston, Boston, MA",1.0,1.0,1,53,5,3,3,11,172,30,65
+3800,"South Boston, Boston, MA",3.0,1.0,1,53,4,3,3,10,106,22,46
+1800,"South Boston, Boston, MA",1.0,1.0,1,53,4,4,4,12,523,87,184
+4200,"South Boston, Boston, MA",3.0,1.0,1,53,6,6,6,18,239,51,78
+3750,"South Boston, Boston, MA",3.0,1.0,1,53,4,3,3,10,129,25,53
+3750,"South Boston, Boston, MA",3.0,1.0,1,53,4,3,3,10,129,25,53
+3750,"South Boston, Boston, MA",3.0,1.0,1,53,4,3,3,10,179,39,67
+3600,"South Boston, Boston, MA",3.0,1.0,2,53,7,6,6,19,286,68,100
+2180,"South Boston, South Boston, MA",1.0,1.0,1,53,5,5,5,15,440,82,155
+3290,"South Boston, Boston, MA",1.0,1.0,1,53,2,2,0,4,670,89,261
+5000,"South Boston, Boston, MA",4.0,1.5,1,53,3,2,2,7,146,33,55
+4800,"South Boston, Boston, MA",4.0,1.5,1,53,5,3,3,11,183,41,64
+7500,"South Boston, Boston, MA",4.0,2.0,1,53,5,3,3,11,160,29,62
+3300,"South Boston, South Boston, MA",2.0,1.0,1,53,5,5,5,15,484,83,175
+3600,"South Boston, Boston, MA",3.0,1.0,2,53,7,6,6,19,286,68,100
+5600,"South Boston, Boston, MA",4.0,2.5,1,53,5,5,5,15,236,50,74
+2850,"South Boston, Boston, MA",2.0,1.0,1,53,5,5,5,15,454,81,166
+3100,"South Boston, Boston, MA",2.0,1.0,2,53,5,5,5,15,421,80,140
+3150,"South Boston, South Boston, MA",2.0,1.0,2,53,7,6,6,19,192,48,68
+3300,"South Boston, Boston, MA",3.0,3.0,3,53,5,4,4,13,230,48,71
+3500,"South Boston, Boston, MA",2.0,1.0,2,53,5,5,5,15,421,80,140
+2300,"South Boston, Boston, MA",1.0,1.0,1,53,6,6,6,18,239,51,78
+2350,"South Boston, Boston, MA",1.0,1.0,1,53,5,4,4,13,218,47,83
+1895,"South Boston, Boston, MA",1.0,1.0,1,53,7,6,6,19,215,54,74
+4600,"South Boston, Boston, MA",3.0,2.5,2,53,6,6,6,18,310,65,106
+4300,"South Boston, Boston, MA",3.0,2.5,1,53,4,4,4,12,454,81,166
+2250,"South Boston, Boston, MA",1.0,1.0,1,53,5,4,4,13,218,47,83
+3250,"South Boston, Boston, MA",2.0,1.0,1,53,4,3,3,10,223,44,86
+3600,"South Boston, Boston, MA",2.0,2.0,1,53,5,3,3,11,154,26,62
+3000,"South Boston, Boston, MA",2.0,2.0,2,53,5,5,5,15,421,80,140
+2600,"South Boston, South Boston, MA",1.0,1.0,1,53,6,4,4,14,115,22,48
+3667,"South Boston, Boston, MA",2.0,2.0,1,53,5,5,5,15,436,80,149
+2900,"South Boston, Boston, MA",1.0,1.0,3,53,4,3,0,7,260,54,78
+4000,"South Boston, Boston, MA",2.0,2.0,1,53,5,3,3,11,116,23,50
+4350,"South Boston, Boston, MA",2.0,2.0,3,53,2,2,0,4,841,106,316
+4200,"South Boston, Boston, MA",2.0,2.0,3,53,4,4,4,12,235,49,71
+3600,"South Boston, Boston, MA",2.0,2.0,2,53,5,5,5,15,429,81,147
+2500,"South Boston, Boston, MA",1.0,1.0,1,53,6,6,6,18,303,70,98
+3400,"South Boston, Boston, MA",2.0,2.0,2,53,5,5,5,15,421,80,140
+4949,"South Boston, Boston, MA",2.0,2.0,1,42,1,1,1,3,707,89,266
+3587,"South Boston, Boston, MA",2.0,2.0,1,42,1,1,1,3,828,112,321
+3550,"South Boston, Boston, MA",2.0,1.0,1,53,4,3,3,10,243,46,98
+3685,"South Boston, Boston, MA",2.0,2.0,1,53,4,3,3,10,243,46,98
+3790,"South Boston, Boston, MA",1.0,1.0,1,42,1,1,1,3,600,72,223
+4889,"South Boston, Boston, MA",2.0,2.0,1,42,1,1,1,3,651,74,249
+6500,"South Boston, Boston, MA",5.0,3.0,2,53,6,6,6,18,303,70,98
+4700,"South Boston, Boston, MA",3.0,3.0,2,53,4,4,4,12,235,49,71
+4570,"South Boston, Boston, MA",2.0,2.0,1,42,1,1,1,3,617,73,224
+3248,"South Boston, Boston, MA",1.0,1.0,3,53,3,2,0,5,867,107,329
+3617,"South Boston, Boston, MA",2.0,2.0,1,53,4,4,0,8,636,90,234
+4054,"South Boston, Boston, MA",2.0,2.0,3,53,3,2,0,5,826,107,310
+3550,"South Boston, Boston, MA",3.0,1.5,1,53,3,2,2,7,142,32,53
+5242,"South Boston, Boston, MA",3.0,3.0,1,42,1,1,1,3,754,98,286
+4415,"South Boston, Boston, MA",3.0,2.0,1,42,1,1,0,2,602,73,224
+5977,"South Boston, Boston, MA",3.0,2.0,1,42,1,1,1,3,464,46,176
+1750,"South Boston, Boston, MA",2.0,1.0,1,53,5,5,5,15,416,76,141
+4000,"South Boston, South Boston, MA",5.0,2.0,1,53,4,3,3,10,118,24,49
+3900,"South Boston, South Boston, MA",4.0,1.0,3,53,5,4,4,13,242,50,73
+3150,"South Boston, South Boston, MA",3.0,1.0,1,53,6,6,6,18,244,53,86
+2200,"South Boston, South Boston, MA",2.0,1.0,1,53,4,3,3,10,118,24,49
+4200,"South Boston, South Boston, MA",4.0,1.0,1,53,5,3,3,11,107,18,44
+2100,"South Boston, South Boston, MA",2.0,1.0,3,53,5,4,4,13,242,50,73
+1600,"South Boston, South Boston, MA",1.0,1.0,1,53,5,3,3,11,143,27,60
+4200,"South Boston, Boston, MA",4.0,1.0,1,53,4,3,3,10,110,24,48
+2400,"South Boston, Boston, MA",2.0,1.0,1,53,7,6,6,19,242,61,80
+2800,"South Boston, South Boston, MA",3.0,1.5,1,53,4,2,2,8,190,35,79
+3200,"South Boston, Boston, MA",3.0,1.0,1,53,6,4,4,14,108,22,46
+2800,"South Boston, Boston, MA",3.0,1.0,1,53,4,5,5,14,484,83,175
+2450,"South Boston, Boston, MA",2.0,1.0,2,53,5,5,5,15,440,82,155
+3500,"South Boston, Boston, MA",4.0,2.0,1,53,7,6,6,19,215,54,74
+2300,"South Boston, Boston, MA",2.0,1.0,1,53,5,3,3,11,106,22,46
+4250,"South Boston, South Boston, MA",4.0,1.0,3,53,4,3,3,10,242,50,70
+4600,"South Boston, South Boston, MA",4.0,1.0,1,53,5,3,3,11,126,20,50
+2400,"South Boston, South Boston, MA",2.0,1.0,1,53,4,3,3,10,83,15,42
+2500,"South Boston, Boston, MA",2.0,1.0,1,53,4,4,4,12,474,82,168
+2400,"South Boston, Boston, MA",2.0,1.0,1,53,5,3,3,11,185,36,75
+2300,"South Boston, Boston, MA",2.0,1.0,1,53,5,3,3,11,106,22,46
+4600,"South Boston, Boston, MA",4.0,1.0,1,53,4,3,3,10,118,24,49
+3400,"South Boston, Boston, MA",3.0,1.0,1,53,6,6,6,18,372,75,115
+2500,"South Boston, Boston, MA",2.0,1.0,1,53,6,4,4,14,108,22,46
+2725,"South Boston, Boston, MA",3.0,1.0,1,53,7,6,6,19,215,54,74
+2550,"South Boston, South Boston, MA",2.0,1.0,1,53,5,3,3,11,185,36,75
+1750,"South Boston, Boston, MA",1.0,1.0,1,53,7,6,6,19,230,57,78
+1750,"South Boston, Boston, MA",1.0,1.0,1,53,7,6,6,19,230,57,78
+2400,"South Boston, South Boston, MA",2.0,1.0,1,53,5,3,3,11,114,24,47
+4500,"South Boston, South Boston, MA",4.0,1.0,3,53,4,3,3,10,242,50,70
+3400,"South Boston, Boston, MA",3.0,1.0,1,53,5,4,4,13,190,46,66
+3200,"South Boston, Boston, MA",3.0,1.0,1,53,5,5,5,15,278,56,90
+2350,"South Boston, Boston, MA",2.0,1.0,1,53,5,3,3,11,185,36,75
+2100,"South Boston, Boston, MA",2.0,1.0,1,53,2,2,0,4,744,96,284
+2100,"South Boston, Boston, MA",2.0,1.0,2,53,5,5,5,15,454,81,166
+2600,"South Boston, South Boston, MA",2.0,1.0,3,53,3,3,0,6,266,57,86
+2700,"South Boston, Boston, MA",2.0,1.0,1,53,5,4,4,13,165,41,61
+2600,"South Boston, South Boston, MA",2.0,1.0,1,53,5,3,3,11,153,32,61
+2600,"South Boston, Boston, MA",2.0,1.0,3,53,7,7,7,21,191,44,70
+2600,"South Boston, South Boston, MA",2.0,1.0,2,53,5,5,5,15,259,55,86
+2700,"South Boston, Boston, MA",2.0,1.0,1,53,4,3,3,10,87,15,43
+2500,"South Boston, Boston, MA",2.0,1.0,1,53,5,5,5,15,416,76,141
+3850,"South Boston, Boston, MA",4.0,2.0,1,53,5,3,3,11,124,26,51
+2999,"South Boston, Boston, MA",5.0,2.0,1,53,7,6,6,19,215,54,74
+4200,"South Boston, South Boston, MA",4.0,2.0,2,53,5,5,5,15,259,55,86
+2700,"South Boston, Boston, MA",2.0,1.0,1,53,4,3,3,10,93,21,45
+2450,"South Boston, Boston, MA",2.0,1.0,1,53,5,3,3,11,99,20,45
+3500,"South Boston, South Boston, MA",3.0,1.0,1,53,5,3,3,11,128,27,53
+2700,"South Boston, Boston, MA",2.0,1.0,1,53,3,2,2,7,186,39,74
+3800,"South Boston, Boston, MA",4.0,2.0,1,53,5,3,3,11,107,18,44
+2800,"South Boston, South Boston, MA",2.0,1.0,1,53,5,3,3,11,105,19,44
+1800,"South Boston, Boston, MA",1.0,1.0,2,53,5,5,5,15,259,55,86
+1850,"South Boston, Boston, MA",1.0,1.0,1,53,5,3,3,11,124,25,51
+2850,"South Boston, South Boston, MA",2.0,1.0,1,53,5,5,5,15,454,81,166
+2800,"South Boston, South Boston, MA",2.0,1.0,2,53,5,5,5,15,429,81,147
+4700,"South Boston, Boston, MA",4.0,2.0,3,53,5,4,4,13,236,48,75
+1950,"South Boston, South Boston, MA",1.0,1.0,3,53,4,3,3,10,242,50,70
+2500,"South End, Boston, MA",3.0,1.0,5,32,4,5,5,14,522,84,169
+2600,"South End, Boston, MA",3.0,1.0,5,32,4,5,5,14,522,84,169
+3000,"South End, Boston, MA",3.0,1.0,3,32,3,5,5,13,575,83,188
+3250,"South End, Boston, MA",3.0,1.0,5,32,4,5,5,14,522,84,169
+1950,"South End, Boston, MA",1.0,1.0,4,32,4,4,4,12,589,93,199
+4350,"South End, Boston, MA",3.0,1.0,3,28,4,4,4,12,882,112,296
+1750,"South End, Boston, MA",1.0,1.0,2,32,2,4,4,10,619,87,229
+2000,"South End, Boston, MA",1.0,1.0,1,32,3,3,3,9,647,87,233
+2700,"South End, Boston, MA",2.0,1.0,5,32,4,4,4,12,576,87,202
+2700,"South End, Boston, MA",2.0,1.0,4,32,4,4,4,12,589,93,199
+2150,"South End, Boston, MA",1.0,1.0,3,32,4,5,5,14,576,84,203
+2000,"South End, Boston, MA",1.0,1.0,3,32,3,4,4,11,643,94,213
+2800,"South End, Boston, MA",2.0,1.0,1,32,4,4,4,12,891,121,300
+2890,"South End, Boston, MA",2.0,1.0,4,32,4,4,4,12,979,121,359
+3800,"South End, Boston, MA",3.0,1.0,2,32,4,4,4,12,891,121,300
+4700,"South End, Boston, MA",4.0,1.0,2,32,2,4,4,10,605,84,226
+4200,"South End, Boston, MA",3.0,1.0,3,32,4,5,5,14,576,84,203
+2900,"South End, Boston, MA",2.0,1.0,2,32,4,4,4,12,700,102,241
+3000,"South End, Boston, MA",2.0,1.0,2,32,4,4,4,12,700,102,241
+2900,"South End, Boston, MA",2.0,1.0,2,32,4,5,5,14,783,111,260
+3100,"South End, Boston, MA",2.0,1.0,2,32,5,5,5,15,789,113,259
+3000,"South End, Boston, MA",2.0,1.0,1,32,4,5,5,14,646,96,212
+3000,"South End, Boston, MA",2.0,1.0,4,32,3,4,4,11,636,90,231
+4225,"South End, Boston, MA",3.0,1.0,5,32,4,5,5,14,566,84,203
+2195,"South End, Boston, MA",1.0,1.0,2,32,5,5,5,15,938,117,332
+2400,"South End, Boston, MA",1.0,1.0,5,32,3,3,3,9,726,101,253
+4500,"South End, Boston, MA",4.0,1.0,4,32,3,4,4,11,610,85,222
+2300,"South End, Boston, MA",1.0,1.0,5,32,4,5,5,14,623,95,206
+5500,"South End, Roxbury Crossing, MA",4.0,1.0,3,23,1,5,5,11,601,84,183
+3200,"South End, Boston, MA",2.0,1.0,2,32,4,4,4,12,700,102,241
+2400,"South End, Roxbury Crossing, MA",2.0,1.0,2,23,2,6,6,14,608,85,189
+2400,"South End, Roxbury Crossing, MA",2.0,1.0,2,23,2,6,6,14,608,85,189
+2300,"South End, Boston, MA",1.0,1.0,4,32,3,4,4,11,627,90,226
+2000,"South End, Roxbury Crossing, MA",1.0,1.0,2,23,1,5,5,11,601,84,183
+2400,"South End, Boston, MA",1.0,1.0,5,32,4,5,5,14,576,87,202
+2400,"South End, Boston, MA",1.0,1.0,5,32,3,3,3,9,726,101,253
+2000,"South End, Roxbury Crossing, MA",1.0,1.0,2,23,0,4,5,9,586,78,177
+3150,"South End, Boston, MA",2.0,1.0,1,32,5,5,5,15,832,119,272
+4000,"South End, Roxbury Crossing, MA",4.0,2.0,3,23,2,6,6,14,608,85,189
+4175,"South End, Boston, MA",4.0,2.0,5,32,4,5,5,14,606,91,210
+6200,"South End, Boston, MA",4.0,2.0,2,32,3,4,4,11,643,90,232
+3000,"South End, Boston, MA",2.0,1.0,4,32,4,4,4,12,589,93,199
+3000,"South End, Boston, MA",2.0,1.5,2,32,4,4,4,12,700,102,241
+3000,"South End, Boston, MA",2.0,2.0,5,32,4,5,5,14,566,84,203
+3000,"South End, Boston, MA",2.0,2.0,2,32,3,4,4,11,643,90,232
+2000,"South End, Roxbury Crossing, MA",1.0,1.0,3,23,2,6,6,14,608,85,189
+2500,"South End, Boston, MA",1.0,1.0,4,32,3,4,4,11,605,86,225
+6000,"South End, Roxbury Crossing, MA",4.0,1.5,2,23,2,6,6,14,608,85,189
+4000,"South End, Boston, MA",3.0,2.5,4,32,3,4,4,11,618,87,229
+4050,"South End, Boston, MA",3.0,2.0,4,32,3,4,4,11,605,86,225
+3562,"South End, Boston, MA",3.0,1.0,4,32,4,4,4,12,979,121,359
+3200,"South End, Boston, MA",2.0,1.0,2,32,2,4,4,10,619,87,229
+3300,"South End, Boston, MA",2.0,1.0,1,32,3,3,3,9,803,115,270
+2300,"South End, Boston, MA",2.0,1.0,3,23,2,6,6,14,613,84,194
+3600,"South End, Boston, MA",2.0,1.0,2,32,3,4,4,11,619,87,229
+3600,"South End, Boston, MA",2.0,1.0,5,32,4,4,4,12,726,101,253
+2650,"South End, Roxbury Crossing, MA",2.0,1.0,2,23,2,6,6,14,608,85,189
+3500,"South End, Boston, MA",2.0,1.0,4,32,2,2,2,6,658,106,219
+3790,"South End, Boston, MA",2.0,1.0,4,32,4,4,4,12,979,121,359
+2800,"South End, Boston, MA",1.0,1.0,2,32,4,4,4,12,700,102,241
+2250,"South End, Roxbury Crossing, MA",1.0,1.0,3,23,1,5,5,11,601,84,183
+3550,"South End, Roxbury Crossing, MA",3.0,1.0,2,23,1,5,5,11,586,85,181
+3550,"South End, Roxbury Crossing, MA",3.0,1.0,2,23,1,5,5,11,586,85,181
+3400,"South End, Boston, MA",2.0,1.0,4,32,3,4,4,11,533,82,168
+3500,"South End, Boston, MA",2.0,1.0,5,32,4,5,5,14,792,106,263
+3325,"South End, Boston, MA",3.0,2.5,4,32,3,4,4,11,533,82,168
+3600,"South End, Roxbury Crossing, MA",3.0,1.0,2,23,1,5,5,11,601,84,183
+3400,"South End, Boston, MA",3.0,1.0,2,23,2,6,6,14,613,84,194
+3400,"South End, Roxbury Crossing, MA",3.0,1.0,2,23,2,6,6,14,602,85,191
+4400,"South End, Boston, MA",3.0,1.0,3,32,3,3,3,9,674,95,238
+2850,"South End, Boston, MA",1.0,1.0,3,32,3,3,3,9,982,119,364
+2600,"South End, Boston, MA",1.0,1.0,5,32,4,5,5,14,760,106,247
+3400,"South End, Roxbury Crossing, MA",3.0,1.0,2,23,2,6,6,14,613,84,194
+5200,"South End, Boston, MA",4.0,1.0,3,32,1,3,3,7,618,82,225
+3400,"South End, Boston, MA",2.0,2.0,2,32,4,4,4,12,941,122,333
+2600,"South End, Boston, MA",2.0,1.0,2,23,2,6,6,14,608,85,189
+6500,"South End, Boston, MA",5.0,2.0,3,23,2,6,6,14,598,84,188
+2900,"South End, Roxbury Crossing, MA",2.0,1.0,2,23,1,5,5,11,586,85,181
+3400,"South End, Boston, MA",3.0,1.0,2,23,2,6,6,14,613,84,194
+2800,"South End, Roxbury Crossing, MA",2.0,1.0,3,23,2,6,6,14,601,84,183
+3990,"South End, Boston, MA",3.0,2.0,4,32,3,3,3,9,792,111,253
+4600,"South End, Boston, MA",3.0,2.5,4,32,3,4,4,11,533,82,168
+3100,"South End, Roxbury Crossing, MA",2.0,1.0,2,23,1,5,5,11,601,84,183
+2800,"South End, Roxbury Crossing, MA",2.0,1.0,3,23,2,6,6,14,601,84,183
+4950,"South End, Boston, MA",3.0,1.5,3,28,4,4,4,12,860,115,282
+3475,"South End, Boston, MA",2.0,1.5,4,32,2,2,2,6,658,106,219
+7000,"South End, Boston, MA",5.0,3.0,2,23,1,5,5,11,586,85,181
+4000,"South End, Boston, MA",2.0,1.0,4,28,4,4,4,12,860,115,282
+4800,"South End, Boston, MA",4.0,2.0,5,32,4,5,5,14,606,91,210
+3190,"South End, Roxbury Crossing, MA",2.0,1.0,2,23,1,5,5,11,601,84,183
+4250,"South End, Boston, MA",3.0,2.0,3,23,2,6,6,14,598,84,188
+4800,"South End, Roxbury Crossing, MA",3.0,2.0,3,23,2,6,6,14,608,85,189
+3800,"South End, Boston, MA",2.0,1.0,5,32,4,5,5,14,576,87,202
+2950,"South End, Boston, MA",1.0,1.0,3,32,1,3,3,7,616,87,210
+3400,"South End, Boston, MA",1.0,1.0,2,32,3,4,4,11,667,95,236
+3400,"South End, Boston, MA",1.0,1.0,2,32,4,4,4,12,648,104,218
+4000,"South End, Roxbury Crossing, MA",2.0,1.0,3,23,2,6,6,14,601,84,183
+4500,"South End, Boston, MA",3.0,2.0,4,32,3,4,4,11,605,86,225
+3500,"South End, Boston, MA",1.0,1.0,5,32,4,5,5,14,760,106,247
+1900,"South End, Boston, MA",1.0,1.0,2,20,5,5,5,15,910,117,308
+3350,"South End, Boston, MA",1.0,1.0,2,28,4,4,4,12,903,115,307
+3222,"South End, Boston, MA",2.0,2.0,3,32,2,3,3,8,973,120,364
+3250,"South End, Boston, MA",1.0,1.0,3,28,5,5,5,15,860,115,282
+5300,"South End, Boston, MA",2.0,2.0,2,32,4,5,5,14,783,111,260
+5131,"South End, Boston, MA",3.0,2.0,5,32,4,4,4,12,740,112,236
+4000,"South End, Boston, MA",2.0,1.0,4,32,3,4,4,11,636,90,231
+8749,"South End, Boston, MA",3.0,2.0,2,32,2,3,3,8,1003,137,373
+3700,"South End, Boston, MA",2.0,2.0,5,32,4,5,5,14,623,95,206
+3750,"South End, Boston, MA",1.0,1.0,5,32,4,5,5,14,522,84,169
+3750,"South End, Boston, MA",2.0,2.0,2,32,4,4,4,12,941,122,333
+3100,"South End, Boston, MA",1.0,1.0,4,28,4,4,4,12,858,110,285
+3450,"South End, Boston, MA",1.0,1.0,2,28,4,4,4,12,903,115,307
+1200,"South End, Boston, MA",1.0,0.0,3,23,2,6,6,14,602,85,191
+6500,"South End, Roxbury Crossing, MA",5.0,3.5,3,23,2,6,6,14,587,85,179
+1100,"South End, Boston, MA",1.0,0.0,2,32,2,3,3,8,498,77,152
+1100,"South End, Boston, MA",1.0,0.0,2,32,2,3,3,8,498,77,152
+4075,"South End, Boston, MA",3.0,2.0,3,32,1,3,3,7,623,86,209
+4075,"South End, Boston, MA",3.0,2.0,3,32,1,3,3,7,617,86,217
+16861,"South End, Boston, MA",3.0,3.5,3,32,4,4,4,12,1023,136,375
+2250,"South End, Boston, MA",3.0,1.0,3,32,3,3,3,9,953,120,343
+1850,"South End, Boston, MA",1.0,1.0,2,32,4,4,4,12,648,104,218
+1700,"South End, Boston, MA",1.0,1.0,2,32,2,4,4,10,619,87,229
+1850,"South End, Boston, MA",1.0,1.0,5,32,4,5,5,14,718,104,247
+1700,"South End, Boston, MA",1.0,1.0,2,32,2,4,4,10,619,87,229
+1850,"South End, Boston, MA",1.0,1.0,5,32,4,5,5,14,718,104,247
+2800,"South End, Boston, MA",4.0,1.0,2,32,4,4,4,12,666,103,226
+2800,"South End, Boston, MA",4.0,1.0,2,32,3,3,3,9,648,104,218
+2750,"South End, Boston, MA",2.0,1.0,5,28,4,5,5,14,826,109,276
+2400,"South End, Boston, MA",2.0,1.0,1,32,5,5,5,15,820,118,265
+3400,"Fenway, Boston, MA",3.0,1.0,3,21,1,1,1,3,634,59,201
+3650,"Fenway, Boston, MA",3.0,1.0,3,21,1,1,1,3,651,58,213
+3600,"Fenway, Boston, MA",3.0,1.0,3,21,1,1,1,3,651,58,213
+3600,"Fenway, Boston, MA",3.0,1.0,1,21,0,1,3,4,592,59,179
+3550,"Fenway, Boston, MA",3.0,1.0,3,21,0,1,3,4,609,65,191
+3450,"Fenway, Boston, MA",3.0,1.0,3,21,1,1,1,3,634,59,201
+3600,"Fenway, Boston, MA",3.0,1.0,3,21,0,1,3,4,625,60,196
+3600,"Fenway, Boston, MA",3.0,1.0,3,21,1,1,1,3,651,58,213
+2600,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,592,59,179
+2675,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,609,65,191
+2500,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,610,58,188
+2500,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,592,59,179
+2975,"Fenway, Boston, MA",2.0,1.0,4,32,1,2,2,5,625,80,229
+3850,"Fenway, Boston, MA",3.0,1.0,3,21,0,1,3,4,628,59,197
+2675,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,655,60,212
+2565,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,679,61,221
+2725,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,614,65,195
+2750,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,651,58,213
+2700,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,614,65,195
+2650,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+2650,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,609,65,191
+2850,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,592,59,179
+2800,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,614,65,195
+3200,"Fenway, Boston, MA",2.0,1.0,4,32,1,2,2,5,625,80,229
+2000,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,655,60,212
+2000,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2000,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,655,60,212
+2600,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,679,61,221
+2700,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,610,58,188
+2900,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,651,58,213
+2850,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+2900,"Fenway, Boston, MA",2.0,1.0,1,21,0,2,3,5,586,59,176
+2900,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,599,58,183
+2850,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3755,"Fenway, Boston, MA",3.0,1.0,2,21,1,1,1,3,679,61,221
+3950,"Fenway, Boston, MA",3.0,1.0,2,21,1,1,1,3,635,60,196
+2700,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,592,59,179
+2100,"Fenway, Boston, MA",1.0,1.0,4,21,0,1,3,4,614,65,195
+2050,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,609,65,191
+2100,"Fenway, Boston, MA",1.0,1.0,4,21,0,1,3,4,614,65,195
+2900,"Fenway, Boston, MA",2.0,1.0,2,21,0,1,3,4,644,65,220
+2100,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,679,61,221
+2125,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,655,60,212
+2850,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,655,60,212
+3055,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3055,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3055,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3100,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3000,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,609,65,191
+3000,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3000,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3000,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3055,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3000,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3000,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,687,62,233
+3100,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,628,59,197
+1900,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,687,62,233
+2247,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,687,62,233
+3000,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,651,58,213
+2300,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,679,61,221
+2300,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,609,65,191
+2347,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,687,62,233
+2350,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,679,61,221
+3950,"Fenway, Boston, MA",3.0,1.0,3,21,0,1,3,4,628,59,197
+6500,"Fenway, Boston, MA",5.0,2.0,3,21,0,1,3,4,634,60,211
+2850,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,679,61,221
+2288,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,651,58,213
+7700,"Fenway, Boston, MA",5.0,2.5,3,21,0,1,3,4,629,65,198
+4800,"Fenway, Boston, MA",3.0,1.0,2,21,1,1,1,3,635,60,196
+2900,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,592,59,179
+3100,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,635,60,196
+3300,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3400,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,592,59,179
+2350,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,655,60,212
+3352,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,687,62,233
+2400,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,679,61,221
+2313,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,672,61,221
+3200,"Fenway, Boston, MA",2.0,1.0,1,21,0,2,3,5,586,59,176
+3200,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,651,58,213
+3120,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3200,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3200,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,629,65,198
+3500,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,592,59,179
+3800,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,621,59,192
+3825,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,679,61,221
+4150,"Fenway, Boston, MA",3.0,1.5,3,21,1,1,1,3,655,60,212
+3300,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,651,58,213
+2900,"Fenway, Boston, MA",2.0,2.0,2,21,1,1,1,3,635,60,196
+2400,"Fenway, Boston, MA",1.0,1.0,4,21,0,1,3,4,644,65,220
+2500,"Fenway, Boston, MA",1.0,1.0,1,21,0,1,3,4,592,59,179
+2500,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,656,62,205
+2450,"Fenway, Boston, MA",1.0,1.0,1,21,0,1,3,4,592,59,179
+2475,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,651,58,213
+2400,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2397,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,687,62,233
+3200,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,629,65,198
+3800,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,614,65,195
+5600,"Fenway, Boston, MA",3.0,2.0,3,21,0,1,3,4,629,65,198
+3600,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,634,60,211
+3600,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,635,60,196
+2400,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,651,58,213
+3650,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,651,58,213
+3275,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,651,58,213
+3020,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,662,60,228
+4400,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,614,65,195
+3900,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+3900,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,592,59,179
+2650,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2750,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2650,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,634,60,211
+2750,"Fenway, Boston, MA",1.0,1.0,1,21,4,5,5,14,511,60,138
+2750,"Fenway, Boston, MA",1.0,1.0,1,21,4,5,5,14,511,60,138
+2650,"Fenway, Boston, MA",1.0,1.0,1,21,4,5,5,14,508,61,137
+6400,"Fenway, Boston, MA",5.0,1.0,1,21,0,1,3,4,616,59,191
+2600,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,655,60,212
+3900,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,634,60,211
+3825,"Fenway, Boston, MA",2.0,1.0,2,21,1,1,1,3,679,61,221
+3650,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,610,58,188
+4500,"Fenway, Boston, MA",3.0,2.0,2,21,1,1,1,3,635,60,196
+2810,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2810,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2850,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2850,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2810,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2785,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2850,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,644,65,220
+2441,"Fenway, Boston, MA",1.0,1.0,3,21,1,1,1,3,672,61,221
+3825,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,655,60,212
+3500,"Fenway, Boston, MA",2.0,1.5,2,21,1,1,1,3,679,61,221
+3700,"Fenway, Boston, MA",2.0,1.0,3,21,1,1,1,3,655,60,212
+3000,"Fenway, Boston, MA",1.0,1.0,1,21,4,5,5,14,511,60,138
+2506,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,687,62,233
+3975,"Fenway, Boston, MA",2.0,1.0,3,21,0,1,3,4,644,65,220
+2525,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,679,61,221
+2620,"Fenway, Boston, MA",1.0,1.0,2,21,1,1,1,3,687,62,233
+3900,"Fenway, Boston, MA",2.0,1.0,1,21,0,1,3,4,592,59,179
+3900,"Fenway, Boston, MA",2.0,1.0,4,21,0,1,3,4,614,65,195
+2700,"Fenway, Boston, MA",1.0,1.0,3,21,0,1,3,4,628,59,197
+4250,"Fenway, Boston, MA",3.0,1.0,2,15,1,1,1,3,635,60,196
+2650,"Fenway, Boston, MA",1.0,1.0,1,21,0,1,3,4,592,59,179
+4800,"Fenway, Boston, MA",3.0,1.0,1,15,1,1,1,3,653,61,207
+2000,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,8,8,23,339,35,70
+3400,"Mission Hill, Boston, MA",4.0,1.0,1,21,7,8,8,23,339,35,70
+3400,"Mission Hill, Roxbury Crossing, MA",4.0,1.0,1,23,10,10,10,30,366,43,78
+2900,"Mission Hill, Boston, MA",3.0,1.0,2,21,7,8,8,23,339,35,70
+2900,"Mission Hill, Boston, MA",3.0,1.0,2,21,7,8,8,23,339,35,70
+2650,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,8,6,6,20,374,46,85
+2400,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,2,23,10,9,9,28,294,42,49
+2850,"Mission Hill, Boston, MA",3.0,1.0,1,23,10,9,9,28,343,45,76
+2800,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,3,23,8,9,9,26,381,42,86
+2850,"Mission Hill, Boston, MA",3.0,1.0,1,21,9,8,8,25,298,34,59
+4000,"Mission Hill, Boston, MA",5.0,1.0,1,23,9,7,7,23,312,44,63
+2245,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,325,34,62
+2295,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,319,34,64
+2395,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,325,34,62
+2000,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,1,23,10,8,8,26,305,43,57
+4900,"Mission Hill, Roxbury Crossing, MA",5.0,1.0,1,23,10,10,10,30,343,45,76
+2150,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,1,23,10,8,8,26,305,43,57
+2395,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,319,34,64
+2395,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,319,34,64
+2545,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,325,34,62
+2395,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,319,34,64
+2445,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,325,34,62
+1700,"Mission Hill, Roxbury Crossing, MA",1.0,1.0,2,23,6,7,7,20,411,48,98
+2900,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,11,9,9,29,282,41,49
+3000,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,10,9,9,28,343,45,76
+4000,"Mission Hill, Roxbury Crossing, MA",4.0,1.0,1,23,8,7,7,22,346,46,80
+3900,"Mission Hill, Roxbury Crossing, MA",4.0,1.0,2,23,9,10,10,29,383,44,88
+2400,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,325,34,62
+2250,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,1,23,10,8,8,26,305,43,57
+2595,"Mission Hill, Boston, MA",2.0,1.0,1,21,9,8,8,25,294,33,54
+2495,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,325,34,62
+2595,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,319,34,64
+3700,"Mission Hill, Roxbury Crossing, MA",4.0,1.0,3,23,6,5,5,16,388,47,91
+3200,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,2,23,8,7,7,22,391,46,90
+3095,"Mission Hill, Boston, MA",3.0,1.0,1,23,10,10,10,30,366,43,78
+3100,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,2,23,6,7,7,20,398,46,89
+3200,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,2,23,6,7,7,20,398,46,89
+3095,"Mission Hill, Boston, MA",3.0,1.0,1,23,10,10,10,30,366,43,78
+3687,"Mission Hill, Roxbury, MA",4.0,2.0,3,23,8,9,9,26,381,42,86
+2495,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,319,34,64
+2495,"Mission Hill, Boston, MA",2.0,1.0,1,21,7,7,7,21,325,34,62
+3650,"Mission Hill, Boston, MA",4.0,1.0,1,23,10,9,9,28,326,45,68
+1795,"Mission Hill, Boston, MA",1.0,1.0,1,21,7,7,7,21,319,34,64
+1795,"Mission Hill, Boston, MA",1.0,1.0,1,21,9,8,8,25,294,33,54
+1795,"Mission Hill, Boston, MA",1.0,1.0,1,21,7,7,7,21,325,34,62
+4250,"Mission Hill, Boston, MA",4.0,1.0,2,23,7,7,7,21,398,46,89
+4100,"Mission Hill, Roxbury Crossing, MA",4.0,1.0,1,23,11,11,11,33,378,44,83
+3600,"Mission Hill, Roxbury Crossing, MA",4.0,2.0,1,23,8,7,7,22,391,46,90
+3600,"Mission Hill, Roxbury Crossing, MA",4.0,2.0,3,23,6,6,6,18,371,46,83
+2400,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,3,23,8,9,9,26,381,42,86
+2400,"Mission Hill, Boston, MA",2.0,1.0,3,23,8,7,7,22,406,45,95
+2400,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,3,23,8,9,9,26,381,42,86
+2400,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,1,23,10,8,8,26,305,43,57
+1795,"Mission Hill, Boston, MA",1.0,1.0,1,21,7,7,7,21,319,34,64
+3400,"Mission Hill, Roxbury Crossing, MA",4.0,1.5,2,23,12,11,11,34,291,40,46
+2450,"Mission Hill, Boston, MA",2.0,1.0,2,21,9,8,8,25,298,34,59
+2900,"Mission Hill, Boston, MA",3.0,1.0,2,23,6,6,6,18,406,45,95
+3225,"Mission Hill, Boston, MA",3.0,2.0,2,21,7,8,8,23,339,35,70
+5300,"Mission Hill, Boston, MA",4.0,2.0,2,23,8,7,7,22,406,45,95
+2695,"Mission Hill, Boston, MA",2.0,1.0,1,21,9,8,8,25,294,33,54
+1900,"Mission Hill, Roxbury Crossing, MA",1.0,1.0,3,23,8,9,9,26,381,42,86
+1895,"Mission Hill, Boston, MA",1.0,1.0,1,21,7,7,7,21,319,34,64
+2000,"Mission Hill, Roxbury Crossing, MA",1.0,1.0,3,23,8,9,9,26,381,42,86
+2450,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,1,23,11,11,11,33,378,44,83
+3900,"Mission Hill, Boston, MA",4.0,1.5,1,23,9,9,9,27,339,39,70
+3650,"Mission Hill, Boston, MA",4.0,1.0,3,23,6,6,6,18,406,45,95
+900,"Mission Hill, Boston, MA",5.0,2.0,1,23,10,9,9,28,326,45,68
+3100,"Mission Hill, Roxbury Crossing, MA",3.0,2.0,2,23,8,7,7,22,388,47,91
+4200,"Mission Hill, Boston, MA",4.0,1.0,1,23,8,8,8,24,346,46,80
+5500,"Mission Hill, Roxbury Crossing, MA",5.0,2.0,1,23,10,9,9,28,343,43,72
+2600,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,2,23,6,7,7,20,398,46,89
+2700,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,3,23,8,9,9,26,381,42,86
+2695,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,2,23,7,8,8,23,423,45,96
+2650,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,2,23,9,10,10,29,383,44,88
+3100,"Mission Hill, Roxbury Crossing, MA",3.0,1.5,2,23,6,7,7,20,398,46,89
+3000,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,10,9,9,28,343,45,76
+5000,"Mission Hill, Roxbury Crossing, MA",5.0,2.0,1,23,10,9,9,28,343,43,72
+5800,"Mission Hill, Boston, MA",5.0,2.0,2,23,7,8,8,23,339,35,70
+4500,"Mission Hill, Roxbury Crossing, MA",4.0,1.0,1,23,8,7,7,22,346,46,80
+4700,"Mission Hill, Roxbury Crossing, MA",5.0,2.0,3,23,8,6,6,20,388,47,91
+4950,"Mission Hill, Boston, MA",5.0,2.0,3,23,8,6,6,20,388,47,91
+6000,"Mission Hill, Boston, MA",5.0,2.5,2,21,9,9,9,27,339,39,70
+3499,"Mission Hill, Boston, MA",3.0,1.0,2,23,6,7,7,20,398,46,89
+3450,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,10,9,9,28,345,47,77
+3450,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,11,11,11,33,378,44,83
+4195,"Mission Hill, Boston, MA",3.0,1.0,1,21,9,8,8,25,298,34,59
+3550,"Mission Hill, Boston, MA",3.0,1.0,2,23,7,7,7,21,398,46,89
+2150,"Mission Hill, Roxbury Crossing, MA",1.0,1.0,3,23,8,9,9,26,381,42,86
+2200,"Mission Hill, Roxbury Crossing, MA",1.0,1.0,3,23,8,9,9,26,381,42,86
+5500,"Mission Hill, Roxbury Crossing, MA",7.0,2.0,1,23,9,9,9,27,305,39,61
+3300,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,9,8,8,25,329,44,71
+3300,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,9,8,8,25,329,44,71
+3300,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,9,8,8,25,329,44,71
+3300,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,9,9,9,27,339,39,70
+3300,"Mission Hill, Boston, MA",3.0,1.0,1,23,10,9,9,28,326,45,68
+4400,"Mission Hill, Roxbury Crossing, MA",4.0,1.0,1,23,11,10,10,31,343,43,76
+2645,"Mission Hill, Boston, MA",2.0,1.0,2,23,7,7,7,21,447,46,108
+5600,"Mission Hill, Boston, MA",5.0,2.0,2,23,7,8,8,23,339,35,70
+4300,"Mission Hill, Roxbury Crossing, MA",4.0,2.0,3,23,6,5,5,16,388,47,91
+4200,"Mission Hill, Boston, MA",4.0,2.0,2,21,7,8,8,23,339,35,70
+4195,"Mission Hill, Boston, MA",4.0,2.0,1,21,9,8,8,25,298,34,59
+4200,"Mission Hill, Roxbury Crossing, MA",4.0,2.0,2,23,11,9,9,29,276,41,42
+4195,"Mission Hill, Boston, MA",4.0,2.0,1,21,9,8,8,25,298,34,59
+3800,"Mission Hill, Roxbury Crossing, MA",3.0,1.0,1,23,8,6,6,20,337,46,76
+4200,"Mission Hill, Boston, MA",3.0,1.0,1,23,11,10,10,31,343,43,76
+2600,"Mission Hill, Boston, MA",2.0,1.0,3,21,8,9,9,26,381,42,86
+2650,"Mission Hill, Boston, MA",2.0,1.0,1,23,9,9,9,27,312,36,64
+4195,"Mission Hill, Boston, MA",4.0,2.0,1,21,9,8,8,25,298,34,59
+3300,"Mission Hill, Boston, MA",3.0,1.0,1,23,9,9,9,27,319,40,63
+5100,"Mission Hill, Boston, MA",5.0,2.0,1,23,8,6,6,20,338,46,77
+5500,"Mission Hill, Boston, MA",5.0,2.0,2,23,11,11,11,33,378,44,83
+4700,"Mission Hill, Boston, MA",4.0,2.0,2,23,7,8,8,23,423,45,96
+3900,"Mission Hill, Boston, MA",3.0,2.0,2,23,6,6,6,18,420,46,101
+3400,"Mission Hill, Mission Hill, MA",3.0,1.0,2,23,9,10,10,29,383,44,88
+2850,"Mission Hill, Boston, MA",2.0,1.0,1,23,9,9,9,27,312,36,64
+2950,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,1,23,9,9,9,27,312,36,64
+4200,"Mission Hill, Boston, MA",4.0,2.0,1,23,10,10,10,30,343,45,76
+4900,"Mission Hill, Roxbury Crossing, MA",4.0,2.0,2,23,6,7,7,20,420,46,101
+2795,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,2,23,7,8,8,23,423,45,96
+2950,"Mission Hill, Boston, MA",2.0,1.0,1,23,9,9,9,27,312,36,64
+3500,"Mission Hill, Boston, MA",2.0,1.0,1,23,8,7,7,22,406,45,95
+5500,"Mission Hill, Roxbury Crossing, MA",5.0,1.0,1,23,10,9,9,28,343,43,72
+2850,"Mission Hill, Boston, MA",2.0,1.0,1,23,9,9,9,27,312,36,64
+2900,"Mission Hill, Boston, MA",2.0,1.0,1,23,9,9,9,27,312,36,64
+2995,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,2,23,7,8,8,23,423,45,96
+4000,"Mission Hill, Roxbury Crossing, MA",2.0,1.0,2,23,7,8,8,23,423,45,96
+4000,"Mission Hill, Boston, MA",4.0,2.0,1,23,9,7,7,23,312,44,63
+3395,"Mission Hill, Boston, MA",3.0,2.0,2,23,8,7,7,22,394,45,92
+4700,"Mission Hill, Boston, MA",3.0,2.0,2,23,11,9,9,29,281,42,41
+6100,"Mission Hill, Mission Hill, MA",5.0,2.0,2,23,7,8,8,23,423,45,96
+2900,"Mission Hill, Boston, MA",2.0,2.0,3,23,6,7,7,20,416,48,99
+2595,"Mission Hill, Boston, MA",1.0,1.0,1,23,11,9,9,29,279,43,45
+3000,"Mission Hill, Boston, MA",2.0,1.0,1,23,7,6,6,19,391,46,90
+6000,"Mission Hill, Boston, MA",7.0,3.0,1,23,9,9,9,27,305,39,61
+3500,"Mission Hill, Roxbury Crossing, MA",1.0,1.0,1,23,9,7,7,23,344,48,79
+3300,"Mission Hill, Roxbury Crossing, MA",2.0,2.0,1,23,11,9,9,29,279,43,45
+5000,"Mission Hill, Boston, MA",3.0,2.0,2,23,6,7,7,20,420,46,101
+2500,"Mission Hill, Boston, MA",1.0,1.0,2,23,6,6,6,18,406,45,95
+2500,"Mission Hill, Boston, MA",1.0,1.0,1,23,6,7,7,20,411,48,98
+2900,"Mission Hill, Boston, MA",1.0,1.0,1,23,8,7,7,22,406,45,95
+2800,"Mission Hill, Boston, MA",1.0,1.0,2,23,6,6,6,18,406,45,95
+2800,"Mission Hill, Boston, MA",1.0,1.0,1,23,6,7,7,20,411,48,98
+2750,"Mission Hill, Boston, MA",1.0,1.0,1,23,6,7,7,20,411,48,98
+2650,"Mission Hill, Boston, MA",1.0,1.0,1,23,6,7,7,20,411,48,98
+2700,"Mission Hill, Boston, MA",1.0,1.0,1,23,6,7,7,20,411,48,98
+2600,"Mission Hill, Boston, MA",1.0,1.0,1,23,6,7,7,20,411,48,98
+2600,"Mission Hill, Boston, MA",1.0,1.0,1,23,6,7,7,20,411,48,98
+2600,"Mission Hill, Boston, MA",1.0,1.0,1,23,6,7,7,20,411,48,98
+2950,"Mission Hill, Boston, MA",1.0,1.0,2,23,6,6,6,18,406,45,95
+2950,"Mission Hill, Boston, MA",1.0,1.0,2,23,6,6,6,18,406,45,95
+3000,"Mission Hill, Boston, MA",1.0,1.0,1,23,6,7,7,20,411,48,98
+7200,"Mission Hill, Boston, MA",6.0,2.0,1,23,8,6,6,20,316,42,66
+930,"Mission Hill, Boston, MA",1.0,0.0,1,23,10,9,9,28,345,47,77
+1000,"Mission Hill, Boston, MA",1.0,0.0,2,23,6,7,7,20,398,46,89
+1000,"Mission Hill, Roxbury Crossing, MA",1.0,0.0,1,23,8,7,7,22,391,46,90
+1000,"Mission Hill, Roxbury Crossing, MA",1.0,0.0,1,23,8,7,7,22,391,46,90
+1000,"Mission Hill, Boston, MA",1.0,0.0,2,23,9,9,9,27,339,39,70
+1000,"Mission Hill, Boston, MA",1.0,0.0,2,23,9,9,9,27,339,39,70
+1000,"Mission Hill, Boston, MA",1.0,0.0,2,23,9,9,9,27,339,39,70
+1000,"Mission Hill, Boston, MA",1.0,0.0,2,23,9,9,9,27,339,39,70
+1125,"Mission Hill, Roxbury Crossing, MA",1.0,0.0,1,23,10,9,9,28,343,43,72
+2300,"Roxbury, Boston, MA",3.0,1.0,2,55,5,3,0,8,198,47,25
+2245,"Roxbury, Boston, MA",3.0,1.0,2,55,6,1,0,7,192,47,25
+2500,"Roxbury, Boston, MA",3.0,1.0,4,53,5,1,1,7,220,55,29
+2400,"Roxbury, Boston, MA",3.0,1.0,1,53,5,5,5,15,340,50,59
+2300,"Roxbury, Boston, MA",3.0,1.0,2,55,5,3,0,8,198,47,25
+2700,"Roxbury, Boston, MA",3.0,1.0,1,53,7,4,4,15,295,53,47
+2695,"Roxbury, Boston, MA",3.0,1.0,1,53,11,5,5,21,178,42,27
+2695,"Roxbury, Boston, MA",3.0,1.0,1,53,11,5,5,21,178,42,27
+2695,"Roxbury, Boston, MA",3.0,1.0,1,53,11,5,5,21,178,42,27
+2700,"Roxbury, Boston, MA",3.0,1.0,1,53,5,4,4,13,232,38,30
+2900,"Roxbury, Boston, MA",4.0,1.0,2,53,4,5,5,14,386,50,88
+2800,"Roxbury, Boston, MA",3.0,1.0,4,53,8,3,3,14,260,61,45
+2795,"Roxbury, Boston, MA",3.0,1.0,1,53,1,1,1,3,162,39,24
+2795,"Roxbury, Boston, MA",3.0,1.0,1,53,10,4,4,18,162,39,24
+2600,"Roxbury, Boston, MA",3.0,1.0,3,55,8,2,2,12,210,47,24
+2550,"Roxbury, Boston, MA",3.0,1.0,2,55,5,3,0,8,198,47,25
+2750,"Roxbury, Boston, MA",3.0,1.0,1,53,7,4,4,15,295,53,47
+3200,"Roxbury, Boston, MA",4.0,1.0,1,53,5,5,5,15,340,50,59
+3200,"Roxbury, Boston, MA",4.0,1.0,1,53,5,5,5,15,340,50,59
+3200,"Roxbury, Boston, MA",4.0,1.0,1,53,5,5,5,15,340,50,59
+3300,"Roxbury, Boston, MA",5.0,2.0,4,53,6,2,2,10,228,57,32
+3000,"Roxbury, Boston, MA",4.0,1.0,2,53,4,5,5,14,386,50,88
+2200,"Roxbury, Boston, MA",3.0,1.0,2,55,5,3,0,8,196,47,24
+2150,"Roxbury, Boston, MA",2.0,1.0,1,53,4,4,4,12,240,38,36
+1900,"Roxbury, Boston, MA",2.0,1.0,4,53,5,6,6,17,116,32,13
+2100,"Roxbury, Boston, MA",2.0,1.0,1,53,10,3,3,16,198,39,28
+4000,"Roxbury, Boston, MA",4.0,2.0,1,53,7,3,3,13,225,37,28
+2700,"Roxbury, Boston, MA",3.0,2.0,5,53,5,2,2,9,239,58,41
+2800,"Roxbury, Boston, MA",4.0,1.5,2,53,9,4,4,17,299,64,58
+2800,"Roxbury, Boston, MA",4.0,1.0,2,53,7,6,6,19,179,31,23
+2995,"Roxbury, Boston, MA",4.0,1.5,4,53,6,4,4,14,148,35,18
+2675,"Roxbury, Boston, MA",4.0,1.0,2,53,9,3,3,15,177,42,24
+2795,"Roxbury, Boston, MA",3.0,1.5,2,53,6,3,3,12,286,60,49
+2800,"Roxbury, Boston, MA",3.0,2.5,2,53,8,4,4,16,244,57,35
+2800,"Roxbury, Boston, MA",3.0,1.5,1,53,7,7,7,21,297,41,56
+2800,"Roxbury, Boston, MA",3.0,1.5,2,53,4,5,5,14,386,50,88
+3950,"Roxbury, Boston, MA",5.0,1.5,2,53,7,4,4,15,289,59,47
+3950,"Roxbury, Boston, MA",5.0,2.0,2,53,7,4,4,15,289,59,47
+3950,"Roxbury, Boston, MA",5.0,2.0,2,53,7,4,4,15,286,60,46
+3975,"Roxbury, Boston, MA",5.0,1.5,2,53,7,4,4,15,286,60,46
+2300,"Roxbury, Boston, MA",2.0,1.0,1,53,4,4,4,12,240,38,36
+2100,"Roxbury, Boston, MA",2.0,1.0,3,53,3,5,5,13,104,33,13
+3700,"Roxbury, Boston, MA",5.0,2.5,2,53,7,4,4,15,289,59,47
+3700,"Roxbury, Boston, MA",5.0,1.5,2,53,9,1,1,11,244,60,37
+1695,"Roxbury, Boston, MA",1.0,1.0,1,53,5,2,0,7,339,61,98
+2700,"Roxbury, Boston, MA",3.0,1.0,3,53,4,4,4,12,155,31,18
+3000,"Roxbury, Boston, MA",3.0,1.0,5,53,2,5,5,12,524,81,168
+3150,"Roxbury, Boston, MA",3.0,1.0,1,53,10,3,3,16,223,43,36
+2000,"Roxbury, Boston, MA",2.0,1.0,3,53,4,6,6,16,118,32,15
+2700,"Roxbury, Boston, MA",3.0,1.0,3,54,6,3,3,12,129,28,13
+3600,"Roxbury, Boston, MA",5.0,2.0,2,53,9,3,3,15,144,39,19
+2800,"Roxbury, Boston, MA",3.0,1.0,2,53,8,3,3,14,151,39,23
+1850,"Roxbury, Boston, MA",1.0,1.0,1,53,5,2,0,7,339,61,98
+3000,"Roxbury, Boston, MA",3.0,1.0,5,53,2,5,5,12,524,81,168
+2500,"Roxbury, Boston, MA",3.0,1.0,3,53,4,5,5,14,182,34,23
+3000,"Roxbury, Boston, MA",3.0,1.0,1,53,7,4,4,15,295,53,47
+2950,"Roxbury, Boston, MA",3.0,1.0,3,53,6,5,5,16,299,65,64
+2970,"Roxbury, Boston, MA",3.0,1.0,1,53,7,7,7,21,317,41,56
+2970,"Roxbury, Boston, MA",3.0,1.0,1,53,7,7,7,21,317,41,56
+2600,"Roxbury, Boston, MA",3.0,1.0,3,53,4,1,0,5,126,27,13
+4095,"Roxbury, Boston, MA",5.0,2.5,2,53,7,4,4,15,286,60,46
+2400,"Roxbury, Boston, MA",3.0,1.5,5,54,3,2,0,5,104,22,11
+3500,"Roxbury, Boston, MA",5.0,1.5,2,53,4,4,4,12,113,35,14
+3300,"Roxbury, Boston, MA",4.0,2.0,2,53,8,4,4,16,244,57,35
+3000,"Roxbury, Boston, MA",3.0,1.0,5,53,2,5,5,12,524,81,168
+4300,"Roxbury, Boston, MA",4.0,2.5,2,53,6,6,6,18,317,41,56
+4150,"Roxbury, Boston, MA",5.0,2.0,1,53,8,5,5,18,306,52,49
+4725,"Roxbury, Boston, MA",5.0,2.0,1,53,10,3,3,16,198,39,28
+3700,"Roxbury, Boston, MA",4.0,2.0,1,53,8,5,5,18,306,52,49
+3700,"Roxbury, Boston, MA",4.0,2.0,1,53,8,5,5,18,306,52,49
+2450,"Roxbury, Boston, MA",2.0,1.0,1,53,6,5,5,16,231,39,35
+2300,"Roxbury, Boston, MA",2.0,1.0,2,53,4,5,5,14,157,32,17
+2495,"Roxbury, Boston, MA",2.0,1.0,1,53,7,7,7,21,317,41,56
+2300,"Roxbury, Boston, MA",2.0,1.0,3,53,4,5,5,14,182,34,23
+2400,"Roxbury, Boston, MA",2.0,1.0,2,53,5,6,6,17,164,38,19
+3500,"Roxbury, Boston, MA",4.0,2.0,4,53,8,3,3,14,220,57,28
+3550,"Roxbury, Boston, MA",4.0,2.0,5,53,4,4,4,12,388,58,82
+3400,"Roxbury, Boston, MA",3.0,1.0,5,53,2,5,5,12,524,81,168
+3400,"Roxbury, Boston, MA",3.0,1.0,5,53,2,5,5,12,524,81,168
+3225,"Roxbury, Boston, MA",3.0,1.5,1,53,5,5,5,15,240,38,36
+2600,"Roxbury, Boston, MA",2.0,1.0,1,53,6,5,5,16,231,39,35
+3400,"Roxbury, Boston, MA",3.0,1.0,5,53,2,5,5,12,524,81,168
+3400,"Roxbury, Boston, MA",3.0,1.0,5,53,2,5,5,12,524,81,168
+3150,"Roxbury, Boston, MA",3.0,1.5,2,53,6,3,3,12,295,60,51
+4400,"Roxbury, Boston, MA",5.0,1.5,1,53,10,3,3,16,223,43,36
+4400,"Roxbury, Boston, MA",5.0,1.5,1,53,10,3,3,16,223,43,36
+2600,"Roxbury, Boston, MA",3.0,1.5,3,53,6,5,5,16,174,38,22
+3295,"Roxbury, Boston, MA",3.0,1.5,1,53,10,3,3,16,223,43,36
+3225,"Roxbury, Boston, MA",3.0,1.5,1,53,5,5,5,15,240,38,36
+2850,"Roxbury, Boston, MA",3.0,2.0,3,53,10,3,3,16,151,39,22
+3200,"Roxbury, Boston, MA",3.0,1.5,2,53,6,3,3,12,296,60,50
+3200,"Roxbury, Boston, MA",3.0,2.0,1,53,8,5,5,18,306,52,49
+1900,"Roxbury, Boston, MA",1.0,1.0,1,53,5,2,0,7,339,61,98
+2950,"Roxbury, Boston, MA",3.0,1.5,1,53,6,5,5,16,240,38,36
+3600,"Roxbury, Boston, MA",3.0,2.0,2,53,6,6,6,18,348,43,63
+3475,"Roxbury, Boston, MA",3.0,1.5,2,53,6,6,6,18,317,41,56
+4200,"Roxbury, Boston, MA",4.0,2.0,1,53,5,5,5,15,264,38,42
+4400,"Roxbury, Boston, MA",4.0,3.0,2,53,6,6,6,18,317,41,56
+1900,"Roxbury, Boston, MA",1.0,1.0,1,53,5,5,5,15,340,50,59
+2600,"Roxbury, Boston, MA",3.0,1.0,2,53,8,3,3,14,152,39,22
+2250,"Roxbury, Boston, MA",2.0,1.5,3,53,9,4,4,17,155,38,20
+2000,"Roxbury, Boston, MA",1.0,1.0,1,53,5,2,0,7,339,61,98
+4000,"Roxbury, Boston, MA",3.0,2.0,3,53,4,4,4,12,111,34,14
+2300,"Roxbury, Boston, MA",2.0,1.5,2,53,6,3,3,12,286,60,49
+3500,"Roxbury, Boston, MA",3.0,2.0,2,53,4,4,4,12,364,60,67
+2700,"Roxbury, Boston, MA",2.0,1.0,5,53,2,5,5,12,524,81,168
+2600,"Roxbury, Boston, MA",1.0,1.0,5,53,1,3,3,7,490,81,139
+5200,"Roxbury, Boston, MA",6.0,3.0,1,53,9,6,6,21,304,48,52
+850,"Roxbury, Boston, MA",1.0,0.0,2,55,4,3,0,7,198,47,25
+850,"Roxbury, Boston, MA",1.0,0.0,1,53,8,5,5,18,306,52,49
+950,"Roxbury, Boston, MA",1.0,0.0,1,53,8,5,5,18,306,52,49
+800,"Roxbury, Boston, MA",1.0,0.0,1,53,8,5,5,18,306,52,49
+1000,"Roxbury, Boston, MA",1.0,0.0,3,53,6,4,4,14,270,64,47
+1000,"Roxbury, Boston, MA",1.0,0.0,1,53,8,5,5,18,306,50,48
+1000,"Roxbury, Boston, MA",1.0,0.0,2,53,10,3,3,16,164,43,20
+750,"Roxbury, Boston, MA",1.0,0.0,2,53,6,4,4,14,270,64,47
+750,"Roxbury, Boston, MA",1.0,0.0,2,53,4,5,5,14,386,50,88
+750,"Roxbury, Boston, MA",1.0,0.0,2,53,4,5,5,14,386,50,88
+750,"Roxbury, Boston, MA",1.0,0.0,2,53,4,5,5,14,386,50,88
+750,"Roxbury, Boston, MA",1.0,0.0,2,53,4,5,5,14,386,50,88
+750,"Roxbury, Boston, MA",1.0,0.0,2,53,4,5,5,14,386,50,88
+750,"Roxbury, Boston, MA",1.0,0.0,2,53,4,5,5,14,386,50,88
+750,"Roxbury, Boston, MA",1.0,0.0,2,53,4,5,5,14,386,50,88
+750,"Roxbury, Boston, MA",1.0,0.0,2,53,4,5,5,14,386,50,88
+950,"Roxbury, Boston, MA",1.0,0.0,3,54,7,4,4,15,129,28,13
+950,"Roxbury, Boston, MA",1.0,0.0,3,54,7,4,4,15,129,28,13
+950,"Roxbury, Boston, MA",1.0,0.0,3,54,7,4,4,15,129,28,13
+1000,"Roxbury, Boston, MA",1.0,0.0,2,53,7,5,5,17,258,58,44
+750,"Roxbury, Boston, MA",1.0,0.0,4,53,11,4,4,19,187,54,20
+750,"Roxbury, Boston, MA",1.0,0.0,4,53,11,4,4,19,187,54,20
+750,"Roxbury, Boston, MA",1.0,0.0,4,53,11,4,4,19,187,54,20
+700,"Roxbury, Boston, MA",1.0,0.0,2,53,10,3,3,16,174,51,22
+700,"Roxbury, Boston, MA",1.0,0.0,2,53,10,3,3,16,174,51,22
+700,"Roxbury, Boston, MA",1.0,0.0,2,53,10,3,3,16,174,51,22
+1300,"Roxbury, Boston, MA",1.0,2.0,1,53,9,3,3,15,231,38,35
+1500,"Roxbury, Boston, MA",1.0,0.0,5,53,4,4,4,12,388,58,82
+4000,"Roxbury, Boston, MA",3.0,3.5,3,53,4,4,4,12,111,34,14
+5500,"Roxbury, Boston, MA",4.0,3.5,2,53,7,4,4,15,289,59,47
+2100,"Roxbury, Boston, MA",3.0,1.0,1,53,6,2,2,10,211,57,30
+2500,"Roxbury, Roxbury, MA",4.0,1.0,4,53,7,2,2,11,292,60,61
+2150,"Roxbury, Dorchester, MA",3.0,1.0,2,55,5,3,0,8,194,46,24
+1600,"Roxbury, Roxbury, MA",2.0,1.0,1,53,8,7,7,22,295,39,51
+750,"Roxbury, Dorchester, MA",4.0,1.0,2,53,6,5,5,16,164,33,22
+2150,"Roxbury, Boston, MA",3.0,1.0,2,55,5,3,0,8,194,46,24
+1750,"Roxbury, Roxbury, MA",2.0,1.0,1,53,7,7,7,21,295,39,51
+2200,"Roxbury, Boston, MA",3.0,1.0,2,53,5,6,6,17,164,38,19
+2696,"Roxbury, Boston, MA",3.0,1.0,1,53,11,5,5,21,178,42,27
+2695,"Roxbury, Boston, MA",3.0,1.0,1,53,11,5,5,21,178,42,27
+3025,"Roxbury, Roxbury, MA",4.0,1.0,4,53,7,2,2,11,292,60,61
+1700,"Roxbury, Boston, MA",2.0,1.0,4,53,9,3,3,15,207,52,23
+2150,"Roxbury, Boston, MA",4.0,1.0,3,53,4,5,5,14,182,34,23
+2395,"Roxbury, Dorchester, MA",3.0,1.0,4,53,5,4,4,13,148,35,20
+1900,"Roxbury, Roxbury, MA",2.0,1.0,1,53,5,5,5,15,231,39,35
+3200,"Roxbury, Boston, MA",4.0,1.0,1,53,5,5,5,15,340,50,59
+2000,"Roxbury, Roxbury, MA",2.0,1.0,2,53,7,1,1,9,227,57,30
+1950,"Roxbury, Boston, MA",3.0,1.0,3,53,4,2,2,8,122,27,13
+2750,"Roxbury, Boston, MA",3.0,1.0,1,53,7,4,4,15,289,59,47
+3000,"Roxbury, Boston, MA",4.0,1.5,2,53,9,4,4,17,299,64,58
+2150,"Roxbury, Boston, MA",2.0,1.0,3,53,7,4,4,15,178,40,29
+3150,"Roxbury, Jamaica Plain, MA",4.0,1.5,1,42,7,3,3,13,130,30,22
+2200,"Roxbury, Boston, MA",3.0,1.0,3,53,4,4,4,12,163,33,20
+3850,"Roxbury, Boston, MA",5.0,2.5,2,0,7,4,4,15,286,60,46
+3795,"Roxbury, Boston, MA",5.0,1.5,1,53,7,4,4,15,275,57,46
+2150,"Roxbury, Boston, MA",3.0,1.0,3,53,4,5,5,14,182,34,23
+3695,"Roxbury, Boston, MA",5.0,1.5,1,53,7,4,4,15,266,58,45
+2450,"Roxbury, Boston, MA",3.0,2.5,3,53,6,5,5,16,114,33,14
+2075,"Roxbury, Boston, MA",2.0,1.0,2,53,10,3,3,16,187,55,22
+2700,"Roxbury, Roxbury, MA",3.0,2.0,5,53,5,2,2,9,239,58,41
+2600,"Roxbury, Boston, MA",3.0,1.0,2,55,5,3,0,8,193,46,23
+2800,"Roxbury, Boston, MA",3.0,1.0,2,53,12,4,4,20,191,54,22
+2450,"Roxbury, Boston, MA",3.0,1.0,3,53,4,1,0,5,126,27,13
+3400,"Roxbury, Dorchester, MA",5.0,2.0,3,53,2,3,3,8,132,27,16
+2970,"Roxbury, Boston, MA",3.0,1.0,1,53,7,7,7,21,317,41,56
+3850,"Roxbury, Roxbury, MA",5.0,2.0,2,53,7,4,4,15,286,60,46
+3900,"Roxbury, Roxbury, MA",5.0,2.5,1,53,7,4,4,15,289,59,47
+2800,"Roxbury, Boston, MA",4.0,1.5,2,53,9,3,3,15,291,63,58
+2800,"Roxbury, Boston, MA",4.0,1.5,2,53,9,3,3,15,291,63,58
+2800,"Roxbury, Boston, MA",4.0,1.5,2,53,9,3,3,15,291,63,58
+3000,"Roxbury, Roxbury, MA",3.0,1.0,1,53,9,2,2,13,242,48,39
+2900,"Roxbury, Roxbury, MA",3.0,1.0,1,53,8,7,7,22,294,42,56
+2000,"Roxbury, Boston, MA",2.0,1.0,1,53,10,3,3,16,191,39,29
+3000,"Roxbury, Boston, MA",3.0,1.0,5,53,2,5,5,12,524,81,168
+3000,"Roxbury, Boston, MA",3.0,1.0,5,53,2,5,5,12,524,81,168
+2300,"South Dorchester, Boston, MA",3.0,1.0,4,55,6,5,5,16,168,31,18
+2200,"South Dorchester, Boston, MA",3.0,1.0,2,54,6,4,4,14,141,32,15
+2300,"South Dorchester, Boston, MA",3.0,1.0,4,55,6,5,5,16,171,32,18
+1550,"North Dorchester, Dorchester, MA",1.0,1.0,1,55,5,3,3,11,149,28,17
+1600,"South Dorchester, Boston, MA",2.0,1.0,3,54,5,3,0,8,139,32,15
+2250,"South Dorchester, Boston, MA",3.0,1.0,3,63,6,6,6,18,161,32,18
+2670,"South Dorchester, Boston, MA",4.0,1.0,2,63,4,5,5,14,118,29,18
+2650,"South Dorchester, Boston, MA",3.0,1.0,3,55,7,5,5,17,173,33,20
+2650,"South Dorchester, Boston, MA",3.0,1.0,3,55,7,5,5,17,173,33,20
+2650,"South Dorchester, Boston, MA",3.0,1.0,3,55,7,5,5,17,173,33,20
+2900,"South Dorchester, Boston, MA",4.0,1.0,4,63,7,6,6,19,153,33,17
+3300,"South Dorchester, Boston, MA",4.0,1.0,3,55,5,3,3,11,162,28,17
+2300,"South Dorchester, Boston, MA",3.0,1.0,2,54,3,4,4,11,107,22,17
+2000,"South Dorchester, Boston, MA",2.0,1.0,4,63,6,6,6,18,155,34,17
+1795,"South Dorchester, Dorchester Center, MA",2.0,1.0,5,54,7,5,5,17,128,32,17
+3050,"North Dorchester, Boston, MA",4.0,2.0,2,63,6,3,3,12,168,34,20
+3000,"North Dorchester, Boston, MA",4.0,1.5,3,55,5,2,0,7,187,44,25
+2000,"South Dorchester, Boston, MA",2.0,1.0,1,54,7,6,6,19,113,23,18
+2800,"North Dorchester, Boston, MA",4.0,1.5,1,55,5,3,3,11,167,36,21
+2800,"South Dorchester, Boston, MA",4.0,1.0,3,63,5,4,4,13,156,30,19
+3800,"South Dorchester, Boston, MA",5.0,2.0,2,54,3,3,3,9,101,24,15
+2100,"South Dorchester, Boston, MA",2.0,1.0,3,54,6,4,4,14,135,33,17
+2200,"South Dorchester, Boston, MA",2.0,1.0,3,63,5,5,5,15,141,30,15
+4600,"North Dorchester, Boston, MA",5.0,2.0,1,55,7,5,5,17,167,36,21
+2100,"South Dorchester, Boston, MA",2.0,1.0,3,54,6,4,4,14,135,33,17
+3000,"Mattapan, Dorchester, MA",4.0,1.0,3,54,5,5,5,15,84,17,7
+2700,"South Dorchester, Boston, MA",3.0,1.0,4,54,5,3,3,11,154,34,18
+2800,"South Dorchester, Boston, MA",3.0,1.0,3,54,6,4,4,14,133,29,14
+2800,"South Dorchester, Boston, MA",3.0,1.0,3,55,5,3,3,11,162,28,17
+2500,"South Dorchester, Boston, MA",3.0,1.0,3,54,6,5,5,16,157,37,22
+2600,"Mattapan, Boston, MA",3.0,1.0,3,54,6,5,5,16,96,18,11
+2700,"North Dorchester, Boston, MA",3.0,1.0,2,55,7,5,5,17,178,36,20
+3400,"North Dorchester, Boston, MA",4.0,2.0,1,55,2,1,1,4,157,30,18
+3700,"North Dorchester, Boston, MA",4.0,1.0,3,55,8,5,5,18,174,38,21
+2700,"North Dorchester, Boston, MA",3.0,1.5,1,55,6,4,4,14,167,34,21
+3600,"South Dorchester, Boston, MA",4.0,1.0,3,54,3,1,0,4,147,34,18
+3200,"North Dorchester, Boston, MA",4.0,2.0,2,63,6,4,4,14,171,35,20
+3600,"North Dorchester, Boston, MA",4.0,2.0,1,55,2,1,1,4,157,30,18
+2600,"Mattapan, Boston, MA",3.0,1.0,3,54,1,1,0,2,77,17,5
+1800,"South Dorchester, Dorchester, MA",1.0,1.0,1,54,5,3,3,11,117,28,20
+3300,"North Dorchester, Boston, MA",4.0,2.0,1,55,5,4,4,13,169,33,21
+2500,"South Dorchester, Boston, MA",3.0,1.5,3,63,5,6,6,17,151,33,18
+2400,"Mattapan, Boston, MA",2.0,1.0,1,54,8,6,6,20,97,18,12
+3000,"South Dorchester, Boston, MA",3.0,1.0,3,54,7,4,4,15,133,29,14
+3200,"North Dorchester, Boston, MA",4.0,2.0,2,63,6,4,4,14,171,35,20
+2000,"South Dorchester, Boston, MA",1.0,1.0,1,54,3,2,2,7,64,17,13
+3990,"South Dorchester, Boston, MA",1.0,1.0,2,20,5,4,4,13,148,30,18
+3990,"South Dorchester, Boston, MA",1.0,1.0,2,20,5,4,4,13,148,30,18
+3990,"South Dorchester, Boston, MA",1.0,1.0,2,20,5,4,4,13,148,30,18
+4390,"South Dorchester, Boston, MA",1.0,1.0,2,20,5,4,4,13,148,30,18
+900,"South Dorchester, Boston, MA",1.0,0.0,4,54,5,3,3,11,154,34,18
+900,"North Dorchester, Boston, MA",1.0,0.0,2,63,6,3,3,12,168,34,20
+900,"North Dorchester, Boston, MA",1.0,0.0,2,63,6,3,3,12,168,34,20
+900,"North Dorchester, Boston, MA",1.0,0.0,2,63,6,3,3,12,168,34,20
+900,"South Dorchester, Boston, MA",1.0,0.0,3,54,3,2,2,7,104,24,15
+900,"South Dorchester, Boston, MA",1.0,0.0,3,54,3,2,2,7,104,24,15
+900,"South Dorchester, Boston, MA",1.0,0.0,3,54,3,2,2,7,104,24,15
+900,"North Dorchester, Boston, MA",1.0,0.0,2,63,6,3,3,12,168,34,20
+850,"South Dorchester, Boston, MA",1.0,0.0,3,54,6,5,5,16,157,37,22
+850,"South Dorchester, Boston, MA",1.0,0.0,3,54,6,5,5,16,157,37,22
+3900,"North Dorchester, Boston, MA",5.0,1.0,3,55,8,5,5,18,174,38,21
+3900,"North Dorchester, Boston, MA",5.0,1.0,3,55,8,5,5,18,174,38,21
+975,"South Dorchester, Boston, MA",1.0,0.0,3,54,6,4,4,14,135,33,17
+775,"North Dorchester, Boston, MA",1.0,0.0,1,55,5,4,4,13,179,37,22
+775,"North Dorchester, Boston, MA",1.0,0.0,1,55,5,4,4,13,179,37,22
+750,"South Dorchester, Boston, MA",1.0,0.0,2,54,6,4,4,14,141,32,15
+700,"South Dorchester, Boston, MA",1.0,0.0,2,54,5,4,0,9,133,34,16
+1175,"South Dorchester, Boston, MA",1.0,0.0,3,63,5,6,6,17,151,33,18
+1100,"South Dorchester, Boston, MA",1.0,0.0,2,54,6,4,4,14,134,36,18
+1750,"South Dorchester, Boston, MA",2.0,1.0,4,55,6,3,3,12,173,34,20
+2350,"North Dorchester, Dorchester, MA",2.0,1.0,1,55,4,2,2,8,159,39,21
+2000,"South Dorchester, Boston, MA",3.0,1.0,3,63,5,6,6,17,147,33,18
+2000,"South Dorchester, Dorchester, MA",3.0,1.0,3,53,5,6,6,17,159,31,16
+2394,"North Dorchester, Dorchester, MA",3.0,1.0,1,55,5,4,4,13,174,42,22
+800,"South Dorchester, Dorchester, MA",1.0,2.0,4,63,5,4,4,13,156,35,19
+750,"South Dorchester, Dorchester, MA",4.0,1.0,4,63,7,6,6,19,153,33,17
+3200,"North Dorchester, Dorchester, MA",5.0,2.0,3,55,5,4,4,13,172,38,21
+2600,"North Dorchester, Dorchester, MA",2.0,1.0,1,55,7,5,5,17,167,36,21
+2395,"North Dorchester, Dorchester, MA",3.0,1.0,1,55,5,4,4,13,174,42,22
+2495,"North Dorchester, Dorchester, MA",3.0,1.0,1,55,5,4,4,13,173,38,21
+2250,"South Dorchester, Dorchester, MA",3.0,1.0,2,54,5,5,5,15,98,22,17
+2990,"South Dorchester, Dorchester, MA",4.0,1.0,3,55,8,6,6,20,176,33,20
+2400,"South Dorchester, Boston, MA",3.0,1.0,2,54,6,5,0,11,104,23,15
+1800,"South Dorchester, Boston, MA",2.0,1.0,4,63,6,3,3,12,152,33,17
+1800,"Mattapan, Dorchester Center, MA",2.0,1.0,2,54,6,4,4,14,87,21,12
+2700,"South Dorchester, Dorchester Center, MA",4.0,1.0,2,54,5,3,3,11,109,26,19
+1600,"South Dorchester, Dorchester Center, MA",2.0,1.0,3,54,5,3,0,8,139,32,15
+1900,"South Dorchester, Boston, MA",2.0,1.0,4,63,7,4,4,15,152,33,17
+2950,"North Dorchester, Dorchester, MA",4.0,2.0,2,63,6,3,3,12,168,34,20
+3000,"North Dorchester, Dorchester, MA",4.0,1.5,2,55,5,2,0,7,187,44,25
+1950,"South Dorchester, Dorchester Center, MA",2.0,1.0,1,54,4,5,5,14,97,21,17
+1850,"South Dorchester, Dorchester Center, MA",2.0,1.0,3,54,5,3,0,8,139,32,15
+1850,"South Dorchester, Dorchester Center, MA",2.0,1.0,3,54,5,3,0,8,139,32,15
+1850,"South Dorchester, Dorchester Center, MA",2.0,1.0,3,54,5,3,0,8,139,32,15
+4500,"North Dorchester, Dorchester, MA",5.0,2.0,1,55,7,5,5,17,167,36,21
+2500,"North Dorchester, Dorchester, MA",2.0,1.5,2,55,5,4,4,13,180,43,22
+4500,"North Dorchester, Dorchester, MA",5.0,2.0,1,55,5,3,3,11,158,33,21
+1950,"Mattapan, Boston, MA",2.0,1.0,1,54,7,6,6,19,101,19,12
+2850,"North Dorchester, Dorchester, MA",3.0,1.0,2,55,7,5,5,17,178,36,20
+2350,"South Dorchester, Boston, MA",3.0,1.0,5,63,5,5,5,15,133,33,18
+2400,"South Dorchester, Boston, MA",3.0,1.0,2,63,6,6,6,18,150,32,18
+2800,"North Dorchester, Boston, MA",4.0,1.5,1,55,5,3,3,11,167,36,21
+2800,"Mattapan, Dorchester Center, MA",3.0,1.0,3,54,6,5,5,16,96,18,11
+2500,"South Dorchester, Boston, MA",3.0,1.0,3,63,6,6,6,18,153,32,18
+2700,"North Dorchester, Boston, MA",3.0,1.0,2,55,7,5,5,17,181,36,21
+2800,"North Dorchester, Dorchester, MA",4.0,1.5,1,55,5,3,3,11,167,36,21
+1800,"South Dorchester, Boston, MA",2.0,1.0,1,54,3,2,2,7,65,17,14
+3250,"South Dorchester, Dorchester, MA",4.0,1.0,3,63,6,4,4,14,166,33,20
+1800,"South Dorchester, Dorchester, MA",1.0,1.0,1,54,5,3,3,11,117,28,20
+1900,"South Dorchester, Boston, MA",2.0,1.0,3,54,5,4,4,13,93,19,14
+2300,"South Dorchester, Boston, MA",3.0,1.0,3,54,5,4,4,13,155,35,18
+2400,"South Dorchester, Dorchester, MA",2.0,2.0,5,63,5,5,5,15,134,33,19
+2900,"Mattapan, Dorchester Center, MA",3.0,1.0,2,54,6,4,4,14,92,21,15
+3000,"North Dorchester, Boston, MA",4.0,1.5,3,55,5,2,0,7,187,44,25
+4400,"North Dorchester, Dorchester, MA",4.0,2.0,1,55,4,3,3,10,169,41,22
+3200,"South Dorchester, Dorchester Center, MA",4.0,2.5,1,54,5,6,6,17,132,27,19
+2800,"South Dorchester, Boston, MA",3.0,1.0,2,54,4,3,0,7,104,23,18
+2400,"South Dorchester, Dorchester, MA",2.0,1.0,1,63,5,5,0,10,104,23,15
+2500,"South Dorchester, Boston, MA",3.0,1.0,3,54,3,2,2,7,104,24,15
+3750,"Roxbury, Dorchester, MA",5.0,2.0,2,53,9,3,3,15,144,39,19
+4200,"South Dorchester, Boston, MA",4.0,2.0,3,63,4,4,4,12,140,37,19
+2700,"North Dorchester, Dorchester, MA",3.0,1.0,2,55,7,5,5,17,181,36,21
+3000,"South Dorchester, Dorchester, MA",3.0,2.0,2,53,5,5,5,15,165,32,18
+3000,"South Dorchester, Dorchester, MA",3.0,2.0,2,63,4,5,5,14,118,29,18
+2600,"South Dorchester, Dorchester, MA",3.0,2.0,3,63,4,4,4,12,156,38,20
+3400,"South Dorchester, Dorchester, MA",3.0,2.0,2,63,6,7,7,20,116,26,18
+1625,"South Dorchester, Boston, MA",1.0,1.0,2,54,6,4,4,14,119,28,19
+2100,"South Dorchester, Boston, MA",2.0,1.0,3,54,4,3,0,7,104,22,17
+2500,"South Dorchester, Dorchester, MA",2.0,1.0,4,63,5,5,5,15,156,31,17
+3500,"North Dorchester, Dorchester, MA",3.0,2.0,2,63,7,4,4,15,167,33,20
+2700,"North Dorchester, Dorchester, MA",3.0,1.5,1,55,5,3,3,11,167,34,21
+5585,"Roxbury, Dorchester, MA",3.0,3.0,2,53,3,4,4,11,149,30,16
+2200,"South Dorchester, Boston, MA",2.0,1.0,2,54,4,3,0,7,104,23,18
+2800,"South Dorchester, Boston, MA",3.0,1.0,3,54,6,4,4,14,107,25,17
+2500,"South Dorchester, Boston, MA",3.0,1.0,2,54,5,3,3,11,124,29,20
+2500,"South Dorchester, Boston, MA",3.0,1.0,2,63,6,6,6,18,150,32,18
+2600,"Mattapan, Boston, MA",3.0,1.0,3,54,6,4,4,14,88,20,11
+2500,"South Dorchester, Boston, MA",3.0,1.0,2,63,5,6,6,17,116,26,18
+5585,"Roxbury, Dorchester, MA",3.0,3.0,2,53,3,4,4,11,149,30,16
+2400,"South Dorchester, Boston, MA",2.0,1.0,1,54,3,1,1,5,90,19,15
+2500,"South Dorchester, Boston, MA",2.0,2.0,2,63,6,6,6,18,112,24,17
+4495,"Roxbury, Boston, MA",3.0,2.0,3,53,5,5,5,15,111,34,14
+2000,"South Dorchester, Dorchester Center, MA",1.0,1.0,1,54,3,2,2,7,64,17,13
+2000,"South Dorchester, Boston, MA",1.0,1.0,1,54,3,2,2,7,64,17,13
+2000,"South Dorchester, Boston, MA",2.0,1.5,1,54,3,2,2,7,64,17,13
+3500,"North Dorchester, Boston, MA",4.0,2.0,1,55,4,3,3,10,164,33,20
+3200,"South Dorchester, Boston, MA",4.0,3.0,2,54,4,3,3,10,108,27,16
+2895,"Roxbury, Dorchester, MA",1.0,1.0,2,53,3,4,4,11,149,30,16
+2800,"Jamaica Plain, Boston, MA",3.0,1.0,2,21,7,8,8,23,327,34,69
+3200,"Jamaica Plain, Boston, MA",4.0,1.0,3,23,10,9,9,28,276,41,41
+3400,"Jamaica Plain, Boston, MA",4.0,1.0,2,23,9,9,9,27,306,34,63
+3400,"Jamaica Plain, Boston, MA",4.0,1.0,2,23,9,9,9,27,306,34,63
+3200,"Jamaica Plain, Boston, MA",4.0,1.0,3,23,10,9,9,28,276,41,41
+2999,"Jamaica Plain, Boston, MA",3.0,1.0,2,21,7,7,7,21,327,34,69
+2999,"Jamaica Plain, Boston, MA",3.0,1.0,2,21,7,7,7,21,327,34,69
+2100,"Jamaica Plain, Boston, MA",2.0,1.0,2,21,7,7,7,21,327,34,69
+2500,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,1,1,1,3,75,14,16
+2600,"Jamaica Plain, Boston, MA",3.0,1.0,4,42,10,6,6,22,226,37,35
+2500,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,7,5,5,17,171,34,29
+2695,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,1,1,0,2,79,16,20
+2750,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,3,2,2,7,111,25,23
+2700,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,9,7,7,23,219,36,33
+2875,"Jamaica Plain, Roxbury Crossing, MA",3.0,1.0,2,23,13,12,12,37,272,41,40
+2700,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,9,8,8,25,290,36,55
+2700,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,6,2,2,10,119,24,23
+2700,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,11,10,10,31,212,35,29
+2400,"Jamaica Plain, Boston, MA",3.0,1.0,4,53,6,3,3,12,140,33,22
+2500,"Jamaica Plain, Boston, MA",3.0,1.0,2,53,9,5,5,19,169,35,27
+3000,"Jamaica Plain, Boston, MA",4.0,1.0,2,23,9,9,9,27,306,34,63
+3000,"Jamaica Plain, Boston, MA",4.0,1.0,2,42,6,2,2,10,123,28,23
+2950,"Jamaica Plain, Jamaica Plain, MA",4.0,1.0,1,42,9,8,8,25,285,34,49
+3100,"Jamaica Plain, Boston, MA",4.0,1.0,2,42,11,10,10,31,245,40,35
+1695,"Jamaica Plain, Boston, MA",1.0,1.0,1,21,9,8,8,25,298,34,59
+1650,"Jamaica Plain, Boston, MA",1.0,1.0,1,42,9,8,8,25,290,36,55
+2850,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,11,10,10,31,205,34,29
+2925,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,9,7,7,23,197,34,30
+2850,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,1,1,0,2,80,16,20
+2800,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,7,5,5,17,171,34,29
+2950,"Jamaica Plain, Boston, MA",3.0,1.0,2,23,9,9,9,27,306,34,63
+2800,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,10,8,8,26,187,32,29
+3525,"Jamaica Plain, Boston, MA",4.0,1.0,3,42,6,2,2,10,119,25,24
+3400,"Jamaica Plain, Boston, MA",4.0,1.0,1,42,2,3,3,8,91,21,18
+2700,"Jamaica Plain, Boston, MA",3.0,1.0,2,53,9,5,5,19,169,35,27
+2595,"Jamaica Plain, Boston, MA",3.0,1.0,2,53,8,5,5,18,159,33,27
+2900,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,9,8,8,25,254,40,36
+2800,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,7,5,5,17,171,34,29
+3400,"Jamaica Plain, Boston, MA",4.0,1.0,2,42,11,10,10,31,221,38,29
+2995,"Jamaica Plain, Boston, MA",4.0,1.0,4,53,6,3,3,12,134,26,22
+1700,"Jamaica Plain, Boston, MA",1.0,1.0,1,42,9,8,8,25,290,36,55
+2700,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,8,6,6,20,207,36,30
+2700,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,8,6,6,20,207,36,30
+2195,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,298,34,59
+3300,"Jamaica Plain, Boston, MA",4.0,1.0,1,42,1,1,1,3,85,20,17
+3200,"Jamaica Plain, Boston, MA",4.0,1.0,1,42,1,1,0,2,85,20,20
+3200,"Jamaica Plain, Boston, MA",4.0,1.0,2,42,10,8,8,26,187,32,29
+2950,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,9,7,7,23,202,35,30
+3050,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,9,7,7,23,217,36,32
+3075,"Jamaica Plain, Boston, MA",3.0,1.0,2,23,9,9,9,27,306,34,63
+3075,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,9,7,7,23,202,35,30
+2950,"Jamaica Plain, Boston, MA",3.0,1.0,3,42,9,7,7,23,202,35,30
+2850,"Jamaica Plain, Boston, MA",4.0,1.0,2,53,6,2,2,10,129,30,23
+3000,"Jamaica Plain, Boston, MA",4.0,1.0,2,23,9,9,9,27,306,34,63
+2400,"Jamaica Plain, Boston, MA",4.0,1.0,4,53,6,3,3,12,140,33,22
+2795,"Jamaica Plain, Boston, MA",3.0,1.0,2,53,9,5,5,19,169,35,27
+2750,"Jamaica Plain, Boston, MA",3.0,1.0,2,53,6,3,3,12,167,34,28
+2795,"Jamaica Plain, Boston, MA",3.0,1.0,2,53,9,5,5,19,169,35,27
+2745,"Jamaica Plain, Boston, MA",3.0,1.0,2,53,9,5,5,19,169,35,27
+1875,"Jamaica Plain, Boston, MA",1.0,1.0,1,21,9,8,8,25,298,34,59
+3200,"Jamaica Plain, Boston, MA",4.0,1.0,4,53,8,4,4,16,138,31,24
+3700,"Jamaica Plain, Boston, MA",4.0,1.0,1,21,9,8,8,25,306,34,61
+3000,"Jamaica Plain, Boston, MA",4.0,2.0,3,42,9,7,7,23,158,31,28
+1850,"Jamaica Plain, Boston, MA",2.0,1.0,1,66,3,2,2,7,70,17,15
+1650,"Jamaica Plain, Boston, MA",1.0,1.0,1,42,10,9,9,28,280,39,42
+1650,"Jamaica Plain, Boston, MA",1.0,1.0,1,42,9,8,8,25,290,36,55
+2295,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,298,34,59
+2295,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,298,34,59
+2295,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,298,34,59
+2245,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,306,34,61
+2295,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,306,34,61
+2300,"Jamaica Plain, Boston, MA",2.0,1.0,2,42,9,7,7,23,190,33,29
+3200,"Jamaica Plain, Boston, MA",4.0,1.0,2,53,6,2,2,10,129,30,23
+3150,"Jamaica Plain, Boston, MA",4.0,1.0,2,53,6,2,2,10,129,30,23
+3100,"Jamaica Plain, Boston, MA",4.0,1.0,2,53,6,3,3,12,167,34,28
+2050,"Jamaica Plain, Boston, MA",2.0,1.0,2,53,8,4,4,16,173,38,29
+2000,"Jamaica Plain, Boston, MA",1.0,1.0,2,42,9,7,7,23,190,33,29
+2650,"Jamaica Plain, Boston, MA",3.0,1.0,2,53,8,5,5,18,159,33,27
+2775,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,1,1,0,2,77,15,20
+3495,"Jamaica Plain, Boston, MA",4.0,1.0,4,42,6,2,2,10,119,25,24
+2295,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,298,34,59
+2295,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,306,34,61
+3500,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,3,2,2,7,106,25,21
+2395,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,298,34,59
+2150,"Jamaica Plain, Boston, MA",2.0,1.0,3,53,8,4,4,16,173,38,29
+2150,"Jamaica Plain, Boston, MA",2.0,1.0,3,53,8,4,4,16,173,38,29
+2445,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,306,34,61
+2445,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,306,34,61
+2400,"Jamaica Plain, Boston, MA",2.0,1.0,2,42,9,7,7,23,190,33,29
+3000,"Jamaica Plain, Boston, MA",4.0,1.5,2,53,6,2,2,10,129,30,23
+3950,"Jamaica Plain, Boston, MA",4.0,2.0,2,53,6,3,3,12,173,38,29
+3400,"Jamaica Plain, Boston, MA",5.0,1.0,1,42,2,2,2,6,71,18,17
+2080,"Jamaica Plain, Boston, MA",2.0,1.0,5,42,4,3,3,10,113,24,21
+2895,"Jamaica Plain, Boston, MA",3.0,2.0,5,42,4,4,4,12,106,23,20
+2295,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,298,34,59
+2295,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,298,34,59
+2150,"Jamaica Plain, Boston, MA",2.0,1.0,3,53,8,4,4,16,173,38,29
+2150,"Jamaica Plain, Boston, MA",2.0,1.0,3,53,7,4,4,15,178,40,29
+2175,"Jamaica Plain, Boston, MA",2.0,1.0,3,53,8,4,4,16,178,40,29
+2150,"Jamaica Plain, Boston, MA",2.0,1.0,3,53,7,4,4,15,178,40,29
+1900,"Jamaica Plain, Boston, MA",1.0,1.0,2,42,9,7,7,23,190,33,29
+2395,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,298,34,59
+3250,"Jamaica Plain, Boston, MA",4.0,2.0,5,42,3,3,3,9,115,25,20
+3200,"Jamaica Plain, Boston, MA",4.0,2.0,2,42,9,8,8,25,190,33,28
+2695,"Jamaica Plain, Boston, MA",3.0,2.0,3,53,7,4,4,15,178,40,29
+2670,"Jamaica Plain, Boston, MA",3.0,2.0,3,53,7,4,4,15,178,40,29
+2025,"Jamaica Plain, Boston, MA",1.0,1.0,1,42,7,5,5,17,157,32,28
+2845,"Jamaica Plain, Boston, MA",4.0,1.5,3,53,8,4,4,16,159,36,23
+1650,"Jamaica Plain, Boston, MA",1.0,1.0,1,42,10,9,9,28,280,39,42
+3000,"Jamaica Plain, Boston, MA",3.0,2.0,2,42,9,8,8,25,190,33,28
+4400,"Jamaica Plain, Boston, MA",5.0,2.0,5,42,3,3,3,9,113,24,21
+2400,"Jamaica Plain, Boston, MA",2.0,1.0,2,42,9,7,7,23,190,33,29
+2100,"Jamaica Plain, Boston, MA",1.0,1.0,2,42,9,7,7,23,190,33,29
+2500,"Jamaica Plain, Boston, MA",2.0,1.0,2,42,8,6,6,20,160,32,29
+2500,"Jamaica Plain, Boston, MA",2.0,1.0,1,42,2,2,2,6,75,17,16
+3000,"Jamaica Plain, Boston, MA",3.0,1.5,1,42,9,8,8,25,275,38,42
+3695,"Jamaica Plain, Boston, MA",4.0,1.0,3,42,6,2,2,10,119,25,24
+2295,"Jamaica Plain, Boston, MA",2.0,1.0,3,53,8,4,4,16,178,40,29
+2500,"Jamaica Plain, Boston, MA",2.0,1.0,2,42,9,7,7,23,190,33,29
+2195,"Jamaica Plain, Boston, MA",2.0,1.0,3,53,7,4,4,15,178,40,29
+2500,"Jamaica Plain, Boston, MA",2.0,1.0,1,42,3,2,2,7,97,17,17
+3900,"Jamaica Plain, Boston, MA",5.0,2.0,1,42,2,2,2,6,71,18,17
+3950,"Jamaica Plain, Boston, MA",5.0,2.0,1,42,1,1,0,2,80,16,20
+3800,"Jamaica Plain, Boston, MA",5.0,2.0,1,42,10,8,8,26,192,33,28
+2600,"Jamaica Plain, Boston, MA",2.0,1.0,1,42,9,8,8,25,285,34,49
+2400,"Jamaica Plain, Boston, MA",2.0,1.0,1,42,3,2,2,7,97,17,17
+3395,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,3,3,3,9,117,25,21
+3325,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,3,3,3,9,120,26,21
+3370,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,4,3,3,10,110,24,21
+3375,"Jamaica Plain, Boston, MA",3.0,1.0,5,42,4,4,4,12,106,23,19
+3295,"Jamaica Plain, Boston, MA",3.0,1.0,5,42,4,4,4,12,106,23,19
+3150,"Jamaica Plain, Boston, MA",3.0,1.0,1,42,9,8,8,25,285,34,49
+2600,"Jamaica Plain, Boston, MA",3.0,1.0,1,66,1,1,0,2,83,21,20
+3000,"Jamaica Plain, Boston, MA",3.0,1.0,2,42,10,8,8,26,191,33,30
+3900,"Jamaica Plain, Boston, MA",4.0,1.0,2,42,10,8,8,26,190,33,28
+3300,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,2,2,2,6,79,18,19
+3100,"Jamaica Plain, Boston, MA",3.0,1.0,1,21,9,8,8,25,306,34,61
+3895,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,6,2,2,10,123,28,23
+3300,"Jamaica Plain, Boston, MA",4.0,2.0,1,66,3,2,2,7,70,17,15
+3600,"Jamaica Plain, Boston, MA",4.0,2.0,1,21,9,8,8,25,306,34,61
+1850,"Jamaica Plain, Boston, MA",1.0,1.0,3,53,8,4,4,16,178,40,29
+3850,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,1,1,0,2,83,17,20
+4500,"Jamaica Plain, Boston, MA",5.0,2.0,1,42,5,3,3,11,116,24,21
+5700,"Jamaica Plain, Mission Hill, MA",6.0,2.0,2,23,9,9,9,27,306,34,63
+2500,"Jamaica Plain, Boston, MA",2.0,1.0,1,42,1,1,0,2,80,16,19
+850,"Jamaica Plain, Boston, MA",4.0,1.0,2,23,9,9,9,27,306,34,63
+850,"Jamaica Plain, Boston, MA",4.0,1.0,2,23,9,9,9,27,306,34,63
+3750,"Jamaica Plain, Boston, MA",3.0,1.0,2,42,9,8,8,25,195,35,29
+4200,"Jamaica Plain, Boston, MA",4.0,2.0,5,42,3,3,3,9,113,24,21
+2300,"Jamaica Plain, Boston, MA",1.0,1.0,1,21,9,8,8,25,285,34,49
+4000,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,10,9,9,28,190,33,29
+4000,"Jamaica Plain, Boston, MA",4.0,2.0,2,42,9,8,8,25,195,35,29
+3600,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,3,2,0,5,68,18,15
+4000,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,10,9,9,28,190,33,29
+1800,"Jamaica Plain, Boston, MA",1.0,1.0,1,53,8,4,4,16,139,32,25
+2700,"Jamaica Plain, Boston, MA",2.0,1.0,1,42,2,2,2,6,84,23,17
+2800,"Jamaica Plain, Boston, MA",2.0,1.0,1,21,9,8,8,25,285,34,49
+4500,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,1,1,1,3,70,15,14
+2500,"Jamaica Plain, Boston, MA",3.0,1.0,1,66,4,3,3,10,67,18,15
+3550,"Jamaica Plain, Boston, MA",4.0,2.5,3,53,7,4,4,15,179,37,29
+4000,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,3,3,3,9,117,25,21
+3525,"Jamaica Plain, Boston, MA",4.0,2.5,3,53,8,4,4,16,179,37,29
+2395,"Jamaica Plain, Boston, MA",2.0,1.0,2,53,8,5,5,18,159,33,27
+3150,"Jamaica Plain, Boston, MA",2.0,1.0,1,42,9,8,8,25,290,36,55
+3850,"Jamaica Plain, Boston, MA",4.0,2.0,1,42,1,1,0,2,83,17,20
+3100,"Mattapan, Boston, MA",4.0,1.0,4,59,7,5,0,12,67,15,5
+2250,"Mattapan, Boston, MA",3.0,1.0,5,59,3,2,0,5,72,14,4
+2500,"Mattapan, Boston, MA",3.0,1.0,5,59,3,2,0,5,72,14,4
+3200,"Mattapan, Boston, MA",4.0,1.0,4,59,3,2,0,5,68,14,4
+2350,"Mattapan, Boston, MA",2.0,1.0,2,59,8,6,6,20,75,20,9
+800,"Mattapan, Boston, MA",1.0,0.0,5,59,3,2,0,5,72,14,4
+2100,"Mattapan, Mattapan, MA",1.0,1.0,1,59,2,1,1,4,61,14,13
+2700,"Mattapan, Mattapan, MA",4.0,1.0,4,59,7,5,0,12,64,14,4
+2500,"Mattapan, Boston, MA",4.0,1.0,4,59,3,2,0,5,68,14,4
+2500,"Mattapan, Boston, MA",4.0,1.0,4,59,3,2,0,5,72,14,4
+1000,"Mattapan, Boston, MA",3.0,1.0,4,59,3,2,0,5,69,14,4
+2300,"Mattapan, Boston, MA",3.0,1.0,2,59,3,3,0,6,68,15,4
+2500,"Mattapan, Boston, MA",3.0,1.0,5,59,3,2,0,5,69,15,5
+2750,"Mattapan, Boston, MA",3.0,1.0,2,59,6,5,0,11,63,15,4
+1995,"Mattapan, Boston, MA",2.0,2.0,3,59,3,2,0,5,68,14,4
+2500,"Mattapan, Boston, MA",1.0,1.0,1,21,1,0,2,3,76,18,13
+2600,"Mattapan, Boston, MA",2.0,2.0,1,59,2,1,0,3,74,14,7
+1700,"Mattapan, Boston, MA",1.0,1.0,1,59,3,2,2,7,87,18,15
+2200,"Mattapan, Boston, MA",2.0,1.0,1,54,4,4,4,12,88,19,15
+2600,"Mattapan, Boston, MA",4.0,1.0,5,59,3,2,0,5,69,15,5
+2350,"Mattapan, Dorchester Center, MA",4.0,1.0,3,54,1,1,0,2,75,14,5
+2100,"Mattapan, Boston, MA",3.0,1.0,2,59,8,7,7,22,80,18,11
+1750,"Mattapan, Boston, MA",3.0,1.0,2,59,2,1,1,4,61,13,11
+2250,"Mattapan, Mattapan, MA",3.0,1.0,2,59,7,5,0,12,63,15,4
+2400,"Mattapan, Dorchester Center, MA",3.0,1.0,2,54,6,4,4,14,90,20,13
+2300,"Mattapan, Boston, MA",3.0,1.0,2,54,6,4,4,14,90,20,13
+2800,"Mattapan, Boston, MA",4.0,1.0,3,59,8,6,6,20,62,15,4
+1800,"Mattapan, Mattapan, MA",2.0,1.0,3,59,7,5,0,12,63,15,4
+1800,"Mattapan, Mattapan, MA",2.0,1.0,1,59,4,3,3,10,54,11,5
+2300,"Mattapan, Boston, MA",3.0,1.0,1,59,5,4,4,13,57,11,6
+3000,"Mattapan, Boston, MA",4.0,1.0,1,59,5,4,4,13,61,12,8
+3100,"Mattapan, Boston, MA",4.0,1.0,1,59,5,4,4,13,64,13,8
+1850,"Mattapan, Mattapan, MA",2.0,1.0,3,59,6,4,0,10,61,15,4
+1850,"Mattapan, Mattapan, MA",2.0,1.0,2,59,8,6,6,20,82,20,10
+1900,"Mattapan, Mattapan, MA",2.0,1.0,1,59,6,3,3,12,59,16,1
+2600,"Mattapan, Boston, MA",3.0,1.0,5,59,3,2,0,5,70,17,5
+1200,"Mattapan, Boston, MA",3.0,2.0,1,59,1,0,3,4,78,18,15
+3200,"Mattapan, Mattapan, MA",4.0,2.0,1,59,1,0,2,3,65,13,9
+2850,"Mattapan, Dorchester, MA",4.0,1.0,4,54,3,2,0,5,75,16,4
+4000,"Mattapan, Boston, MA",9.0,3.0,2,54,6,4,4,14,88,19,11
+2200,"Mattapan, Mattapan, MA",2.0,1.0,3,59,6,5,0,11,71,18,5
+2500,"Mattapan, Boston, MA",3.0,1.0,3,59,9,6,6,21,83,18,11
+2500,"Mattapan, Boston, MA",3.0,1.0,3,59,9,6,6,21,83,18,11
+2300,"Mattapan, Mattapan, MA",4.0,2.0,3,59,4,3,0,7,72,17,5
+2900,"Mattapan, Dorchester Center, MA",3.0,1.0,2,54,6,4,4,14,92,21,15
+2450,"Mattapan, Boston, MA",3.0,1.0,3,59,6,5,0,11,61,15,4
+2800,"Mattapan, Boston, MA",3.0,1.0,3,59,3,2,0,5,64,14,4
+2300,"Mattapan, Mattapan, MA",2.0,1.0,3,59,6,5,5,16,82,19,11
+3000,"Mattapan, Boston, MA",3.0,1.0,1,59,0,0,1,1,63,13,7
+3000,"Mattapan, Boston, MA",3.0,1.0,1,59,0,0,1,1,63,13,7
+3200,"Mattapan, Boston, MA",4.0,1.0,4,59,7,5,0,12,67,15,5
+2800,"Mattapan, Mattapan, MA",2.0,1.0,2,59,8,6,6,20,82,20,10
+1950,"Mattapan, Mattapan, MA",2.0,2.0,1,59,6,3,3,12,59,16,1
+2300,"Mattapan, Boston, MA",2.0,1.0,2,59,8,6,6,20,66,13,9
+2320,"Mattapan, Mattapan, MA",2.0,1.0,2,59,8,6,6,20,75,20,9
+3000,"Mattapan, Boston, MA",4.0,2.0,3,54,1,1,0,2,79,18,7
+3550,"Mattapan, Boston, MA",4.0,2.0,2,54,5,4,4,13,90,19,15
+2600,"Mattapan, Boston, MA",1.0,1.0,1,54,2,1,1,4,42,12,12
+2600,"Mattapan, Boston, MA",2.0,1.5,1,59,1,1,0,2,67,10,6
+1837,"Mattapan, Mattapan, MA",2.0,1.5,1,59,6,3,3,12,58,15,1
+2045,"Roslindale, Boston, MA",2.0,1.0,1,66,2,1,0,3,73,19,21
+2200,"Roslindale, Boston, MA",2.0,1.0,1,66,6,4,4,14,58,17,9
+2400,"Roslindale, Boston, MA",2.0,1.0,1,66,4,4,4,12,66,17,14
+2145,"Roslindale, Boston, MA",2.0,1.0,1,66,2,1,0,3,73,19,21
+2700,"Roslindale, Boston, MA",3.0,2.0,1,66,2,1,0,3,69,19,19
+4500,"Roslindale, Boston, MA",3.0,2.0,3,66,4,3,3,10,78,17,17
+3895,"Roslindale, Boston, MA",2.0,2.0,3,66,4,3,3,10,78,17,17
+3795,"Roslindale, Boston, MA",2.0,2.0,3,66,4,3,3,10,78,17,17
+950,"Roslindale, Roslindale, MA",1.0,1.0,1,66,0,0,0,0,77,17,14
+1975,"Roslindale, Roslindale, MA",3.0,1.0,1,66,4,1,0,5,71,19,15
+2250,"Roslindale, Roslindale, MA",3.0,1.0,1,66,0,0,0,0,77,17,14
+1800,"Roslindale, Roslindale, MA",2.0,1.0,1,66,3,1,0,4,79,18,15
+1850,"Roslindale, Boston, MA",2.0,1.0,1,66,3,1,0,4,75,17,15
+2000,"Roslindale, Roslindale, MA",2.0,1.0,1,66,4,3,3,10,70,17,14
+2350,"Roslindale, Boston, MA",3.0,1.0,3,66,5,4,4,13,67,17,12
+2000,"Roslindale, Boston, MA",2.0,1.0,1,66,3,2,2,7,83,20,14
+1000,"Roslindale, Roslindale, MA",1.0,1.0,1,66,2,1,0,3,73,19,21
+2185,"Roslindale, Roslindale, MA",2.0,1.0,1,66,4,3,3,10,70,17,14
+2300,"Roslindale, Boston, MA",3.0,1.0,1,66,2,0,0,2,79,15,15
+2700,"Roslindale, Roslindale, MA",3.0,1.0,2,66,2,1,0,3,76,19,21
+1650,"Roslindale, Roslindale, MA",1.0,1.0,1,66,5,4,4,13,65,17,12
+2550,"Roslindale, Roslindale, MA",3.0,1.0,1,66,5,4,4,13,70,17,14
+2900,"Roslindale, Roslindale, MA",3.0,1.0,1,66,3,1,1,5,82,18,15
+2600,"Roslindale, Roslindale, MA",2.0,1.0,1,66,2,2,2,6,71,18,13
+2400,"Roslindale, Roslindale, MA",2.0,2.0,1,66,2,0,0,2,79,16,15
+2900,"Roslindale, Boston, MA",3.0,1.0,1,66,3,1,1,5,82,18,15
+4500,"Roslindale, Roslindale, MA",3.0,2.0,2,66,3,3,3,9,65,18,8
+3795,"Roslindale, Roslindale, MA",2.0,2.0,3,66,4,3,3,10,78,17,17
+3895,"Roslindale, Roslindale, MA",2.0,2.0,2,66,3,3,3,9,65,18,8
+2550,"Roslindale, Boston, MA",3.0,2.0,1,66,3,2,2,7,84,19,15
+3400,"Roslindale, Boston, MA",3.0,2.0,1,66,5,4,4,13,73,17,13
+3795,"Roslindale, Roslindale, MA",2.0,2.0,2,66,3,3,3,9,65,18,8
+2200,"Roslindale, Boston, MA",2.0,1.5,1,66,5,4,4,13,67,18,15
+4000,"Roslindale, Roslindale, MA",4.0,4.0,1,66,3,2,2,7,82,19,15
+750,"Roslindale, Boston, MA",1.0,1.0,1,66,4,2,2,8,82,19,14
+2100,"Roslindale, Roslindale, MA",3.0,1.0,2,66,4,4,4,12,76,18,13
+2300,"Roslindale, Roslindale, MA",3.0,1.0,1,66,4,2,0,6,71,19,15
+2450,"Roslindale, Boston, MA",3.0,1.0,1,66,4,4,4,12,66,17,14
+1750,"Roslindale, Boston, MA",2.0,1.0,1,66,3,0,0,3,83,18,15
+2300,"Roslindale, Boston, MA",3.0,1.0,1,66,2,1,0,3,80,16,15
+2300,"Roslindale, Boston, MA",3.0,1.0,1,66,3,2,2,7,68,18,8
+1975,"Roslindale, Boston, MA",2.0,1.0,1,66,4,3,3,10,70,17,14
+2300,"Roslindale, Boston, MA",3.0,1.0,1,66,4,4,4,12,70,19,13
+1800,"Roslindale, Roslindale, MA",2.0,1.0,1,66,4,4,4,12,75,18,14
+2100,"Roslindale, Boston, MA",2.0,1.0,1,66,4,3,3,10,70,17,14
+2185,"Roslindale, Roslindale, MA",2.0,1.0,1,66,4,3,3,10,70,17,14
+2100,"Roslindale, Boston, MA",2.0,1.0,1,66,4,3,3,10,70,17,14
+2000,"Roslindale, Boston, MA",2.0,1.0,1,66,3,1,1,5,82,19,15
+2000,"Roslindale, Boston, MA",2.0,1.0,1,66,2,0,0,2,79,15,15
+3225,"Roslindale, Roslindale, MA",3.0,1.0,3,66,2,3,3,8,65,20,8
+1775,"Roslindale, Roslindale, MA",1.0,1.0,1,66,2,0,0,2,79,15,15
+2400,"Roslindale, Boston, MA",3.0,2.0,1,66,2,0,0,2,80,16,15
+2200,"Roslindale, Boston, MA",2.0,1.0,1,66,3,2,2,7,84,19,15
+1800,"Roslindale, Roslindale, MA",1.0,1.0,1,66,3,3,3,9,74,18,16
+2200,"Roslindale, Boston, MA",2.0,1.0,1,66,4,2,2,8,82,19,14
+2900,"Roslindale, Roslindale, MA",3.0,1.0,1,66,4,3,3,10,69,17,14
+2700,"Roslindale, Boston, MA",3.0,1.0,2,66,2,1,0,3,76,19,21
+3000,"Roslindale, Roslindale, MA",3.0,1.0,1,66,1,1,0,2,83,21,20
+2000,"Roslindale, Boston, MA",2.0,1.0,1,66,3,1,0,4,75,17,15
+1100,"Roslindale, Roslindale, MA",1.0,2.0,1,66,2,1,0,3,73,20,11
+2500,"Roslindale, Boston, MA",3.0,1.0,1,66,2,1,0,3,72,19,20
+2250,"Roslindale, Roslindale, MA",2.0,1.0,1,66,4,2,2,8,86,19,15
+2300,"Roslindale, Roslindale, MA",2.0,1.0,1,66,5,4,4,13,64,17,11
+2700,"Roslindale, Roslindale, MA",3.0,2.0,1,66,2,1,0,3,84,18,16
+2200,"Roslindale, Boston, MA",2.0,1.0,1,66,3,1,0,4,80,16,15
+2525,"Roslindale, Roslindale, MA",3.0,1.5,1,66,4,3,3,10,71,18,15
+2550,"Roslindale, Roslindale, MA",3.0,1.5,1,66,4,3,3,10,71,18,15
+2600,"Roslindale, Roslindale, MA",3.0,2.0,1,66,3,2,2,7,84,19,15
+2400,"Roslindale, Boston, MA",2.0,1.0,1,66,2,0,0,2,79,17,15
+2400,"Roslindale, Boston, MA",2.0,1.0,1,66,1,0,0,1,83,15,15
+1100,"Roslindale, Boston, MA",1.0,1.0,1,66,1,1,0,2,72,19,20
+2100,"Roslindale, Boston, MA",2.0,1.0,1,66,2,0,0,2,73,16,15
+2900,"Roslindale, Roslindale, MA",3.0,2.0,1,66,2,1,0,3,69,19,19
+2400,"Roslindale, Roslindale, MA",2.0,1.0,1,66,2,0,0,2,79,16,15
+4500,"Roslindale, Roslindale, MA",3.0,2.0,3,66,4,3,3,10,78,17,17
+3895,"Roslindale, Roslindale, MA",2.0,2.0,3,66,3,3,3,9,78,17,17
+3795,"Roslindale, Boston, MA",2.0,2.0,3,66,4,3,3,10,78,17,17
+4500,"Roslindale, Boston, MA",3.0,2.0,3,66,4,3,3,10,78,17,17
+3795,"Roslindale, Roslindale, MA",2.0,2.0,3,66,3,3,3,9,78,17,17
+3895,"Roslindale, Roslindale, MA",2.0,2.0,3,66,3,3,3,9,78,17,17
+1900,"Roslindale, Boston, MA",1.0,1.0,1,66,4,2,2,8,82,19,14
+2700,"Roslindale, Boston, MA",2.0,2.0,1,66,3,1,0,4,76,19,16
+3795,"Roslindale, Roslindale, MA",2.0,2.0,3,66,3,3,3,9,75,17,15
+2580,"Roslindale, Roslindale, MA",3.0,1.5,1,66,1,0,0,1,83,19,13
+2300,"Roslindale, Roslindale, MA",2.0,1.0,3,66,3,3,3,9,76,18,17
+2700,"West Roxbury, Boston, MA",3.0,1.0,1,83,3,2,2,7,76,18,16
+2695,"West Roxbury, Boston, MA",3.0,1.0,1,83,3,1,0,4,42,6,4
+2695,"West Roxbury, Boston, MA",4.0,2.0,1,83,0,0,0,0,59,13,7
+1800,"West Roxbury, Boston, MA",2.0,1.0,1,83,5,6,6,17,56,8,6
+1990,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,48,8,5
+2100,"West Roxbury, Newton, MA",2.0,1.0,1,77,3,3,3,9,12,3,1
+3100,"West Roxbury, Boston, MA",4.0,1.0,1,83,3,1,0,4,42,6,4
+2100,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,47,7,5
+1990,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,47,7,4
+3000,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,5,4,0,9,63,14,9
+2100,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,48,8,5
+2875,"West Roxbury, Boston, MA",3.0,1.0,1,83,3,2,0,5,61,15,8
+2745,"West Roxbury, Boston, MA",3.0,1.0,1,83,3,2,0,5,61,15,8
+1650,"West Roxbury, Boston, MA",1.0,1.0,1,77,2,2,2,6,31,4,3
+1735,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,34,6,3
+2120,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,47,7,5
+2095,"West Roxbury, Boston, MA",2.0,1.0,1,83,3,2,2,7,34,7,3
+1800,"West Roxbury, Newton, MA",1.0,1.0,1,77,3,3,3,9,14,5,2
+2100,"West Roxbury, Boston, MA",2.0,1.0,1,83,0,0,0,0,59,12,6
+2190,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,44,7,4
+2320,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,34,6,3
+2475,"West Roxbury, Boston, MA",2.0,1.0,1,83,3,2,2,7,76,18,16
+2120,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,42,6,4
+2125,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,47,7,4
+2110,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,47,7,5
+1775,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,34,6,3
+1800,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,6,6,16,60,9,6
+2690,"West Roxbury, Boston, MA",2.0,1.0,1,77,2,2,2,6,42,5,7
+3060,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,1,1,1,3,47,8,7
+2850,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,2,2,2,6,34,5,4
+3180,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,2,2,2,6,38,5,6
+1830,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,42,6,4
+1700,"West Roxbury, Boston, MA",1.0,1.0,1,83,3,1,0,4,43,6,3
+1830,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,44,7,4
+1820,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,47,7,5
+2800,"West Roxbury, Boston, MA",1.0,1.0,1,83,5,4,0,9,62,13,8
+2862,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,4,2,2,8,50,9,5
+3050,"West Roxbury, Newton, MA",2.0,1.5,1,77,2,2,2,6,42,6,7
+1830,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,47,7,5
+2850,"West Roxbury, Boston, MA",2.0,1.0,1,77,2,2,2,6,34,5,4
+1845,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,48,8,5
+3070,"West Roxbury, Chestnut Hill, MA",2.0,1.5,1,77,2,2,2,6,42,5,7
+1895,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,47,7,5
+2420,"West Roxbury, Boston, MA",2.0,2.0,1,83,3,2,2,7,35,6,3
+3600,"West Roxbury, West Roxbury, MA",2.0,2.5,1,83,1,1,0,2,46,8,4
+1780,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,47,7,5
+1795,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,42,6,4
+2520,"West Roxbury, Boston, MA",2.0,2.0,1,83,3,2,2,7,35,6,3
+2095,"West Roxbury, Boston, MA",1.0,1.0,1,83,3,2,2,7,35,6,3
+2490,"West Roxbury, Boston, MA",2.0,2.0,1,83,3,2,2,7,35,6,3
+2040,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,48,8,5
+2015,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,45,7,4
+1775,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,2,2,8,47,7,5
+2140,"West Roxbury, Boston, MA",2.0,0.0,1,83,4,2,2,8,47,7,5
+2170,"West Roxbury, Boston, MA",2.0,0.0,1,83,4,2,2,8,42,6,4
+2165,"West Roxbury, West Roxbury, MA",2.0,2.0,1,83,4,2,2,8,48,8,5
+2400,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,3,2,2,7,62,14,9
+2695,"West Roxbury, West Roxbury, MA",4.0,2.0,1,83,0,0,0,0,59,13,7
+2695,"West Roxbury, West Roxbury, MA",4.0,2.0,1,83,0,0,0,0,59,13,7
+1850,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,3,3,3,9,18,3,2
+1800,"West Roxbury, Boston, MA",2.0,1.0,1,83,5,7,7,19,58,8,6
+1850,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,3,3,3,9,18,3,2
+1750,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,2,2,2,6,25,4,2
+1600,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,5,4,0,9,59,13,7
+2044,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,3,2,2,7,34,6,3
+1695,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,0,0,0,0,59,12,6
+2089,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,4,2,2,8,34,6,3
+2200,"West Roxbury, Boston, MA",2.0,1.0,1,83,3,2,0,5,63,14,9
+1950,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,3,3,3,9,28,5,3
+1800,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,3,3,3,9,12,3,1
+2000,"West Roxbury, Boston, MA",1.0,1.0,1,77,3,3,3,9,28,5,3
+2850,"West Roxbury, West Roxbury, MA",4.0,2.0,1,83,0,0,0,0,59,13,7
+2200,"West Roxbury, Boston, MA",2.0,1.0,1,83,1,0,0,1,51,10,5
+2950,"West Roxbury, West Roxbury, MA",3.0,1.5,1,83,1,1,1,3,67,15,15
+2100,"West Roxbury, Boston, MA",2.0,1.0,1,83,0,1,1,2,62,12,7
+2200,"West Roxbury, Boston, MA",2.0,1.0,1,83,3,5,5,13,59,10,7
+2950,"West Roxbury, Boston, MA",3.0,1.0,1,83,3,2,0,5,62,13,9
+3050,"West Roxbury, West Roxbury, MA",3.0,1.5,1,83,1,1,1,3,48,6,5
+2600,"West Roxbury, Boston, MA",2.0,2.0,1,83,3,3,3,9,12,3,1
+2600,"West Roxbury, West Roxbury, MA",2.0,2.0,1,83,4,2,2,8,46,8,4
+1819,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,4,2,2,8,35,6,3
+1795,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,5,7,7,19,59,8,6
+2794,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,2,2,2,6,43,7,7
+1800,"West Roxbury, Newton, MA",1.0,1.0,1,77,3,3,3,9,12,3,1
+2850,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,2,2,2,6,34,5,4
+2150,"West Roxbury, West Roxbury, MA",2.0,1.5,1,83,4,2,2,8,34,6,3
+3300,"West Roxbury, West Roxbury, MA",2.0,2.0,1,83,1,2,2,5,42,6,3
+3079,"West Roxbury, West Roxbury, MA",2.0,1.5,1,83,1,1,1,3,43,7,7
+3050,"West Roxbury, West Roxbury, MA",2.0,1.5,1,83,2,2,2,6,43,7,7
+2200,"West Roxbury, Boston, MA",2.0,2.0,1,83,4,6,6,16,59,8,6
+2750,"West Roxbury, Boston, MA",2.0,2.0,1,83,3,5,5,13,57,9,6
+2500,"West Roxbury, Boston, MA",2.0,2.0,1,83,0,0,0,0,71,16,9
+1025,"West Roxbury, West Roxbury, MA",2.0,2.0,1,83,1,2,2,5,49,6,5
+2450,"West Roxbury, Boston, MA",3.0,1.0,1,20,2,2,2,6,15,3,0
+2150,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,4,5,5,14,60,9,6
+2350,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,2,1,1,4,79,16,15
+2050,"West Roxbury, Boston, MA",2.0,1.0,1,83,2,2,2,6,25,4,2
+2500,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,3,2,2,7,62,14,9
+2200,"West Roxbury, Boston, MA",3.0,1.0,1,83,3,5,5,13,60,12,7
+2550,"West Roxbury, Boston, MA",3.0,1.0,1,83,2,0,0,2,55,9,5
+970,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,1,1,0,2,48,6,5
+2700,"West Roxbury, Boston, MA",3.0,1.0,1,20,2,2,2,6,15,3,0
+2000,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,3,5,5,13,54,9,6
+2050,"West Roxbury, Boston, MA",2.0,1.0,1,83,5,6,6,17,56,8,6
+2025,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,2,1,1,4,43,9,2
+2025,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,2,1,1,4,43,9,2
+875,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,2,1,1,4,58,6,10
+800,"West Roxbury, West Roxbury, MA",3.0,3.0,1,83,1,1,1,3,61,11,7
+1850,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,3,3,3,9,18,3,2
+1975,"West Roxbury, Boston, MA",2.0,1.0,1,83,2,1,1,4,43,9,2
+1950,"West Roxbury, Boston, MA",2.0,1.0,1,77,3,3,3,9,19,4,2
+950,"West Roxbury, West Roxbury, MA",1.0,2.0,1,83,2,3,3,8,57,8,6
+1975,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,2,1,1,4,43,9,2
+1700,"West Roxbury, Boston, MA",1.0,1.0,1,83,2,2,2,6,25,4,2
+2025,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,2,1,1,4,43,9,2
+3150,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,3,5,5,13,62,8,6
+2200,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,1,0,0,1,51,10,5
+2000,"West Roxbury, Boston, MA",2.0,1.0,1,83,4,2,2,8,49,9,5
+2450,"West Roxbury, Chestnut Hill, MA",1.0,1.5,1,77,2,2,2,6,38,5,6
+2745,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,3,2,0,5,61,13,8
+2875,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,3,2,0,5,61,13,8
+1750,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,3,3,3,9,28,5,3
+2200,"West Roxbury, Boston, MA",2.0,1.0,1,83,1,2,2,5,51,6,5
+1750,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,2,2,2,6,21,3,2
+2730,"West Roxbury, West Roxbury, MA",4.0,1.5,1,83,3,5,5,13,65,8,6
+3500,"West Roxbury, Boston, MA",5.0,2.0,1,83,3,2,2,7,77,16,15
+1600,"West Roxbury, Boston, MA",1.0,1.0,1,83,4,5,5,14,59,9,6
+1600,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,1,1,1,3,45,7,5
+2100,"West Roxbury, Boston, MA",2.0,1.0,1,83,3,2,0,5,76,17,13
+1800,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,3,3,3,9,28,5,3
+3000,"West Roxbury, Boston, MA",3.0,1.0,1,20,2,2,2,6,15,3,0
+2170,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,4,2,2,8,42,6,4
+2725,"West Roxbury, West Roxbury, MA",4.0,2.0,1,83,0,0,0,0,59,12,6
+2850,"West Roxbury, West Roxbury, MA",4.0,2.0,1,83,0,0,0,0,59,13,7
+2000,"West Roxbury, Boston, MA",2.0,1.0,1,83,5,6,6,17,56,8,6
+2350,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,1,1,1,3,45,7,5
+4950,"West Roxbury, Newton, MA",4.0,4.0,1,77,1,1,1,3,58,13,13
+1750,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,2,2,2,6,31,4,3
+2795,"West Roxbury, West Roxbury, MA",3.0,1.0,1,83,3,2,0,5,61,15,8
+2500,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,3,2,2,7,62,14,9
+3000,"West Roxbury, West Roxbury, MA",3.0,1.5,1,83,1,1,1,3,67,15,15
+3000,"West Roxbury, West Roxbury, MA",3.0,1.5,1,83,1,1,1,3,67,15,15
+2000,"West Roxbury, Boston, MA",2.0,1.5,1,83,2,1,1,4,55,6,10
+2095,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,4,2,2,8,47,7,5
+2100,"West Roxbury, West Roxbury, MA",2.0,1.0,1,83,4,2,2,8,34,6,3
+3200,"West Roxbury, Boston, MA",4.0,1.0,1,20,2,2,2,6,15,3,0
+1750,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,2,0,0,2,55,9,5
+1675,"West Roxbury, Boston, MA",1.0,1.0,1,83,3,5,5,13,59,10,7
+2375,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,2,2,2,6,34,5,4
+3500,"West Roxbury, Boston, MA",2.0,1.0,1,83,1,1,0,2,46,8,4
+2400,"West Roxbury, Newton, MA",2.0,2.0,1,77,3,3,3,9,25,3,2
+1775,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,2,1,1,4,43,9,2
+2330,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,2,2,2,6,38,5,6
+2875,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,2,2,2,6,38,5,6
+3300,"West Roxbury, Boston, MA",4.0,1.5,1,83,5,5,5,15,75,16,15
+1750,"West Roxbury, Boston, MA",1.0,1.0,1,83,2,1,1,4,43,9,2
+2950,"West Roxbury, Chestnut Hill, MA",2.0,1.0,1,77,2,2,2,6,38,5,6
+3506,"West Roxbury, Boston, MA",3.0,2.0,1,83,4,6,6,16,59,8,6
+2500,"West Roxbury, West Roxbury, MA",2.0,2.0,1,83,3,2,2,7,45,9,2
+2100,"West Roxbury, Boston, MA",1.0,1.0,1,21,3,5,5,13,62,8,6
+3700,"West Roxbury, Boston, MA",1.0,1.0,1,28,3,2,2,7,75,17,16
+2525,"West Roxbury, Chestnut Hill, MA",2.0,1.5,1,77,2,2,2,6,42,5,7
+2500,"West Roxbury, West Roxbury, MA",2.0,2.0,1,83,0,1,3,4,51,6,5
+3050,"West Roxbury, Boston, MA",2.0,1.5,1,83,1,1,1,3,44,9,7
+2525,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,2,2,2,6,36,5,4
+4079,"West Roxbury, Boston, MA",3.0,2.0,1,83,4,6,6,16,59,8,6
+2500,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,3,2,0,5,78,18,16
+2000,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,5,2,2,9,45,9,5
+2525,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,2,2,2,6,38,5,6
+4000,"West Roxbury, Boston, MA",3.0,2.0,1,20,2,2,2,6,15,3,0
+1775,"West Roxbury, West Roxbury, MA",1.0,1.0,1,83,4,2,2,8,44,7,4
+2850,"West Roxbury, Boston, MA",2.0,2.0,1,83,0,1,3,4,49,6,5
+2850,"West Roxbury, West Roxbury, MA",2.0,2.0,1,83,2,2,2,6,43,7,7
+2525,"West Roxbury, Chestnut Hill, MA",1.0,1.0,1,77,2,2,2,6,42,5,7
+3200,"West Roxbury, Boston, MA",3.0,2.0,1,83,2,3,3,8,53,7,4
+3200,"West Roxbury, Boston, MA",2.0,2.0,1,83,3,2,0,5,78,18,16
+2500,"West Roxbury, Boston, MA",2.0,2.0,1,83,3,2,2,7,45,9,2
+2650,"West Roxbury, Chestnut Hill, MA",2.0,1.5,1,77,2,2,2,6,38,5,6
+3050,"West Roxbury, Chestnut Hill, MA",2.0,1.5,1,77,2,2,2,6,42,6,7
+3100,"West Roxbury, Chestnut Hill, MA",2.0,1.5,1,77,2,2,2,6,38,5,6
+1900,"Hyde Park, Boston, MA",2.0,1.0,1,21,4,4,4,12,38,8,3
+1825,"Hyde Park, Boston, MA",1.0,1.0,1,21,4,4,4,12,38,8,3
+1725,"Hyde Park, Boston, MA",1.0,1.0,1,21,4,4,4,12,38,8,3
+2400,"Hyde Park, Boston, MA",3.0,1.0,1,76,4,3,3,10,36,9,3
+3100,"Hyde Park, Boston, MA",4.0,1.0,1,76,1,1,1,3,47,7,3
+1850,"Hyde Park, Boston, MA",2.0,1.0,1,76,6,4,4,14,35,8,3
+2625,"Hyde Park, Boston, MA",3.0,1.0,1,76,3,3,3,9,16,6,2
+2600,"Hyde Park, Boston, MA",3.0,1.0,1,76,1,0,4,5,52,11,4
+1800,"Hyde Park, Boston, MA",1.0,1.0,1,21,4,4,4,12,38,8,3
+900,"Hyde Park, Boston, MA",1.0,0.0,1,76,4,3,3,10,36,9,3
+850,"Hyde Park, Boston, MA",1.0,0.0,1,76,2,2,2,6,48,9,3
+850,"Hyde Park, Boston, MA",1.0,0.0,1,76,2,2,2,6,48,9,3
+1950,"Hyde Park, Hyde Park, MA",2.0,1.0,1,76,3,1,1,5,40,8,3
+2000,"Hyde Park, Hyde Park, MA",2.0,1.0,1,76,1,1,1,3,51,10,4
+1850,"Hyde Park, Hyde Park, MA",2.0,1.0,1,76,4,4,4,12,37,7,3
+1800,"Hyde Park, Boston, MA",1.0,1.0,2,76,2,0,1,3,43,10,3
+2450,"Hyde Park, Hyde Park, MA",3.0,1.0,1,76,1,0,3,4,58,13,5
+1900,"Hyde Park, Boston, MA",2.0,1.0,1,76,6,4,4,14,37,8,3
+2299,"Hyde Park, Boston, MA",3.0,1.0,1,76,1,0,1,2,51,11,3
+2100,"Hyde Park, Boston, MA",2.0,1.0,1,76,2,2,2,6,11,6,2
+2995,"Hyde Park, Boston, MA",2.0,1.0,1,20,5,3,3,11,38,9,3
+3200,"Hyde Park, Boston, MA",4.0,1.5,1,76,3,1,1,5,35,8,3
+3300,"Hyde Park, Boston, MA",3.0,1.0,1,20,5,3,3,11,38,9,3
+2400,"Hyde Park, Boston, MA",2.0,2.0,1,76,4,2,2,8,39,8,3
+2600,"Hyde Park, Boston, MA",1.0,1.0,1,21,2,2,2,6,36,7,4
+1530,"Hyde Park, Hyde Park, MA",1.0,1.0,1,76,2,1,0,3,69,17,11
+1900,"Hyde Park, Hyde Park, MA",2.0,1.0,1,76,6,4,4,14,37,8,3
+1850,"Hyde Park, Hyde Park, MA",2.0,1.0,1,76,1,0,1,2,74,19,9
+1850,"Hyde Park, Boston, MA",2.0,1.0,1,76,1,0,1,2,59,13,4
+2100,"Hyde Park, Boston, MA",3.0,1.0,1,76,4,3,3,10,37,7,4
+2200,"Hyde Park, Hyde Park, MA",2.0,1.0,1,76,1,0,4,5,50,9,4
+1950,"Hyde Park, Boston, MA",2.0,1.0,1,76,3,1,1,5,41,8,3
+2000,"Hyde Park, Boston, MA",1.0,1.0,1,76,5,3,3,11,40,7,4
+1900,"Hyde Park, Boston, MA",1.0,1.0,1,76,4,2,2,8,39,8,3
+2200,"Hyde Park, Boston, MA",2.0,1.0,4,76,3,3,3,9,14,6,2
+2700,"Hyde Park, Boston, MA",4.0,1.0,1,76,4,4,4,12,37,7,3
+2300,"Hyde Park, Boston, MA",3.0,2.0,1,76,6,4,4,14,35,8,3
+2750,"Hyde Park, Boston, MA",2.0,1.0,1,20,5,3,3,11,38,9,3
+1850,"Hyde Park, Boston, MA",2.0,1.0,2,76,1,0,1,2,49,10,3
+3675,"Hyde Park, Boston, MA",3.0,1.0,1,20,5,3,3,11,38,9,3
+3100,"Hyde Park, Boston, MA",3.0,1.0,1,20,5,3,3,11,38,9,3
+3100,"Hyde Park, Boston, MA",3.0,1.0,1,20,5,3,3,11,38,9,3
+650,"Hyde Park, Boston, MA",4.0,1.5,1,76,3,2,2,7,48,9,4
+650,"Hyde Park, Hyde Park, MA",1.0,0.0,1,76,3,2,2,7,48,9,4
+2600,"Hyde Park, Boston, MA",1.0,1.0,1,21,2,2,2,6,37,7,4
+2600,"Hyde Park, Boston, MA",3.0,1.0,1,76,2,2,2,6,12,6,2
+2400,"Hyde Park, Mattapan, MA",3.0,1.0,2,59,4,1,1,6,30,9,2
+2350,"Hyde Park, Boston, MA",2.0,1.0,1,66,3,1,0,4,65,18,10
+3300,"Hyde Park, Boston, MA",2.0,1.0,1,20,5,3,3,11,38,9,3
+2700,"Hyde Park, Boston, MA",3.0,2.0,1,76,1,0,4,5,51,10,5
+2700,"Hyde Park, Boston, MA",3.0,1.0,1,76,3,1,1,5,35,8,3
+4500,"Hyde Park, Roslindale, MA",3.0,2.0,1,66,1,0,0,1,58,12,1
+3895,"Hyde Park, Roslindale, MA",2.0,2.0,1,66,1,0,0,1,58,12,1
+3795,"Hyde Park, Roslindale, MA",2.0,2.0,1,66,1,0,0,1,58,12,1
+3895,"Hyde Park, Roslindale, MA",2.0,2.0,1,66,1,0,0,1,58,12,1
+3795,"Hyde Park, Roslindale, MA",2.0,2.0,1,66,1,0,0,1,58,12,1
