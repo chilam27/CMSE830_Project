@@ -14,4 +14,4 @@ The following are the outline steps that I will be performing:
 - Exploratory data analysis (EDA): examine the cleaned data and its trends through Streamlit.
 - Model building: determine which model (Linear, Lasso, Random Forest) work best (that return the smallest error) and tune the model with different parameters using GridSearchCV.
 
-http://localhost:8501/#bokeh-line-plot-in-streamlit
+http://localhost:8501/
