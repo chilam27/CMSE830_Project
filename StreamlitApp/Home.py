@@ -45,7 +45,7 @@ st.write(
 st.divider()
 
 # display notebook as html
-path_to_html = "./CMSE830_Project.html" 
+path_to_html = "StreamlitApp/CMSE830_project.html" 
 
 with open(path_to_html,'r') as f: 
     html_data = f.read()
