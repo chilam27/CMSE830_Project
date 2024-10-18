@@ -19,7 +19,7 @@ st.write(
 st.sidebar.header("Year of Period End Filter")
     
 # import dataset
-redfin_df = pd.read_csv('redfin_df.csv')
+redfin_df = pd.read_csv('StreamlitApp/redfin_df.csv')
 
 # set filter
 cat_list = np.sort(redfin_df.Year_of_Period_End.unique())
