@@ -3,7 +3,7 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 import numpy as np
-from bokeh.plotting import figure, show
+from bokeh.plotting import figure
 from bokeh.palettes import Spectral4
 
 st.set_page_config(page_title="Housing Market", 
