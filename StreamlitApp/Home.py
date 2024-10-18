@@ -16,7 +16,7 @@ alt.themes.enable("dark")
 
 st.markdown("# Analyzing and Predicting Boston House Market")
 
-st.image("image/house.png", caption= "iStock: Typical Brownstone Row Houses in Back Bay Boston Massachusetts USA stock photo", width = 1100, use_column_width = None, clamp = False, channels = "RGB", output_format = "auto")
+st.image("StreamlitApp/image/house.png", caption= "iStock: Typical Brownstone Row Houses in Back Bay Boston Massachusetts USA stock photo", width = 1100, use_column_width = None, clamp = False, channels = "RGB", output_format = "auto")
 
 st.markdown("## Objective")
 
