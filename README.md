@@ -13,5 +13,6 @@ The following are the outline steps that I will be performing:
 - Data cleaning: read in data and prepare it for data analysis; steps include: tidy up the categorical features, deal with null value, etc.
 - Exploratory data analysis (EDA): examine the cleaned data and its trends through Streamlit.
 - Model building: determine which model (Linear, Lasso, Random Forest) work best (that return the smallest error) and tune the model with different parameters using GridSearchCV.
+- Deploy Application: save all relevant files to a [GitHub repository](https://github.com/chilam27/CMSE830_Project?tab=readme-ov-file) and deploy the application onto Streamlit Community Cloud.
 
 http://localhost:8501/
