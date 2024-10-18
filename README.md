@@ -1,5 +1,4 @@
-# CMSE830_Project
-CMSE 830 midterm and final project
+# CMSE 830 midterm and final project
 
 My goal for this project is analyze and predict Boston housing prices based on a regression model though a number of features that the source provides. The data I collected are from Trulia and Redfin. By the end of the project, I am hoping to be able to answer these questions:
 
