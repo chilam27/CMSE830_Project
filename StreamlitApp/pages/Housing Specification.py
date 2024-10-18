@@ -3,6 +3,7 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 import numpy as np
+import plotly.express as px
 import plotly.figure_factory as ff
 
 st.set_page_config(page_title="House Specification", 
