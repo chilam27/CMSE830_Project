@@ -1,10 +1,10 @@
 # Import libraries
 import streamlit as st
-import altair as alt
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+# import altair as alt
+# import pandas as pd
+# import numpy as np
+# from sklearn.model_selection import train_test_split
+# from sklearn.preprocessing import StandardScaler
 
 st.set_page_config(page_title="Price Prediction", 
                    page_icon="🧮",
