@@ -19,6 +19,7 @@ st.write(
 st.sidebar.header("Year of Period End Filter")
     
 # import dataset
+np.bool = np.bool_
 redfin_df = pd.read_csv('StreamlitApp/redfin_df.csv')
 
 # set filter
