@@ -3,7 +3,6 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 import numpy as np
-import seaborn as sns
 from bokeh.plotting import figure, show
 from bokeh.palettes import Spectral4
 
