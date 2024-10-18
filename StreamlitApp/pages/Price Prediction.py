@@ -16,5 +16,5 @@ st.markdown("# House Price Prediction")
 st.sidebar.header("Model Performance")
 
 st.write(
-    """This is the Boston house market data collected from [Redfin](https://www.redfin.com/). The data includes relevant information such as homes sold, active listings, median sale price, and median Sale PPSF (price per square foot)"""
+    """Determine which model (Linear, Lasso, Random Forest) work best (that return the smallest error) and tune the model with different parameters using GridSearchCV."""
 )
