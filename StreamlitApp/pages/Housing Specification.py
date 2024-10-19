@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.figure_factory as ff
+import statsmodels.api as sm
 
 st.set_page_config(page_title="House Specification", 
                    page_icon="📝",
