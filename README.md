@@ -1,7 +1,7 @@
 # CMSE 830 midterm and final project
 
 <p align="center">
-  <img width="800" height="500" src="https://github.com/chilam27/CMSE830_Project/blob/main/StreamlitApp/image/house.png">
+  <img width="800" height="300" src="https://github.com/chilam27/CMSE830_Project/blob/main/StreamlitApp/image/house.png">
 </p>
 
 ## Objective
