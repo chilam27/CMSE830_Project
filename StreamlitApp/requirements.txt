@@ -1,5 +1,5 @@
 pandas
-numpy==1.23.5
+numpy
 plotly
 streamlit
 bokeh==2.4.3
