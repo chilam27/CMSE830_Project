@@ -6,6 +6,8 @@ import numpy as np
 from bokeh.plotting import figure
 from bokeh.palettes import Spectral4
 
+x = np.bool_(True)
+
 st.set_page_config(page_title="Housing Market", 
                    page_icon="📈",
                    layout="wide")
