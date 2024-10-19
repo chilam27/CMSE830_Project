@@ -42,7 +42,7 @@ st.sidebar.markdown(
 
 # import dataset
 trulia_df = pd.read_csv('trulia_df.csv')
-sale_stats = pd.read_csv('sale_stats.csv')
+sale_stats = pd.read_csv('StreamlitApp/sale_stats.csv.csv')
 
 # display dataset
 st.dataframe(trulia_df)
