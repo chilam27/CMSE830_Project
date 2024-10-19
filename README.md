@@ -20,4 +20,4 @@ The following are the outline steps that I will be performing:
 - Model building: determine which model (Linear, Lasso, Random Forest) work best (that return the smallest error) and tune the model with different parameters using GridSearchCV.
 - Deploy Application: save all relevant files to a [GitHub repository](https://github.com/chilam27/CMSE830_Project?tab=readme-ov-file) and deploy the application onto Streamlit Community Cloud.
 
-http://localhost:8501/
+## Streamlit Application: [Boston Housing Market](https://daochilam-cmse830-bostonhousemarket.streamlit.app/)
