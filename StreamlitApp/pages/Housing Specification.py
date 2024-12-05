@@ -3,9 +3,12 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.figure_factory as ff
-import statsmodels.api as sm
+import geopandas as gpd
+from shapely import wkt
 
 st.set_page_config(page_title="House Specification", 
                    page_icon="📝",
@@ -24,7 +27,7 @@ st.sidebar.markdown(
 - Rows: 2659
 - Columns: 13
 
-### Variables
+### Trulia Variables
 - *Sale*: int; sale price of the house
 - *Area*: object; the area that the house is located at
 - *Bed*: float; number of bedrooms in a house
@@ -38,15 +41,32 @@ st.sidebar.markdown(
 - *Restaurant*: int; number of restaurants nearby
 - *Grocery*: int; number of grocery stores nearby
 - *Nightlife*: int; number of nightlife activities nearby
+
+### Census Variables
+- *Median Household Income*: float; median household income by neighborhood
+- *Median Age*: float; median age by neighborhood
+- *Total Population*: int; total population by neighborhood
+- *Occupied*: int; number of occupancy by neighborhood
+- *Vacant*: int; number of vacancy by neighborhood
+- *Work Commute Short*: float; number of people commute < 15 minutes to work
+- *Work Commute Average*: float; number of people commute 15-45 minutes to work
+- *Work Commute Long*: float; number of people commute > 45 minutes to work
 """)
 
 
 # import dataset
-trulia_df = pd.read_csv('trulia_df.csv')
-sale_stats = pd.read_csv('StreamlitApp/sale_stats.csv')
+trulia_df = pd.read_csv('final_df.csv')
+census_cleanned = pd.read_csv('census_df.csv')
+sale_stats = pd.read_csv('sale_stats.csv')
 
 # display dataset
 st.dataframe(trulia_df)
+
+st.write(
+    """This is the Census dataset that we requested through its API. We selected a few variables that we think it might help with us understand the real estate market as well as aiding us in predicting the housing prices. Some of the useful variables include median household income, median age, total population, occupied, vacant, and work commute duration."""
+)
+
+st.dataframe(census_cleanned)
 
 st.divider()
 
@@ -79,10 +99,36 @@ st.plotly_chart(fig)
 
 st.divider()
 
-# "Sale" box plot
-fig = px.box(trulia_df, x="Area", y="Sale", color = "Area")
-fig.update_layout(title='Sale Box Plot Grouped by Area', width=1100, height=800)
-st.plotly_chart(fig)
+tab1, tab2= st.tabs(["📦 Box Plot", "🗺️ Map Plot"])
+
+with tab1:
+    # box plot
+    fig = px.box(trulia_df, x="Area", y="Sale", color = "Area")
+    fig.update_layout(title='Sale Box Plot Grouped by Neighborhood', width=1100, height=800, showlegend=False)
+    st.plotly_chart(fig)
+
+with tab2:
+    # map plot
+    census_cleanned['Geometry'] = census_cleanned['Geometry'].apply(wkt.loads)
+    median_sale_area = trulia_df[['Area', 'Sale']].groupby(['Area'], as_index = False).median()
+    geo_df = pd.merge(census_cleanned, median_sale_area, 'right', on = 'Area').set_index('Area')
+    geo_df = gpd.GeoDataFrame(geo_df, geometry = 'Geometry')
+    
+    fig = px.choropleth_mapbox(geo_df,
+                               geojson = geo_df.geometry,
+                               locations = geo_df.index,
+                               color = geo_df['Sale'],
+                               color_continuous_scale = 'Viridis',
+                               opacity = 0.75,
+                               center = {"lat": 42.32, "lon": -71.0889},
+                               mapbox_style = "carto-positron",
+                               zoom = 11,
+                               width = 1000,
+                               height = 1000,
+                               title = 'Sale Map Plot Grouped by Neighborhood',
+                               hover_data = ['Sale', 'Total Population', 'Median Household Income', 'Median Age']
+                              )
+    st.plotly_chart(fig)
 
 st.divider()
 
