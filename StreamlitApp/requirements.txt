@@ -1,6 +1,7 @@
 pandas
 numpy==1.26.4
 plotly
-streamlit
+streamlit==1.40.2
 bokeh==2.4.3
 statsmodels
+xgboost
