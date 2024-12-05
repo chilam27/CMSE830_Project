@@ -39,13 +39,13 @@ st.sidebar.markdown(
 
 ###
 # loading in the model to predict on the data 
-pickle_in = open('linear.pkl', 'rb') 
+pickle_in = open('StreamlitApp/linear.pkl', 'rb') 
 linear = pickle.load(pickle_in) 
 
-pickle_in = open('lasso.pkl', 'rb') 
+pickle_in = open('StreamlitApp/lasso.pkl', 'rb') 
 lasso = pickle.load(pickle_in) 
 
-pickle_in = open('xgboost.pkl', 'rb') 
+pickle_in = open('StreamlitApp/xgboost.pkl', 'rb') 
 xgboost = pickle.load(pickle_in) 
   
 @st.cache_data
