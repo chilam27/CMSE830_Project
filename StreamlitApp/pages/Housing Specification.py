@@ -55,9 +55,9 @@ st.sidebar.markdown(
 
 
 # import dataset
-trulia_df = pd.read_csv('final_df.csv')
-census_cleanned = pd.read_csv('census_df.csv')
-sale_stats = pd.read_csv('sale_stats.csv')
+trulia_df = pd.read_csv('StreamlitApp/final_df.csv')
+census_cleanned = pd.read_csv('StreamlitApp/census_df.csv')
+sale_stats = pd.read_csv('StreamlitApp/sale_stats.csv')
 
 # display dataset
 st.dataframe(trulia_df)
