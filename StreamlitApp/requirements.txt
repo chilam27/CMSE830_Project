@@ -7,4 +7,4 @@ statsmodels
 xgboost
 seaborn
 geopandas
-sklearn
+scikit-learn
