@@ -3,10 +3,10 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 import numpy as np
-from bokeh.plotting import figure
+import seaborn as sns
+import plotly.express as px
+from bokeh.plotting import figure, show
 from bokeh.palettes import Spectral4
-
-x = np.bool_(True)
 
 st.set_page_config(page_title="Housing Market", 
                    page_icon="📈",
@@ -21,7 +21,7 @@ st.write(
 st.sidebar.header("Year of Period End Filter")
     
 # import dataset
-redfin_df = pd.read_csv('StreamlitApp/redfin_df.csv')
+redfin_df = pd.read_csv('redfin_df.csv')
 
 # set filter
 cat_list = np.sort(redfin_df.Year_of_Period_End.unique())
