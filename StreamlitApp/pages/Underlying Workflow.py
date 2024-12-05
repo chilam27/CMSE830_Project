@@ -11,7 +11,7 @@ st.set_page_config(page_title="Underlying Methodology",
 st.markdown("# Underlying Methodology")
 
 # display notebook as html
-path_to_html = "/StreamlitApp/CMSE830_Project.html" 
+path_to_html = "StreamlitApp/CMSE830_Project.html" 
 
 with open(path_to_html,'r') as f: 
     html_data = f.read()
