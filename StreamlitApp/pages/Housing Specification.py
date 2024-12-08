@@ -126,7 +126,7 @@ with tab2:
                                title = 'Sale Map Plot Grouped by Neighborhood',
                                hover_data = ['Sale', 'Total Population', 'Median Household Income', 'Median Age']
                               )
-    fig.update_layout(width=1100, height=1000, zoom = 10)
+    fig.update_layout(width=1100, height=1000, autosize = 10)
     st.plotly_chart(fig)
 
 st.divider()
