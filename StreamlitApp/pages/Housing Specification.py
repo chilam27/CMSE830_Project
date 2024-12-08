@@ -14,7 +14,7 @@ st.set_page_config(page_title="House Specification",
                    page_icon="📝",
                    layout="wide")
 
-st.markdown("# House Specification")
+st.markdown("# 📝 House Specification")
 
 st.write(
     """This is the Boston housing data scrapped from [Trulia](https://www.trulia.com/). We used the `BeautifulSoup` package to scrape the information from the website for educational purposes only. The data contains variables such as sale, address, area, bed, bath, school, crime, commute, shop_eat, description, feature, URL. Below is the Trulia dataset that has been cleaned and processed."""
