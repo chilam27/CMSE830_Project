@@ -8,7 +8,7 @@ st.set_page_config(page_title="Underlying Methodology",
                    page_icon="🔬",
                    layout="wide")
 
-st.markdown("# Underlying Methodology")
+st.markdown("# 🔬 Underlying Methodology")
 
 # display notebook as html
 path_to_html = "StreamlitApp/CMSE830_project.html"
