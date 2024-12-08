@@ -122,7 +122,7 @@ with tab2:
                                opacity = 0.75,
                                center = {"lat": 42.32, "lon": -71.0889},
                                mapbox_style = "carto-positron",
-                               width = 1000,
+                               # width = 1000,
                                height = 1000,
                                zoom = 11,
                                title = 'Sale Map Plot Grouped by Neighborhood',
