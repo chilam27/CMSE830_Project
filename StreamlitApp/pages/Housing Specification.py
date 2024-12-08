@@ -122,10 +122,13 @@ with tab2:
                                opacity = 0.75,
                                center = {"lat": 42.32, "lon": -71.0889},
                                mapbox_style = "carto-positron",
+                               width = 1000,
+                               height = 1000,
                                zoom = 11,
                                title = 'Sale Map Plot Grouped by Neighborhood',
                                hover_data = ['Sale', 'Total Population', 'Median Household Income', 'Median Age']
                               )
+    fig.update_layout(xaxis=dict(autorange=True), yaxis=dict(autorange=True))
     st.plotly_chart(fig)
 
 st.divider()
