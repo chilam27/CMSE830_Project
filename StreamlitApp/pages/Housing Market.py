@@ -12,7 +12,7 @@ st.set_page_config(page_title="Housing Market",
                    page_icon="📈",
                    layout="wide")
 
-st.markdown("# Housing Market")
+st.markdown("# 📈 Housing Market")
 
 st.write(
     """This is the Boston house market data collected from [Redfin](https://www.redfin.com/), a real estate company that offers services to help people buy, sell, and rent homes. The data is a combination of 4 separate datasets and it includes information such as homes sold, active listings, median sale price, and median Sale PPSF (price per square foot). By understanding the past and current state of the housing market as a whole, we can make better decision regarding buying and selling houses."""
