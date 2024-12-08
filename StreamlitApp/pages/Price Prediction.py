@@ -14,7 +14,7 @@ st.set_page_config(page_title="Price Prediction",
                    page_icon="🧮",
                    layout="wide")
 
-st.markdown("# House Price Prediction")
+st.markdown("# 🧮 House Price Prediction")
 
 st.sidebar.header("Model Performance")
 
