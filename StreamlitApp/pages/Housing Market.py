@@ -34,8 +34,25 @@ redfin_filter_df = redfin_df[redfin_df.Year_of_Period_End.isin(cat_list[val])].r
 with st.expander("View Redfin processed dataset"):
   if redfin_filter_df.shape[0]>0:
       st.dataframe(redfin_filter_df, height = 250)
+      st.write("""
+      ### Redfin Dataset Variables
+      - *Day of Year sold*: int; the number of days in a year
+      
+      - *Year of Period End*: int; the year of when the record end
+      - *Period Begin*: date; the date of which the record begins
+      - *Period End*: date; the date of which the record ends
+      - *Active Listings YOY*: float; the year-over-year number of active listings on Redfin's website based on a specific time frame
+      - *Active Listings*: int; the number of active listings on Redfin's website based on a specific time frame
+      - *Adjusted Average Homes Sold*: int; the number of homes sold based on a specific time frame
+      - *Adjusted Average Homes Sold YOY*: float; the year-over-year number of homes sold based on a specific time frame
+      - *Median Sale PPSF (price per square foot)*: int; the median sale PPSF of listings on Redfin's website based on a specific time frame
+      - *Median Sale PPSF (price per square foot) YOY*: float; the year-over-year median sale PPSF of listings on Redfin's website based on a specific time frame
+      - *Median Sale Price*: int; the median sale price of listings on Redfin's website based on a specific time frame
+      - *Median Sale Price YOY*: float; the year-over-year median sale price of listings on Redfin's website based on a specific time frame
+      """)
   else:
       st.write("Empty Dataframe")
+
 
 st.divider()
 
