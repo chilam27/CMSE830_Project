@@ -23,7 +23,7 @@ st.write("""
 The following are the outline steps that I will be performing:
 
 - Data collection: use BeautifulSoup to scrape property data from Trulia, a popular real estate website. Gather all listed variables that can be used for data analysis; download Census data through its API, a provider of data on the National, State, and Local levels that help define who we are as a nation and the makeup of the people that live in this country; download housing market data that is available on Redfin, a real estate company that offers services for buying, selling, renting, and financing homes.
-- Data cleaning: read in data and prepare it for data analysis; steps include: tidy up the categorical features, deal with null value, etc.
+- Data cleaning: read in data and prepare it for data analysis; steps include: tidying up the categorical features, feature engineering, categorizing missing value type and performing imputation, etc.
 - Exploratory data analysis (EDA): examine the cleaned data and its trends through Streamlit.
 - Model building: determine which model (Linear Regression, Lasso Regression, XGBoost Regressor, Gradient Boosting Regressor) work best (that return the smallest error) and tune the model with different parameters using RandomizedSearchCV.
 - Deploy Application: save all relevant files to a [GitHub repository](https://github.com/chilam27/CMSE830_Project?tab=readme-ov-file) and deploy the application onto Streamlit Community Cloud."
