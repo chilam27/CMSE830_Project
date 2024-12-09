@@ -98,19 +98,18 @@ with st.expander("Sale variable basic summary statistics"):
 st.divider()
 
 # correlation heatmap
-# trulia_num_df = trulia_filter_df.select_dtypes(include = np.number)
+trulia_num_df = trulia_filter_df.select_dtypes(include = np.number)
 corr_matrix = trulia_filter_df.corr()
 
 # create the heatmap
 fig = px.imshow(corr_matrix,
-                x=corr_matrix.columns,
-                y=corr_matrix.columns,
-                color_continuous_scale='RdBu_r',
-                zmin=-1, zmax=1)
+                x = corr_matrix.columns,
+                y = corr_matrix.columns,
+                color_continuous_scale = 'RdBu_r',
+                zmin = -1, 
+                zmax = 1)
 
-## customize the appearance
 fig.update_layout(title='Correlation Matrix', width=1200, height=500)
-
 st.plotly_chart(fig)
 
 st.divider()
