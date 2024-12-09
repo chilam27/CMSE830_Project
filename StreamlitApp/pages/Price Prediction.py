@@ -73,11 +73,11 @@ def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):
         CompareMedianSalePrice = 0 
 
     if ModelChoice[0] == "Linear Regression":
-        prediction = linear.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
+        prediction = linear.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     elif ModelChoice[0] == "Lasso Regression":
-        prediction = lasso.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
+        prediction = lasso.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     elif ModelChoice[0] == "XGBoost Regressor":
-        prediction = xgboost.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
+        prediction = xgboost.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     # elif ModelChoice[0] == "Gradient Boosting Regressor":
     #     prediction = gradient.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
     # else:
