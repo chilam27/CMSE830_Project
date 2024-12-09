@@ -13,7 +13,7 @@ st.markdown("# 🔬 Underlying Methodology")
 st.sidebar.header("Application Creator")
 
 st.sidebar.markdown("""
-*Dao Chi Lam*, MSDS Graduate Student, Class of 2026, Michigan State University.
+**Dao Chi Lam**, MSDS Graduate Student, Class of 2026, Michigan State University.
 """)
 
 ## Project Outline
