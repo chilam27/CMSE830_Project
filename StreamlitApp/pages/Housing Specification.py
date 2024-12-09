@@ -35,10 +35,6 @@ for i, cat in enumerate(cat_list):
 
 # filter data based on selection
 trulia_filter_df = trulia_df[trulia_df['Area'].isin(cat_list[val])].reset_index(drop = True)
-if trulia_filter_df.shape[0] > 0:
-    st.dataframe(trulia_filter_df)
-else:
-    st.write("Empty Dataframe")
 
 # display dataset
 with st.expander("View Trulia processed dataset"):
