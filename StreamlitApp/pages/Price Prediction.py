@@ -82,9 +82,9 @@ def prediction(CompareMedianSalePrice, Area, Bed, Bath, ModelChoice):
     elif ModelChoice[0] == "XGBoost Regressor":
         prediction = xgboost.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     elif ModelChoice[0] == "Gradient Boosting Regressor":
-        prediction = gradient.predict([[CompareMedianSalePrice, Area, Bath[0], Bed[0]]])
+        prediction = gradient.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     else:
-        prediction = tunned_xgboost.predict([[CompareMedianSalePrice, Area, Bath[0], Bed[0]]])
+        prediction = tunned_xgboost.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     
     return prediction 
 
