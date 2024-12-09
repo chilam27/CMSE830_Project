@@ -24,7 +24,7 @@ The following are the outline steps that I will be performing:
 
 ## Dataset
 
-### Trulia dataset
+### [Trulia dataset](https://github.com/chilam27/CMSE830_Project/blob/main/trulia_df.csv)
 
 The Boston housing data scraped from [Trulia](https://www.trulia.com/). We used the BeautifulSoup package to extract information from the website for educational purposes only. The dataset includes variables such as sale, address, area, bed, bath, school, crime, commute, shop_eat, description, feature, and URL.
 
@@ -41,7 +41,7 @@ The Boston housing data scraped from [Trulia](https://www.trulia.com/). We used 
 - 'feature': item that property provides (heating, laundry, etc.)
 - 'URL': link to the property
 
-### Census dataset
+### [Census dataset](https://github.com/chilam27/CMSE830_Project/blob/main/StreamlitApp/census_df.csv)
 
 This is the Census dataset that we requested through its API. We selected a few variables that we think might help us understand the real estate market as well as aiding us in predicting the housing prices. Some of the useful variables include median household income, median age, total population, occupied, vacant, and work commute duration.
 
@@ -65,7 +65,7 @@ This is the Census dataset that we requested through its API. We selected a few 
 - 'Work Commute > 60 minutes': the number of people who commute more than 60 minutes to work of where the record is located
 - 'Geometry': a geometry data type representing an area that is enclosed by a linear ring
 
-### Redfin dataset:
+### [Redfin dataset](https://github.com/chilam27/CMSE830_Project/blob/main/redfin_df.csv)
 
 The Boston housing market data collected from [Redfin](https://www.redfin.com/), a real estate company that helps people buy, sell, and rent homes. The data is a combination of four separate datasets and includes information such as homes sold, active listings, median sale price, and median sale price per square foot (PPSF). By understanding the past and current state of the housing market, we can make better decisions regarding buying and selling properties.
 
