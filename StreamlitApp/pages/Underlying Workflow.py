@@ -20,7 +20,7 @@ st.sidebar.markdown("""
 st.write("""
 ## Project Outline
 
-The following are the outline steps that I will be performing: <u>text</u>
+The following are the outline steps that I will be performing:
 
 - Data collection: use BeautifulSoup to scrape property data from Trulia, a popular real estate website. Gather all listed variables that can be used for data analysis; download Census data through its API, a provider of data on the National, State, and Local levels that help define who we are as a nation and the makeup of the people that live in this country; download housing market data that is available on Redfin, a real estate company that offers services for buying, selling, renting, and financing homes.
 - Data cleaning: read in data and prepare it for data analysis; steps include: tidy up the categorical features, deal with null value, etc.
