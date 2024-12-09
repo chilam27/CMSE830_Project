@@ -66,7 +66,7 @@ trulia_df = pd.read_csv('StreamlitApp/final_df.csv')
 
 @st.cache_data
 
-def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):
+def prediction(CompareMedianSalePrice, Area, Bed, Bath, ModelChoice):
     if CompareMedianSalePrice[0] == "Yes":
         CompareMedianSalePrice = 1
     elif CompareMedianSalePrice[0] == "No":
@@ -76,15 +76,15 @@ def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):
     Area = area_df.loc[Area]
 
     if ModelChoice[0] == "Linear Regression":
-        prediction = linear.predict([[CompareMedianSalePrice, Area, Bath[0], Bed[0]]])
+        prediction = linear.predict([[CompareMedianSalePrice, Area, Bed[0], Bath[0]]])
     elif ModelChoice[0] == "Lasso Regression":
         prediction = lasso.predict([[CompareMedianSalePrice, Area, Bath[0], Bed[0]]])
     elif ModelChoice[0] == "XGBoost Regressor":
         prediction = xgboost.predict([[CompareMedianSalePrice, Area, Bath[0], Bed[0]]])
     # elif ModelChoice[0] == "Gradient Boosting Regressor":
-    #     prediction = gradient.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
+    #     prediction = gradient.predict([[CompareMedianSalePrice, Area, Bath[0], Bed[0]]])
     # else:
-    #     prediction = tunned_xgboost.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
+    #     prediction = tunned_xgboost.predict([[CompareMedianSalePrice, Area, Bath[0], Bed[0]]])
     
     return prediction 
 
@@ -100,7 +100,7 @@ def main():
     result = "" 
 
     if st.button("Predict"): 
-        result = prediction(CompareMedianSalePrice, Bath, Bed, Area, ModelChoice) 
+        result = prediction(CompareMedianSalePrice, Area, Bed, Bath, ModelChoice) 
         st.success('The predicted sale price is ${}'.format(round(result[0],2))) 
      
 if __name__=='__main__': 
