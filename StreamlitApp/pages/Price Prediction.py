@@ -101,8 +101,8 @@ def main():
 
     if st.button("Predict"): 
         result = prediction(CompareMedianSalePrice, Area, Bed, Bath, ModelChoice)
-        formatted_result = "{:,}".format(result[0])
-        st.success('The predicted sale price is ${}'.format(round(formatted_result,2))) 
+        formatted_result = "{:,}".format(round(result[0],2))
+        st.success('The predicted sale price is ${}'.format(formatted_result)) 
      
 if __name__=='__main__': 
     main() 
