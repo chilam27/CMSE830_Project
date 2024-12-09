@@ -48,6 +48,7 @@ st.sidebar.markdown(
 - MSE: 7873099317.26
 - R-squared: 0.8098
 """)
+@st.cache_data
 
 pickle_in = open('StreamlitApp/linear.pkl', 'rb') 
 linear = pickle.load(pickle_in) 
@@ -65,10 +66,6 @@ pickle_in = open('StreamlitApp/tunned_xgboost.pkl', 'rb')
 tunned_xgboost = pickle.load(pickle_in) 
 
 trulia_df = pd.read_csv('StreamlitApp/final_df.csv')
-
-@st.cache_data
-
-
 
 def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):  
   
