@@ -81,8 +81,14 @@ with st.expander("View Census Processed dataset"):
 st.divider()
 
 # "Sale" distribution plot
-fig = px.histogram(trulia_filter_df, x="Sale")
-fig.update_layout(title='Sale Distribtuion', width=1100, height=500)
+st.write("""
+## Property Sale Distribution
+
+The first plot presented is the sale distribution histogram. From the histogram, we can observe that the distribution is right-skewed, with a few properties as outliers exceeding $1.5 million. According to Trulia's website for the Boston region, the average sale price of a property is approximately $481,234. Additionally, we can see that the minimum listing price is $104,000, while the maximum listing price reaches $4,800,000.
+""")
+
+fig = px.histogram(trulia_filter_df, x = "Sale")
+fig.update_layout(title = 'Sale Distribution Histogram', width = 1100, height = 500)
 st.plotly_chart(fig)
 
 # Sale statistics expander
