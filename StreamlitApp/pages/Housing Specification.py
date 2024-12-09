@@ -159,6 +159,12 @@ with tab2:
 st.divider()
 
 # "Sale" vs "Bed" scatter plot plot
+st.write("""
+## Sale and Bedroom
+
+Another variable that has a high correlation with the sale price is the number of bedrooms and bathrooms. These are definitely some of the most important features in determining a property's value. It's interesting to note that properties with three bedrooms have a significant number of outliers in the higher value range. This may indicate that many of these properties are either close to the downtown area or that a lot of luxury properties have three bedrooms.
+""")
+
 fig = px.box(trulia_filter_df, x = 'Bed', y = 'Sale')
 fig.update_layout(title = 'Sale vs. Bed Scatter Plot', width = 1100, height = 500)
 st.plotly_chart(fig)
@@ -166,6 +172,12 @@ st.plotly_chart(fig)
 st.divider()
 
 # "Sale" vs "Bath" scatter plot plot
+st.write("""
+## Sale and Bathroom
+
+For the final analysis, it's interesting to note that the correlation between the number of bathrooms and the sale price is stronger than the correlation between the number of bedrooms and the sale price. Similar to our previous analysis, we observe that, on average, higher property values are associated with properties that have more bathrooms.
+""")
+
 fig = px.box(trulia_filter_df, x = 'Bath', y = 'Sale')
 fig.update_layout(title = 'Sale vs. Bath Scatter Plot', width = 1100, height = 500)
 st.plotly_chart(fig)
