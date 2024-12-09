@@ -20,7 +20,7 @@ st.write(
     """The plots and figures in this section are generated from the processed Trulia and Census datasets. We can use the available tools to understand the trends in property sale prices based on their features."""
 )
 
-st.sidebar.header("Processed Dataset Summary")
+# st.sidebar.header("Processed Dataset Summary")
 
 # st.sidebar.markdown(
 #     """### Trulia Dataset Size
