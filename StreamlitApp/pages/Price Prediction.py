@@ -66,8 +66,7 @@ tunned_xgboost = pickle.load(pickle_in)
 
 trulia_df = pd.read_csv('StreamlitApp/final_df.csv')
 
-def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):  
-  
+def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):
     if CompareMedianSalePrice[0] == "Yes":
         CompareMedianSalePrice = 1
     elif CompareMedianSalePrice[0] == "No":
@@ -81,7 +80,7 @@ def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):
         prediction = xgboost.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     elif ModelChoice[0] == "Gradient Boosting Regressor":
         prediction = gradient.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
-    elif ModelChoice[0] == "Tunned XGBoost Regressor":
+    else:
         prediction = tunned_xgboost.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     
     return prediction 
