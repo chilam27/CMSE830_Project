@@ -98,10 +98,7 @@ def main():
       CompareMedianSalePrice = st.radio("Is the house price higher than the median house sale ($665,000)?", ["Yes", "No"]),
     ModelChoice = st.pills("Select your preferred predictive model", ["Linear Regression", "Lasso Regression", "XGBoost Regressor", "Gradient Boosting Regressor", "Tunned XGBoost Regressor"]),
     result = "" 
-    st.write(Bed)
-    st.write(Bath)
-    st.write(Area)
-    st.write(ModelChoice)
+
     if st.button("Predict"): 
         result = prediction(CompareMedianSalePrice, Bath, Bed, Area, ModelChoice) 
         st.success('The predicted sale price is ${}'.format(round(result[0],2))) 
