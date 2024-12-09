@@ -14,9 +14,9 @@ st.set_page_config(page_title="Housing Market",
 
 st.markdown("# 📈 Housing Market")
 
-st.write(
-    """This is the Boston house market data collected from [Redfin](https://www.redfin.com/), a real estate company that offers services to help people buy, sell, and rent homes. The data is a combination of 4 separate datasets and it includes information such as homes sold, active listings, median sale price, and median Sale PPSF (price per square foot). By understanding the past and current state of the housing market as a whole, we can make better decision regarding buying and selling houses."""
-)
+st.write("""
+Before assessing the specifications of a property, it would save us a lot of time and effort to first analyze the current real estate market. This approach allows us to make better decisions regarding buying or selling a property and at which price point.
+""")
 
 st.sidebar.header("Year of Period End Filter")
     
@@ -36,6 +36,14 @@ with st.expander("View Redfin processed dataset"):
       st.dataframe(redfin_filter_df, height = 250)
   else:
       st.write("Empty Dataframe")
+
+st.divider()
+
+st.write("""
+These four plots provide a comprehensive view of the real estate market in Boston. We can observe general trends in active listings and sale prices throughout the years from 2021 to 2024.
+
+Regarding active listings on Redfin, it's common to see a higher number of listings available during the summer, with a decline starting in the fall season. This trend is also reflected in the other three plots.
+""")
 
 # set column
 col = st.columns(2)
