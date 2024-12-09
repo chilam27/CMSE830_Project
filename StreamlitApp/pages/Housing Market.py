@@ -30,11 +30,12 @@ for i, cat in enumerate(cat_list):
     val[i] = st.sidebar.checkbox(str(cat), value=True)
 
 # filter data based on selection
-redfin_filter_df = redfin_df[redfin_df.Year_of_Period_End.isin(cat_list[val])].reset_index(drop=True)
-if redfin_filter_df.shape[0]>0:
-    st.dataframe(redfin_filter_df)
-else:
-    st.write("Empty Dataframe")
+redfin_filter_df = redfin_df[redfin_df.Year_of_Period_End.isin(cat_list[val])].reset_index(drop = True)
+with st.expander("View Redfin processed dataset"):
+  if redfin_filter_df.shape[0]>0:
+      st.dataframe(redfin_filter_df, height = 250)
+  else:
+      st.write("Empty Dataframe")
 
 # set column
 col = st.columns(2)
