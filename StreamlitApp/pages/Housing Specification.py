@@ -17,45 +17,45 @@ st.set_page_config(page_title="House Specification",
 st.markdown("# 📝 House Specification")
 
 st.write(
-    """This is the Boston housing data scrapped from [Trulia](https://www.trulia.com/). We used the `BeautifulSoup` package to scrape the information from the website for educational purposes only. The data contains variables such as sale, address, area, bed, bath, school, crime, commute, shop_eat, description, feature, URL. Below is the Trulia dataset that has been cleaned and processed."""
+    """The plots and figures in this section are generated from the processed Trulia and Census datasets. We can use the available tools to understand the trends in property sale prices based on their features."""
 )
 
 st.sidebar.header("Processed Dataset Summary")
 
-st.sidebar.markdown(
-    """### Trulia Dataset Size
-- Rows: 2659
-- Columns: 13
+# st.sidebar.markdown(
+#     """### Trulia Dataset Size
+# - Rows: 2659
+# - Columns: 13
 
-### Trulia Variables
-- *Sale*: int; sale price of the house
-- *Area*: object; the area that the house is located at
-- *Bed*: float; number of bedrooms in a house
-- *Bath*: float; number of bathrooms in a house
-- *Crime_Rate*: int; crime rate from 1-5
-- *Car_Commute_Percentage*: float; proportion of people in the area commute by car
-- *Elemenatary_School*: int; number of elementary schools nearby  
-- *Middle_School*: int; number of middle schools nearby  
-- *High_School*: int; number of high schools nearby
-- *Total_School*: int; number of schools nearby
-- *Restaurant*: int; number of restaurants nearby
-- *Grocery*: int; number of grocery stores nearby
-- *Nightlife*: int; number of nightlife activities nearby
+# ### Trulia Variables
+# - *Sale*: int; sale price of the house
+# - *Area*: object; the area that the house is located at
+# - *Bed*: float; number of bedrooms in a house
+# - *Bath*: float; number of bathrooms in a house
+# - *Crime_Rate*: int; crime rate from 1-5
+# - *Car_Commute_Percentage*: float; proportion of people in the area commute by car
+# - *Elemenatary_School*: int; number of elementary schools nearby  
+# - *Middle_School*: int; number of middle schools nearby  
+# - *High_School*: int; number of high schools nearby
+# - *Total_School*: int; number of schools nearby
+# - *Restaurant*: int; number of restaurants nearby
+# - *Grocery*: int; number of grocery stores nearby
+# - *Nightlife*: int; number of nightlife activities nearby
 
-### Census Dataset Size
-- Rows: 24
-- Columns: 10
+# ### Census Dataset Size
+# - Rows: 24
+# - Columns: 10
 
-### Census Variables
-- *Median Household Income*: float; median household income by neighborhood
-- *Median Age*: float; median age by neighborhood
-- *Total Population*: int; total population by neighborhood
-- *Occupied*: int; number of occupancy by neighborhood
-- *Vacant*: int; number of vacancy by neighborhood
-- *Work Commute Short*: float; number of people commute < 15 minutes to work
-- *Work Commute Average*: float; number of people commute 15-45 minutes to work
-- *Work Commute Long*: float; number of people commute > 45 minutes to work
-""")
+# ### Census Variables
+# - *Median Household Income*: float; median household income by neighborhood
+# - *Median Age*: float; median age by neighborhood
+# - *Total Population*: int; total population by neighborhood
+# - *Occupied*: int; number of occupancy by neighborhood
+# - *Vacant*: int; number of vacancy by neighborhood
+# - *Work Commute Short*: float; number of people commute < 15 minutes to work
+# - *Work Commute Average*: float; number of people commute 15-45 minutes to work
+# - *Work Commute Long*: float; number of people commute > 45 minutes to work
+# """)
 
 
 # import dataset
@@ -64,13 +64,46 @@ census_cleanned = pd.read_csv('StreamlitApp/census_df.csv')
 sale_stats = pd.read_csv('StreamlitApp/sale_stats.csv')
 
 # display dataset
-st.dataframe(trulia_df, height = 250)
-
-st.write(
-    """This is the Census dataset that we requested through its API. We selected a few variables that we think it might help with us understand the real estate market as well as aiding us in predicting the housing prices. Some of the useful variables include median household income, median age, total population, occupied, vacant, and work commute duration."""
-)
-
-st.dataframe(census_cleanned, height = 250)
+with st.expander("View Trulia processed dataset"):
+  st.dataframe(trulia_df, height = 250)
+  st.write("""
+  ### Trulia Dataset Size
+  - Rows: 2659
+  - Columns: 13
+  
+  ### Trulia Dataset Variables
+  - *Sale*: int; sale price of the house
+  - *Area*: object; the area that the house is located at
+  - *Bed*: float; number of bedrooms in a house
+  - *Bath*: float; number of bathrooms in a house
+  - *Crime_Rate*: int; crime rate from 1-5
+  - *Car_Commute_Percentage*: float; proportion of people in the area commute by car
+  - *Elemenatary_School*: int; number of elementary schools nearby  
+  - *Middle_School*: int; number of middle schools nearby  
+  - *High_School*: int; number of high schools nearby
+  - *Total_School*: int; number of schools nearby
+  - *Restaurant*: int; number of restaurants nearby
+  - *Grocery*: int; number of grocery stores nearby
+  - *Nightlife*: int; number of nightlife activities nearby
+  """)
+  
+with st.expander("View Census Processed dataset"):
+  st.dataframe(census_cleanned, height = 250)
+  st.write("""
+  ### Census Dataset Size
+  - Rows: 24
+  - Columns: 10
+  
+  ### Census Dataset Variables
+  - *Median Household Income*: float; median household income by neighborhood
+  - *Median Age*: float; median age by neighborhood
+  - *Total Population*: int; total population by neighborhood
+  - *Occupied*: int; number of occupancy by neighborhood
+  - *Vacant*: int; number of vacancy by neighborhood
+  - *Work Commute Short*: float; number of people commute < 15 minutes to work
+  - *Work Commute Average*: float; number of people commute 15-45 minutes to work
+  - *Work Commute Long*: float; number of people commute > 45 minutes to work
+  """)
 
 st.divider()
 
