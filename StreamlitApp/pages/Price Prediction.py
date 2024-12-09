@@ -68,7 +68,7 @@ trulia_df = pd.read_csv('StreamlitApp/final_df.csv')
 
 
 
-def prediction(CompareMedianSalePrice, Area, Bath, Bed):  
+def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):  
   
     if CompareMedianSalePrice[0] == "Yes":
         CompareMedianSalePrice = 1
@@ -100,7 +100,7 @@ def main():
     result ="" 
     
     if st.button("Predict"): 
-        result = prediction(CompareMedianSalePrice, Bath, Bed, Area) 
+        result = prediction(CompareMedianSalePrice, Bath, Bed, Area, ModelChoice) 
         st.success('The predicted sale price is ${}'.format(round(result[0],2))) 
      
 if __name__=='__main__': 
