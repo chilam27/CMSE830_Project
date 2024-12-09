@@ -64,6 +64,8 @@ xgboost = pickle.load(pickle_in)
 
 trulia_df = pd.read_csv('StreamlitApp/final_df.csv')
 
+@st.cache_data
+
 def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):
     if CompareMedianSalePrice[0] == "Yes":
         CompareMedianSalePrice = 1
@@ -86,12 +88,12 @@ def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):
 def main(): 
     col1, col2 = st.columns(2)
     with col1:
-      Bed = st.slider("Select the number of bedrooms", min_value = 1, max_value = 10, step = 1)
-      Area = st.selectbox("In which neighborhood is the property located?", trulia_df['Area'].unique().tolist())
+      Bed = st.slider("Select the number of bedrooms", min_value = 1, max_value = 10, step = 1),
+      Area = st.selectbox("In which neighborhood is the property located?", trulia_df['Area'].unique().tolist()),
     with col2:
-      Bath = st.slider("Select the number of bathrooms", min_value = 0.0, max_value = 5.0, step = 0.5)
-      CompareMedianSalePrice = st.radio("Is the house price higher than the median house sale ($665,000)?", ["Yes", "No"])
-    ModelChoice = st.pills("Select your preferred predictive model", ["Linear Regression", "Lasso Regression", "XGBoost Regressor", "Gradient Boosting Regressor", "Tunned XGBoost Regressor"])
+      Bath = st.slider("Select the number of bathrooms", min_value = 0.0, max_value = 5.0, step = 0.5),
+      CompareMedianSalePrice = st.radio("Is the house price higher than the median house sale ($665,000)?", ["Yes", "No"]),
+    ModelChoice = st.pills("Select your preferred predictive model", ["Linear Regression", "Lasso Regression", "XGBoost Regressor", "Gradient Boosting Regressor", "Tunned XGBoost Regressor"]),
     result = "" 
     
     if st.button("Predict"): 
