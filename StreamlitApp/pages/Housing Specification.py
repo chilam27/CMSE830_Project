@@ -99,7 +99,7 @@ st.divider()
 
 # correlation heatmap
 trulia_num_df = trulia_filter_df.select_dtypes(include = np.number)
-corr_matrix = trulia_filter_df.corr()
+corr_matrix = trulia_num_df.corr()
 
 # create the heatmap
 fig = px.imshow(corr_matrix,
