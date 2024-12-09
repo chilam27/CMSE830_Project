@@ -6,8 +6,6 @@ import numpy as np
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import LinearRegression, Lasso
-
 import pickle 
 
 st.set_page_config(page_title="Price Prediction", 
