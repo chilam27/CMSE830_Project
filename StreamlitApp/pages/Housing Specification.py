@@ -98,6 +98,12 @@ with st.expander("Sale variable basic summary statistics"):
 st.divider()
 
 # correlation heatmap
+st.write("""
+## Correlation Matrix
+
+In the next plot, we examine the relationships between variables to understand which ones are correlated with each other. For the "Sale" variable, we observe that the most strongly correlated variables are the number of beds, the number of baths, the area, and the median sale price comparison.
+""")
+
 trulia_num_df = trulia_filter_df.select_dtypes(include = np.number)
 corr_matrix = trulia_num_df.corr()
 
@@ -106,11 +112,9 @@ fig = px.imshow(corr_matrix,
                 x = corr_matrix.columns,
                 y = corr_matrix.columns,
                 color_continuous_scale = 'RdBu_r',
-                # zmin = -1, 
-                # zmax = 1
                )
 
-fig.update_layout(title='Correlation Matrix', width=1200, height=800)
+fig.update_layout(title='Correlation Matrix Heatmap', width=1200, height=800)
 st.plotly_chart(fig)
 
 st.divider()
