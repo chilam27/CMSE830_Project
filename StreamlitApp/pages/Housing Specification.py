@@ -23,7 +23,7 @@ st.write(
 st.sidebar.header("Processed Dataset Summary")
 
 st.sidebar.markdown(
-    """### Size
+    """### Trulia Dataset Size
 - Rows: 2659
 - Columns: 13
 
@@ -41,6 +41,10 @@ st.sidebar.markdown(
 - *Restaurant*: int; number of restaurants nearby
 - *Grocery*: int; number of grocery stores nearby
 - *Nightlife*: int; number of nightlife activities nearby
+
+### Census Dataset Size
+- Rows: 24
+- Columns: 10
 
 ### Census Variables
 - *Median Household Income*: float; median household income by neighborhood
