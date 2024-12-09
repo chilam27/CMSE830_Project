@@ -119,6 +119,12 @@ st.plotly_chart(fig)
 
 st.divider()
 
+st.write("""
+## Sale and Neighborhood
+
+For our next analysis, we will examine the distribution of sales based on neighborhoods. We provided two ways to view the data: through box plots and a map view. Generally, we observe that higher-value properties are usually located close to or in downtown areas, such as Chinatown. We also found that the highest-valued listing ($4.8 million) is located in Chinatown. As we move further south, property values tend to decrease.
+""")
+
 tab1, tab2= st.tabs(["📦 Box Plot", "🗺️ Map Plot"])
 
 with tab1:
@@ -145,10 +151,9 @@ with tab2:
                                # width = 1000,
                                height = 1000,
                                zoom = 11,
-                               title = 'Sale Map Plot Grouped by Neighborhood',
                                hover_data = ['Sale', 'Total Population', 'Median Household Income', 'Median Age']
                               )
-    fig.update_layout(xaxis=dict(autorange=True), yaxis=dict(autorange=True))
+    fig.update_layout(title = 'Sale Map Plot Grouped by Neighborhood', xaxis=dict(autorange=True), yaxis=dict(autorange=True))
     st.plotly_chart(fig)
 
 st.divider()
