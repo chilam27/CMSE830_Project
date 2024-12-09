@@ -16,13 +16,15 @@ st.set_page_config(page_title="Price Prediction",
 
 st.markdown("# 🧮 House Price Prediction")
 
-st.sidebar.header("Model Performance")
+st.sidebar.header("Model Performance:")
 
 st.write(
     """In this section, we can estimate the property value based on the input values. These inputs include the median house sale comparison, the neighborhood of the property, the number of bedrooms, and the number of bathrooms.
 
 Additionally, you can select which model to use for your prediction from the following options: Linear Regression, Lasso Regression, XGBoost Regressor, Gradient Boosting Regressor, and the tuned version of the XGBoost Regressor. According to our testing, the tuned version of the XGBoost Regressor provides the most accurate property value predictions. However, feel free to use any model you prefer."""
 )
+
+st.divider()
 
 st.sidebar.markdown(
 """
@@ -97,7 +99,7 @@ def main():
       Bath = st.slider("Select the number of bathrooms", min_value = 0.0, max_value = 5.0, step = 0.5)
       CompareMedianSalePrice = st.radio("Is the house price higher than the median house sale ($665,000)?", ["Yes", "No"])
     ModelChoice = st.pills("Select your preferred predictive model", ["Linear Regression", "Lasso Regression", "XGBoost Regressor", "Gradient Boosting Regressor", "Tunned XGBoost Regressor"])
-    result ="" 
+    result = "" 
     
     if st.button("Predict"): 
         result = prediction(CompareMedianSalePrice, Bath, Bed, Area, ModelChoice) 
