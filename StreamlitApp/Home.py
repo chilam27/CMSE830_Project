@@ -21,7 +21,7 @@ st.image("StreamlitApp/image/house.png", caption= "iStock: Typical Brownstone Ro
 st.write("""
 ## Objective
 
-Welcome! Our goal for this application is to analyze and predict Boston housing prices using regression models on various features provided by the sources. The data we collected are from Trulia, the Census, and Redfin. We aim to help you answer these questions:
+Welcome! Our goal for this application is to analyze and predict Boston housing prices using regression models on various features provided by the sources. If you're looking to buy or sell a property or assess the Boston market area, this application is designed to streamline your process and help you make data-driven decisions. The data we collected are from Trulia, the Census, and Redfin. We aim to help you answer these questions:
 
 - What is the current state of the housing market?
 - What features have a significant impact on property rent?
