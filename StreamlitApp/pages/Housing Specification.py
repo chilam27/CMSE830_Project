@@ -60,13 +60,13 @@ census_cleanned = pd.read_csv('StreamlitApp/census_df.csv')
 sale_stats = pd.read_csv('StreamlitApp/sale_stats.csv')
 
 # display dataset
-st.dataframe(trulia_df, height = 500)
+st.dataframe(trulia_df, height = 250)
 
 st.write(
     """This is the Census dataset that we requested through its API. We selected a few variables that we think it might help with us understand the real estate market as well as aiding us in predicting the housing prices. Some of the useful variables include median household income, median age, total population, occupied, vacant, and work commute duration."""
 )
 
-st.dataframe(census_cleanned, height = 500)
+st.dataframe(census_cleanned, height = 250)
 
 st.divider()
 
