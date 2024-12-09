@@ -17,7 +17,7 @@ st.set_page_config(page_title="House Specification",
 st.markdown("# 📝 House Specification")
 
 st.write(
-    """The plots and figures in this section are generated from the processed Trulia and Census datasets. We can use the available tools to understand the trends in property sale prices based on their features."""
+    """The plots and figures in this section are generated from the processed Trulia and Census datasets. We can use the available tools to understand the trends in property sale prices based on their features. Additionally, we can filter the presented data by neighborhood using the filter functionality in the sidebar, allowing for a more focused analysis."""
 )
 
 # import dataset
@@ -98,8 +98,8 @@ with st.expander("Sale variable basic summary statistics"):
 st.divider()
 
 # correlation heatmap
-trulia_num_df = trulia_filter_df.select_dtypes(include = np.number)
-corr_matrix = trulia_num_df.corr()
+# trulia_num_df = trulia_filter_df.select_dtypes(include = np.number)
+corr_matrix = trulia_filter_df.corr()
 
 # create the heatmap
 fig = px.imshow(corr_matrix,
