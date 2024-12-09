@@ -61,13 +61,15 @@ gradient = pickle.load(pickle_in)
 
 pickle_in = open('StreamlitApp/tunned_xgboost.pkl', 'rb') 
 tunned_xgboost = pickle.load(pickle_in) 
-  
-@st.cache_data
 
 trulia_df = pd.read_csv('StreamlitApp/final_df.csv')
 
+@st.cache_data
+
+
+
 def prediction(CompareMedianSalePrice, Area, Bath, Bed):  
-    
+  
     if CompareMedianSalePrice[0] == "Yes":
         CompareMedianSalePrice = 1
     elif CompareMedianSalePrice[0] == "No":
