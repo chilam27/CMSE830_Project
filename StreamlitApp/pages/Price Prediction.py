@@ -56,11 +56,11 @@ lasso = pickle.load(pickle_in)
 pickle_in = open('StreamlitApp/xgboost.pkl', 'rb') 
 xgboost = pickle.load(pickle_in) 
 
-pickle_in = open('StreamlitApp/gradient.pkl', 'rb') 
-gradient = pickle.load(pickle_in) 
+# pickle_in = open('StreamlitApp/gradient.pkl', 'rb') 
+# gradient = pickle.load(pickle_in) 
 
-pickle_in = open('StreamlitApp/tunned_xgboost.pkl', 'rb') 
-tunned_xgboost = pickle.load(pickle_in) 
+# pickle_in = open('StreamlitApp/tunned_xgboost.pkl', 'rb') 
+# tunned_xgboost = pickle.load(pickle_in) 
 
 trulia_df = pd.read_csv('StreamlitApp/final_df.csv')
 
@@ -76,10 +76,10 @@ def prediction(CompareMedianSalePrice, Area, Bath, Bed, ModelChoice):
         prediction = lasso.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
     elif ModelChoice[0] == "XGBoost Regressor":
         prediction = xgboost.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
-    elif ModelChoice[0] == "Gradient Boosting Regressor":
-        prediction = gradient.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
-    else:
-        prediction = tunned_xgboost.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
+    # elif ModelChoice[0] == "Gradient Boosting Regressor":
+    #     prediction = gradient.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
+    # else:
+    #     prediction = tunned_xgboost.predict([[CompareMedianSalePrice, Area, Bath, Bed]])
     
     return prediction 
 
