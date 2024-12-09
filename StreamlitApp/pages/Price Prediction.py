@@ -99,7 +99,7 @@ def main():
     ModelChoice = st.pills("Select your preferred predictive model", ["Linear Regression", "Lasso Regression", "XGBoost Regressor", "Gradient Boosting Regressor", "Tunned XGBoost Regressor"]),
     result = "" 
 
-    if st.button("Predict"): 
+    if st.button("Predict", icon = "▶️"): 
         result = prediction(CompareMedianSalePrice, Area, Bed, Bath, ModelChoice)
         formatted_result = "{:,}".format(round(result[0],2))
         st.success('The estimated sale price is ${}'.format(formatted_result)) 
