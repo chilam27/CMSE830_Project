@@ -158,15 +158,16 @@ with tab2:
 
 st.divider()
 
-# "Sale" vs "Bath" scatter plot plot
-fig = px.box(trulia_filter_df, x = 'Bath', y = 'Sale',  trendline = "ols")
-# fig.add_trace(px.scatter(trulia_filter_df, x = 'Bath', y = 'Sale', trendline = "ols").data[0])
-fig.update_layout(title = 'Sale vs. Bath Scatter Plot', width = 1100, height = 500)
+# "Sale" vs "Bed" scatter plot plot
+fig = px.box(trulia_filter_df, x = 'Bed', y = 'Sale')
+fig.update_layout(title = 'Sale vs. Bed Scatter Plot', width = 1100, height = 500)
 st.plotly_chart(fig)
 
 st.divider()
 
-# "Sale" vs "Bed" scatter plot plot
-fig = px.scatter(trulia_filter_df, x="Bed", y="Sale", trendline="ols", trendline_color_override = "white")
-fig.update_layout(title='Sale vs. Bed Scatter Plot', width=1100, height=500)
+# "Sale" vs "Bath" scatter plot plot
+fig = px.box(trulia_filter_df, x = 'Bath', y = 'Sale')
+fig.update_layout(title = 'Sale vs. Bath Scatter Plot', width = 1100, height = 500)
 st.plotly_chart(fig)
+
+
