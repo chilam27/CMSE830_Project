@@ -106,10 +106,11 @@ fig = px.imshow(corr_matrix,
                 x = corr_matrix.columns,
                 y = corr_matrix.columns,
                 color_continuous_scale = 'RdBu_r',
-                zmin = -1, 
-                zmax = 1)
+                # zmin = -1, 
+                # zmax = 1
+               )
 
-fig.update_layout(title='Correlation Matrix', width=1200, height=500)
+fig.update_layout(title='Correlation Matrix', width=1200, height=800)
 st.plotly_chart(fig)
 
 st.divider()
