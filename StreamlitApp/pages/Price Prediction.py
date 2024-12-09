@@ -75,7 +75,7 @@ def prediction(CompareMedianSalePrice, Area, Bed, Bath, ModelChoice):
     area_df = trulia_df[['Area_Encoded','Area']].groupby('Area').median()
     Area = area_df.loc[Area]
 
-    st.write(Area))
+    st.write(Area)
     st.write(Bed[0])
     st.write(Bath[0])
   
