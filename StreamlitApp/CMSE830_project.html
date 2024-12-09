@@ -7547,6 +7547,7 @@ a.anchor-link {
 <span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
 <span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span><span class="p">,</span> <span class="n">Lasso</span>
 <span class="kn">import</span> <span class="nn">xgboost</span> <span class="k">as</span> <span class="nn">xgb</span>
+<span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">GradientBoostingRegressor</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">r2_score</span>
 
 <span class="kn">import</span> <span class="nn">pickle</span>
@@ -9285,12 +9286,68 @@ memory usage: 41.7+ KB
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=99a47898-6d7e-4176-aebc-f01d89921392">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b43e8c57-f66e-4c85-be33-f9c7da175aa8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># view "Sale variable distribution and outlier analysis</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">trulia_df</span><span class="o">.</span><span class="n">Sale</span><span class="o">.</span><span class="n">describe</span><span class="p">())</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">trulia_df</span><span class="p">[</span><span class="s1">'Sale'</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>count       2659
+unique       384
+top       480000
+freq         102
+Name: Sale, dtype: object
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;Axes: xlabel='Sale'&gt;</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
+<img alt="No description has been provided for this image" class="" src="data:image/png;base64,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fvrjcJ5hIt9Hb5yhXC7Hueeem/ZzKibTzPsgNjBjrF27Nm666aa45JJL4phjjvETNf1ETT9Rs8aJCqCmlcuvH1DdsGHDuM/N+dKXvjQZI026Cy64IHW9z3/+86nrRUR84xvfSF9zPA72nC677LJpmIT/5O0PACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUogKACCFqAAAUtRcVCxbtixuueWWWLZs2XSPAtQAfyfA4aMy3QO8UVNTU6xcuXK6xwBqhL8T4PBRc0cqAIDDk6gAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFKICgAghagAAFJUpnuAyVTu6Zqax9nXOeKfvG6q/vwBqA0zMiqq1WrUNzRG/O8DU/q4zf/34JQ+3uGgvqExqtXqdI8BwBSYkVGxePHiuOPnt0dXl/9Tnm7VajUWL1483WMAMAVmZFREvB4WdmYAMHWcqAkApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApBAVAEAKUQEApKhM9I5FUURERHd3d9owAMDk2r/f3r8fzzThqNi9e3dERLS3t6cNAwBMjd27d0e1Wk1dc8JvfyxdujQ6Ojqis7Mzurq60raOjo6IiHj22WdHfezRrpvIfWp9vVqYodbXq4UZZtt6tTBDra9XCzPMtvVqYYbs9To6OlL3sV1dXdHZ2RkdHR2xdOnSUeeZqAkfqSiXy3H00UdnzjLCvHnzxn3dRO5T6+vVwgy1vl4tzDDb1quFGWp9vVqYYbatVwszZK/X0tISLS0to95vorKPUOznRE0AIIWoAABSTPjtj8nS2NgY3/nOd6KlpSWuuOKKGBgYGHF9pVI56HWjfX2i19XCerUwQ62vVwszzLb1amGGWl+vFmaYbevVwgyT8ZwaGxvjcFIqJuMzJQDArOPtDwAghagAAFKICgAghagAAHIU4/SjH/2oWLp0aVEqlYqIKCKiqKurK97+9rcX9fX1w1+z2Ww2m81Wm1u1Wi0effTREfv3zZs3Fx/5yEeK5ubmoq2trfj6179e9Pf3j6sRxv2R0qOPPjouvPDCuOuuu+KMM86ILVu2xJ133hkvvPDC8G1KpdIBv6ikrq4uBgcHx/twAMBb0NTUFD09PRHx+sdUm5ubo6urK0477bTo7OyMpqamGBwcjI9+9KOxZMmSePTRR+Oll16K9evXR319fXz/+98/9Acb75GKg5k/f/5w/TQ1NRXlcrk4+eSTR1TR+vXrRxzdsNlsNpvNlru9cT/b0NAw4vKRRx5ZfPOb3xy+fPXVVxdFURT33ntvUS6Xi23btg3v23/84x8XLS0tRW9v7yH3wFs6p2JwcDB++ctfRldX1/DX6urqYmhoKP7+97+PuO2dd945Kb9mFQB43Rv3s6VSacTlarUazz33XFSr1SiVSnHfffdFRMRjjz0WJ510UixevHj4tuvWrYvu7u545plnDvnxJxQVTz/9dBxxxBFRqVTivPPOi6IooqmpKVavXh2vvfbaQZ/Y3r17J/JQAMAhmjt37ojLbzztYGBgILZt2xbz5s2LUqkUO3bsiIiIbdu2jQiKiBi+vG3btkN+/AlFxTvf+c544okn4qc//enwjxDt7e2N6667Lk444YSIiKivr5/I0gDABFUq0/vbNyYUFQ0NDbFq1apYuHBh9Pb2RsTrRybOOOOMeO655yIior+/PyIOrCYAYHJ0dnaOuFxXVzficqVSiSVLlsTu3bujKIpYtGhRREQsWbIktm/fPuK2+y8vWbLkkB9/wudUFEUR9957byxYsCCOO+64qFarceqpp0Zra2tERBx11FEjbt/Q0DApvxMeADg0XV1dsWrVqujq6oqiKOL000+PiIgPfOAD8fTTTw+/HRIRcd9990VLS0usWrXq0B9gvJ/0+Na3vlWcd955xemnn17MmTOnOPPMM4fPIm1raysiXv+5FfEWz2C12Ww2m8321rempqbhf69UKkVLS0sREUVjY2Oxb9++oiiKYmBgoDjxxBOLD3/4w8VTTz1V/OEPfyja2tqKDRs2jKsRxh0V559/fjFnzpxp/0Oy2Ww2m802sa1arRYPP/zwiP37Cy+8UJx55plFc3NzsXDhwuJrX/vauH/4lV99DgCk8Ls/AIAUogIASCEqAIAUogIASCEqAIAUogIASCEqAIAUogIASCEqgDd16623xvz586d7DKDGiQqYBXbu3BmXXnppLFu2LBobG2PJkiWxbt26eOSRR6Z7NGAGmd5fvA5MiU9/+tPR19cXt912W6xYsSK2b98ef/7zn2PXrl3TPRowgzhSATNcZ2dnPPTQQ3HttdfGaaedFsuXL4+TTz45NmzYEJ/4xCciIuKGG26Ik046KebMmRPt7e3xxS9+Mfbs2TPmuvfcc0+sWbMmmpqaYsWKFXHVVVfFwMDAVDwloEaJCpjh5s6dG3Pnzo277747ent7D3qbcrkcP/jBD+KZZ56J2267Le6///64/PLLR13zoYceivXr18dll10Wzz77bPzkJz+JW2+9Na655prJehrAYcBvKYVZ4K677oqLLroo9u3bF2vWrIlTTz01zj333Fi9evVBb3/nnXfGJZdcEi+//HJEvH6i5le+8pXo7OyMiIgPfehD8cEPfjA2bNgwfJ877rgjLr/88ti6deukPx+gNokKmCV6enrioYceiscffzx+//vfx9/+9rf42c9+Fl/4whfiT3/6U2zcuDH+9a9/RXd3dwwMDERPT0+89tprccQRRxwQFW1tbbFnz56oq6sbXn9wcHDEfYDZR1TALHXhhRfGfffdFw888EAcf/zxcemll8ZnP/vZaG1tjYcffjguuOCCePXVV2P+/PkHREVzc3NcddVV8alPfeqAdVesWBHlsndWYTby6Q+YpVatWhV33313PPnkkzE0NBTXX3/9cAz8+te/HvO+a9asiU2bNsWxxx47FaMChwlRATPcrl274pxzzonzzz8/Vq9eHfPmzYsnnngirrvuujjrrLPi2GOPjf7+/rjpppvi4x//eDzyyCNx8803j7nmlVdeGR/72Mdi2bJlcfbZZ0e5XI5//OMf8c9//jO+973vTdEzA2qNY5Qww82dOzfe//73x4033hhr166NE088Mb797W/HRRddFD/84Q/j3e9+d9xwww1x7bXXxoknnhi/+MUvYuPGjWOuuW7duvjtb38bf/zjH+N973tfnHLKKXHjjTfG8uXLp+hZAbXIORUAQApHKgCAFKICAEghKgCAFKICAEghKgCAFKICAEghKgCAFKICAEghKgCAFKICAEghKgCAFP8POtsZfExQj/4AAAAASUVORK5CYII="/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=41fee72a-a96d-4e30-8ac4-cd438e435fab">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>As we can see from the information provided above, there are many outliers toward the upper bound of the distribution. When we observe the data closely, this trend is common in the real estate market of big cities, where more than 20% of properties are considered luxury and are valued significantly higher than the rest. Since our dataset is not large and these outliers are justified, we decided not to remove them but to take them into consideration for the rest of the analysis.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=99a47898-6d7e-4176-aebc-f01d89921392">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># apply average for those with ranges for "Sale" variable</span>
@@ -9309,7 +9366,7 @@ memory usage: 41.7+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># check unique values for "Bed" variable</span>
@@ -9324,7 +9381,7 @@ memory usage: 41.7+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Bed
 2 Beds           932
@@ -9362,7 +9419,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># check missing values for "Bed" variable</span>
@@ -9377,7 +9434,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9439,7 +9496,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean text for "Bed" variable</span>
@@ -9459,7 +9516,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># check unique values for "Bath" variable</span>
@@ -9474,7 +9531,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Bath
 1 Bath           1931
@@ -9513,7 +9570,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># check missing values for "Bath" variable</span>
@@ -9528,7 +9585,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9650,7 +9707,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean text for "Bath" variable</span>
@@ -9672,7 +9729,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9794,7 +9851,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean text and create new columns for "School" variable</span>
@@ -9849,7 +9906,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean text for "Crime" variable</span>
@@ -9866,7 +9923,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># check unique variable for "Crime" variable</span>
@@ -9881,7 +9938,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Crime
 Lowest      1001
@@ -9900,7 +9957,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># apply ordinal encoding for "Crime" variable</span>
@@ -9922,7 +9979,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean text for "Commute" variable</span>
@@ -9941,7 +9998,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean text for "Shop_eat" variable</span>
@@ -9975,7 +10032,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># check unique variable for "Area" variable</span>
@@ -9990,7 +10047,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Area
 Allston, Boston, MA                        168
@@ -10052,7 +10109,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean text for "Area" variable</span>
@@ -10069,7 +10126,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Area
 Charlestown      193
@@ -10113,7 +10170,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># encode "Area" variable</span>
@@ -10133,7 +10190,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># remove "Feature" variable</span>
@@ -10148,7 +10205,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># change data type for columns in Trulia dataset</span>
@@ -10202,7 +10259,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">trulia_cleanned</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -10216,7 +10273,7 @@ memory usage: 270.2+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10361,7 +10418,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># filter Boston's tract and separate by neighborhood</span>
@@ -10417,7 +10474,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># aggreagate work commute columns</span>
@@ -10444,7 +10501,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># round decimal features</span>
@@ -10459,7 +10516,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">census_cleanned</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -10473,7 +10530,7 @@ memory usage: 270.2+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10578,6 +10635,49 @@ memory usage: 270.2+ KB
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=09c88b0f-35f1-44f3-a86f-b12dee2bc92a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">census_cleanned</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 24 entries, 0 to 23
+Data columns (total 10 columns):
+ #   Column                   Non-Null Count  Dtype  
+---  ------                   --------------  -----  
+ 0   Median Household Income  24 non-null     float64
+ 1   Median Age               24 non-null     float64
+ 2   Total Population         24 non-null     int64  
+ 3   Occupied                 24 non-null     int64  
+ 4   Vacant                   24 non-null     int64  
+ 5   Geometry                 24 non-null     object 
+ 6   Area                     24 non-null     object 
+ 7   Work Commute Short       24 non-null     float64
+ 8   Work Commute Average     24 non-null     float64
+ 9   Work Commute Long        24 non-null     float64
+dtypes: float64(5), int64(3), object(2)
+memory usage: 2.0+ KB
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4b06ad20-48a1-4728-bcc8-2b37c54d30dc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -10594,7 +10694,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># filter dataset and rename coulmns</span>
@@ -10622,7 +10722,7 @@ memory usage: 270.2+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Index(['Day of Year_x', 'Year of Period End_x', 'Period Begin', 'Period End_x',
        'Active Listings Yoy (tooltip)', 'Active Listings',
@@ -10639,7 +10739,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># rename columns' names</span>
@@ -10665,7 +10765,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean "Active_Listings_YOY" variable</span>
@@ -10680,7 +10780,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean "Active_Listings" variable</span>
@@ -10695,7 +10795,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean "Adjusted_Average_Homes_Sold" variable</span>
@@ -10710,7 +10810,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean "Median_Sale_ppsf" variable</span>
@@ -10725,7 +10825,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># clean "Median_Sale_Price" variable</span>
@@ -10740,7 +10840,7 @@ memory usage: 270.2+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># change data type for varaible in Redfin dataset</span>
@@ -10791,7 +10891,7 @@ memory usage: 17.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">redfin_cleanned</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -10805,7 +10905,7 @@ memory usage: 17.8+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10938,7 +11038,7 @@ memory usage: 17.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># trulia dataset and census dataset</span>
@@ -10958,7 +11058,7 @@ memory usage: 17.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># redfun dataset and merged dataset</span>
@@ -10976,7 +11076,7 @@ memory usage: 17.8+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -11164,7 +11264,7 @@ memory usage: 17.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># determine data missing type for "Crime_Rate"</span>
@@ -11190,7 +11290,7 @@ memory usage: 17.8+ KB
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[59]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[61]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <table class="simpletable">
 <caption>Logit Regression Results</caption>
@@ -11204,10 +11304,10 @@ memory usage: 17.8+ KB
 <th>Method:</th> <td>MLE</td> <th>  Df Model:          </th> <td>     4</td>
 </tr>
 <tr>
-<th>Date:</th> <td>Sun, 08 Dec 2024</td> <th>  Pseudo R-squ.:     </th> <td>-0.004267</td>
+<th>Date:</th> <td>Mon, 09 Dec 2024</td> <th>  Pseudo R-squ.:     </th> <td>-0.004267</td>
 </tr>
 <tr>
-<th>Time:</th> <td>22:22:11</td> <th>  Log-Likelihood:    </th> <td> -1471.4</td>
+<th>Time:</th> <td>10:50:15</td> <th>  Log-Likelihood:    </th> <td> -1471.4</td>
 </tr>
 <tr>
 <th>converged:</th> <td>True</td> <th>  LL-Null:           </th> <td> -1465.1</td>
@@ -11245,7 +11345,7 @@ memory usage: 17.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># determine data missing type for "School"</span>
@@ -11271,7 +11371,7 @@ memory usage: 17.8+ KB
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <table class="simpletable">
 <caption>Logit Regression Results</caption>
@@ -11285,10 +11385,10 @@ memory usage: 17.8+ KB
 <th>Method:</th> <td>MLE</td> <th>  Df Model:          </th> <td>     4</td>
 </tr>
 <tr>
-<th>Date:</th> <td>Sun, 08 Dec 2024</td> <th>  Pseudo R-squ.:     </th> <td>-0.01017</td>
+<th>Date:</th> <td>Mon, 09 Dec 2024</td> <th>  Pseudo R-squ.:     </th> <td>-0.01017</td>
 </tr>
 <tr>
-<th>Time:</th> <td>22:22:11</td> <th>  Log-Likelihood:    </th> <td> -1176.9</td>
+<th>Time:</th> <td>10:50:15</td> <th>  Log-Likelihood:    </th> <td> -1176.9</td>
 </tr>
 <tr>
 <th>converged:</th> <td>True</td> <th>  LL-Null:           </th> <td> -1165.0</td>
@@ -11338,7 +11438,7 @@ memory usage: 17.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [63]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">merged_df_num</span> <span class="o">=</span> <span class="n">merged_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">'Area'</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
@@ -11412,7 +11512,7 @@ memory usage: 477.9+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [64]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># final_df.to_csv('final_df.csv', index = False)</span>
@@ -11439,7 +11539,7 @@ memory usage: 477.9+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [63]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [65]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">corr_matrix</span> <span class="o">=</span> <span class="n">final_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">'Area'</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
@@ -11457,7 +11557,7 @@ memory usage: 477.9+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[63]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[65]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Text(0.5, 1.0, 'Correlation Heatmap')</pre>
 </div>
@@ -11475,7 +11575,7 @@ memory usage: 477.9+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">correlations</span> <span class="o">=</span> <span class="n">corr_matrix</span><span class="p">[</span><span class="s1">'Sale'</span><span class="p">]</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">'Sale'</span><span class="p">)</span>
@@ -11541,7 +11641,7 @@ Name: Sale, dtype: float64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [65]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [67]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># train and test split</span>
@@ -11554,12 +11654,12 @@ Name: Sale, dtype: float64
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=7a70c01f-59ef-455b-a8bb-f354a5451280">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=5cfc97d6-89fa-4340-9f2e-eef01cce1eea">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [68]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># scale data</span>
@@ -11589,11 +11689,11 @@ Name: Sale, dtype: float64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [67]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [69]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">linear</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
-<span class="n">linear</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">linear</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_std</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -11604,7 +11704,7 @@ Name: Sale, dtype: float64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[67]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-1 {
   /* Definition of color scheme common for light and dark mode */
@@ -12020,10 +12120,10 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">linear</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">linear</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_std</span><span class="p">)</span>
 
 <span class="n">mse</span> <span class="o">=</span> <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span> 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Mean Squared Error (MSE): </span><span class="si">{</span><span class="n">mse</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span> 
@@ -12041,7 +12141,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Mean Squared Error (MSE): 14503267297.25082
+<pre>Mean Squared Error (MSE): 14503267297.250822
 R-squared (R²): 0.6495485849170595
 </pre>
 </div>
@@ -12064,11 +12164,11 @@ R-squared (R²): 0.6495485849170595
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [69]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [71]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">lasso</span> <span class="o">=</span> <span class="n">Lasso</span><span class="p">(</span><span class="n">alpha</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
-<span class="n">lasso</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">lasso</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_std</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -12079,7 +12179,7 @@ R-squared (R²): 0.6495485849170595
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[71]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-2 {
   /* Definition of color scheme common for light and dark mode */
@@ -12495,10 +12595,10 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">lasso</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">lasso</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_std</span><span class="p">)</span>
 
 <span class="n">mse</span> <span class="o">=</span> <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span> 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Mean Squared Error (MSE): </span><span class="si">{</span><span class="n">mse</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span> 
@@ -12516,8 +12616,8 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Mean Squared Error (MSE): 14503270518.002556
-R-squared (R²): 0.6495485070920439
+<pre>Mean Squared Error (MSE): 14503266466.115047
+R-squared (R²): 0.649548605000307
 </pre>
 </div>
 </div>
@@ -12539,11 +12639,11 @@ R-squared (R²): 0.6495485070920439
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [71]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [73]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">xgboost</span> <span class="o">=</span> <span class="n">xgb</span><span class="o">.</span><span class="n">XGBRegressor</span><span class="p">(</span><span class="n">random_state</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
-<span class="n">xgboost</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">xgboost</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_std</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -12554,7 +12654,7 @@ R-squared (R²): 0.6495485070920439
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[71]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[73]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-3 {
   /* Definition of color scheme common for light and dark mode */
@@ -12990,10 +13090,10 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [74]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">xgboost</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">xgboost</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_std</span><span class="p">)</span>
 
 <span class="n">mse</span> <span class="o">=</span> <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span> 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Mean Squared Error (MSE): </span><span class="si">{</span><span class="n">mse</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span> 
@@ -13034,13 +13134,11 @@ R-squared (R²): 0.8228742464885859
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [73]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [75]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">GradientBoostingRegressor</span>
-
-<span class="n">gbr</span> <span class="o">=</span> <span class="n">GradientBoostingRegressor</span><span class="p">(</span><span class="n">random_state</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
-<span class="n">gbr</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">gbr</span> <span class="o">=</span> <span class="n">GradientBoostingRegressor</span><span class="p">(</span><span class="n">random_state</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">gbr</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_std</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -13051,7 +13149,7 @@ R-squared (R²): 0.8228742464885859
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[73]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[75]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-4 {
   /* Definition of color scheme common for light and dark mode */
@@ -13467,10 +13565,10 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [74]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">gbr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">gbr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_std</span><span class="p">)</span>
 
 <span class="n">mse</span> <span class="o">=</span> <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span> 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Mean Squared Error (MSE): </span><span class="si">{</span><span class="n">mse</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span> 
@@ -13503,6 +13601,7 @@ R-squared (R²): 0.5041662511458458
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Based on the two metrics (MSE and $R^2$), our best-performing model is the XGBoost Regressor, which has the highest $R^2$ value and the lowest MSE value. Linear Regression and Lasso Regression also perform well, yielding very similar results due to their similar methodologies. Surprisingly, the Gradient Boosting Regressor performs the worst among all the models. Initially, I assumed that there would be two groups of models: one with simple approaches (Linear and Lasso Regression) and the other with ensemble approaches (XGBoost and Gradient Boosting Regressor). However, the Gradient Boosting Regressor performs even worse than the simple approach group.</p>
+<p>I also tried removing or masking the outliers for the target variable, but this did not improve the model's performance. Therefore, I decided to keep the outliers for all models.</p>
 </div>
 </div>
 </div>
@@ -13522,7 +13621,7 @@ R-squared (R²): 0.5041662511458458
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [75]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [77]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">param_dist</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'n_estimators'</span><span class="p">:</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">500</span><span class="p">],</span>
@@ -13542,7 +13641,7 @@ R-squared (R²): 0.5041662511458458
                                    <span class="n">n_jobs</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
                                   <span class="p">)</span>
 
-<span class="n">random_search</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">random_search</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_std</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -13553,7 +13652,7 @@ R-squared (R²): 0.5041662511458458
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[75]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[77]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-5 {
   /* Definition of color scheme common for light and dark mode */
@@ -14039,11 +14138,11 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">best_xgb_model</span> <span class="o">=</span> <span class="n">random_search</span><span class="o">.</span><span class="n">best_estimator_</span>
-<span class="n">y_pred</span> <span class="o">=</span> <span class="n">best_xgb_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="n">y_pred</span> <span class="o">=</span> <span class="n">best_xgb_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_std</span><span class="p">)</span>
 
 <span class="n">mse</span> <span class="o">=</span> <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span> 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Mean Squared Error (MSE): </span><span class="si">{</span><span class="n">mse</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span> 
@@ -14086,7 +14185,7 @@ R-squared (R²): 0.8097574332545553
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Pickle">Pickle<a class="anchor-link" href="#Pickle">¶</a></h2>
+<h2 id="Pickle">Pickle<a class="anchor-link" href="#Pickle">¶</a></h2><p>The final step is to save the model for use in the application.</p>
 </div>
 </div>
 </div>
@@ -14095,7 +14194,7 @@ R-squared (R²): 0.8097574332545553
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [77]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [79]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># # linear regression model</span>
@@ -14112,7 +14211,7 @@ R-squared (R²): 0.8097574332545553
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># # lasso regression model</span>
@@ -14129,7 +14228,7 @@ R-squared (R²): 0.8097574332545553
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [79]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [81]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># # XGBoost regression model</span>
@@ -14146,7 +14245,7 @@ R-squared (R²): 0.8097574332545553
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [82]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># # Gradient Boosting regression model</span>
@@ -14163,7 +14262,7 @@ R-squared (R²): 0.8097574332545553
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [81]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [83]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># # Tunned XGBoost regression model</span>
