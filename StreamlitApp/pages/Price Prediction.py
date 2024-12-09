@@ -19,26 +19,34 @@ st.markdown("# 🧮 House Price Prediction")
 st.sidebar.header("Model Performance")
 
 st.write(
-    """Determine which model (Linear, Lasso, XGBoost) work best (that return the smallest error)."""
+    """In this section, we can estimate the property value based on the input values. These inputs include the median house sale comparison, the neighborhood of the property, the number of bedrooms, and the number of bathrooms.
+
+Additionally, you can select which model to use for your prediction from the following options: Linear Regression, Lasso Regression, XGBoost Regressor, Gradient Boosting Regressor, and the tuned version of the XGBoost Regressor. According to our testing, the tuned version of the XGBoost Regressor provides the most accurate property value predictions. However, feel free to use any model you prefer."""
 )
 
 st.sidebar.markdown(
 """
 ### Linear Regression Performance:
-- MSE: 14064995476.091335
-- R-squared: 0.6601388179154841
+- MSE: 14064995476.09
+- R-squared: 0.6601
 
 ### Lasso Regression Performance:
-- MSE: 14064997599.792627
-- R-squared: 0.6601387665991767
+- MSE: 14064997599.79
+- R-squared: 0.6601
 
 ### XGBoost Regression Performance:
-- MSE: 7620075221.183669
-- R-squared: 0.815871410933144
+- MSE: 7620075221.18
+- R-squared: 0.8159
+
+### Gradient Boosting Regression Performance:
+- MSE: 20519846932.07
+- R-squared: 0.5042
+
+### Tunned XGBoost Regression Performance:
+- MSE: 7873099317.26
+- R-squared: 0.8098
 """)
 
-###
-# loading in the model to predict on the data 
 pickle_in = open('StreamlitApp/linear.pkl', 'rb') 
 linear = pickle.load(pickle_in) 
 
@@ -47,12 +55,18 @@ lasso = pickle.load(pickle_in)
 
 pickle_in = open('StreamlitApp/xgboost.pkl', 'rb') 
 xgboost = pickle.load(pickle_in) 
+
+pickle_in = open('StreamlitApp/gradient.pkl', 'rb') 
+gradient = pickle.load(pickle_in) 
+
+pickle_in = open('StreamlitApp/tunned_xgboost.pkl', 'rb') 
+tunned_xgboost = pickle.load(pickle_in) 
   
 @st.cache_data
-  
-# defining the function which will make the prediction using  
-# the data which the user inputs 
-def prediction(CompareMedianSalePrice, Bath, Bed, Grocery, Nightlife, Restaurant, CarCommutePercentage, ModelChoice):  
+
+trulia_df = pd.read_csv('StreamlitApp/final_df.csv')
+
+def prediction(CompareMedianSalePrice, Area, Bath, Bed):  
     
     if CompareMedianSalePrice[0] == "Yes":
         CompareMedianSalePrice = 1
@@ -60,34 +74,30 @@ def prediction(CompareMedianSalePrice, Bath, Bed, Grocery, Nightlife, Restaurant
         CompareMedianSalePrice = 0 
 
     if ModelChoice[0] == "Linear Regression":
-        prediction = linear.predict([[CompareMedianSalePrice, Bath[0], Bed[0], Grocery[0], Nightlife[0], Restaurant[0], CarCommutePercentage[0]]])
+        prediction = linear.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     elif ModelChoice[0] == "Lasso Regression":
-        prediction = lasso.predict([[CompareMedianSalePrice, Bath[0], Bed[0], Grocery[0], Nightlife[0], Restaurant[0], CarCommutePercentage[0]]])
-    elif ModelChoice[0] == "XGBoost":
-        prediction = xgboost.predict([[CompareMedianSalePrice, Bath[0], Bed[0], Grocery[0], Nightlife[0], Restaurant[0], CarCommutePercentage[0]]])
+        prediction = lasso.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
+    elif ModelChoice[0] == "XGBoost Regressor":
+        prediction = xgboost.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
+      elif ModelChoice[0] == "Gradient Boosting Regressor":
+        prediction = gradient.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
+    elif ModelChoice[0] == "Tunned XGBoost Regressor":
+        prediction = tunned_xgboost.predict([[CompareMedianSalePrice, Area[0], Bath[0], Bed[0]]])
     
     return prediction 
 
 def main(): 
-      
-    # the following lines create text boxes in which the user can enter  
-    # the data required to make the prediction 
-    CompareMedianSalePrice = st.radio("Is the house price higher than the median house sale?", ["Yes", "No"]),
-    Bath = st.slider("Select the number of bathrooms", min_value = 0.0, max_value = 5.0, step = 0.5), 
-    Bed = st.slider("Select the number of bedrooms", min_value = 1, max_value = 10, step = 1), 
-    Grocery = st.slider("Select the number of grocery store closed by", min_value = 0, max_value = 150, step = 1),
-    Nightlife = st.slider("Select the number of nightlife activities closed by", min_value = 0, max_value = 425, step = 1),
-    Restaurant = st.slider("Select the number of restaurants closed by", min_value = 0, max_value = 1135, step = 1),
-    CarCommutePercentage = st.slider("Select the percentage of commuting by car", min_value = 0, max_value = 100, step = 1),
-    ModelChoice = st.pills("Select your preferred predictive model", ["Linear Regression", "Lasso Regression", "XGBoost"]),
+    col1, col2 = st.columns(2)
+    with col1:
+      Bed = st.slider("Select the number of bedrooms", min_value = 1, max_value = 10, step = 1)
+      Area = st.selectbox("In which neighborhood is the property located?", trulia_df['Area'].unique().tolist())
+    with col2:
+      Bath = st.slider("Select the number of bathrooms", min_value = 0.0, max_value = 5.0, step = 0.5)
+      CompareMedianSalePrice = st.radio("Is the house price higher than the median house sale ($665,000)?", ["Yes", "No"])
     result ="" 
-      
-    # the below line ensures that when the button called 'Predict' is clicked,  
-    # the prediction function defined above is called to make the prediction  
-    # and store it in the variable result 
     
     if st.button("Predict"): 
-        result = prediction(CompareMedianSalePrice, Bath, Bed, Grocery, Nightlife, Restaurant, CarCommutePercentage, ModelChoice) 
+        result = prediction(CompareMedianSalePrice, Bath, Bed, Area) 
         st.success('The predicted sale price is ${}'.format(round(result[0],2))) 
      
 if __name__=='__main__': 
